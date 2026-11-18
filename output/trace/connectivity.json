@@ -1,0 +1,8974 @@
+[
+  {
+    "sheet": 1,
+    "line": 7,
+    "kind": "gate",
+    "ref": "B16.10",
+    "type": "7404",
+    "pins": {
+      "10": "B16_pin10_B15_pin9",
+      "11": "B15_pin15_TECB"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 7,
+    "kind": "gate",
+    "ref": "B16.12",
+    "type": "7404",
+    "pins": {
+      "12": "B16_pin12_M14_pin2",
+      "13": "A15_pin12_TEC3"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 8,
+    "kind": "gate",
+    "ref": "G15.2",
+    "type": "7404",
+    "pins": {
+      "2": "G15_pin2_B14_pin9",
+      "1": "B14_pin15_TLCB"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 8,
+    "kind": "gate",
+    "ref": "G15.6",
+    "type": "7404",
+    "pins": {
+      "6": "G15_pin6_1THVA",
+      "5": "D15_pin10_5THVA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 8,
+    "kind": "gate",
+    "ref": "G15.8",
+    "type": "7404",
+    "pins": {
+      "8": "G15_pin8_5TNVD",
+      "9": "F16_pin10_G15_pin9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 8,
+    "kind": "gate",
+    "ref": "G15.10",
+    "type": "7404",
+    "pins": {
+      "10": "G15_pin10_NC",
+      "11": "F16_pin12_G15_pin11"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 8,
+    "kind": "gate",
+    "ref": "G15.12",
+    "type": "7404",
+    "pins": {
+      "12": "G15_pin12_1TBVD",
+      "13": "F16_pin15_G15_pin13"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 9,
+    "kind": "cell",
+    "ref": "C16.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "1TQ14",
+      "2": "T999",
+      "3": "T999",
+      "4": "T999",
+      "5": "-",
+      "6": "C16_pin6_E14_pin4",
+      "15": "T999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 9,
+    "kind": "cell",
+    "ref": "C16.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "C16_pin7_5TEC9",
+      "9": "C16_pin9_TEC9",
+      "10": "T999",
+      "11": "B15_pin15_TECB",
+      "12": "B15_pin15_TECB",
+      "13": "D16_pin8_2TQ07",
+      "14": "T999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 10,
+    "kind": "gate",
+    "ref": "E14.3",
+    "type": "7400",
+    "pins": {
+      "3": "E14_pin3_5TFGY",
+      "1": "D14_pin9_TLC0",
+      "2": "G14_pin8_TLGY"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 10,
+    "kind": "gate",
+    "ref": "E14.6",
+    "type": "7400",
+    "pins": {
+      "6": "E14_pin6_5TQ07",
+      "4": "C16_pin6_E14_pin4",
+      "5": "1TQ14"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 11,
+    "kind": "gate",
+    "ref": "D16.3",
+    "type": "7437",
+    "pins": {
+      "3": "D16_pin3_1TQ07",
+      "1": "E14_pin6_5TQ07",
+      "2": "E14_pin6_5TQ07"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 11,
+    "kind": "gate",
+    "ref": "D16.6",
+    "type": "7437",
+    "pins": {
+      "6": "D16_pin6_6TQ07",
+      "4": "D16_pin3_1TQ07",
+      "5": "D16_pin3_1TQ07"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 11,
+    "kind": "gate",
+    "ref": "D16.8",
+    "type": "7437",
+    "pins": {
+      "8": "D16_pin8_2TQ07",
+      "9": "D16_pin6_6TQ07",
+      "10": "D16_pin6_6TQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 11,
+    "kind": "gate",
+    "ref": "D16.11",
+    "type": "7437",
+    "pins": {
+      "11": "D16_pin11_6TQLC",
+      "12": "D16_pin3_1TQ07",
+      "13": "E16_pin6_TGLC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 12,
+    "kind": "chip",
+    "ref": "A15",
+    "type": "74161",
+    "pins": {
+      "1": "T999",
+      "2": "D16_pin6_6TQ07",
+      "7": "T999",
+      "9": "T999",
+      "10": "T999",
+      "11": "A15_pin11_TEC4",
+      "12": "A15_pin12_TEC3",
+      "13": "A15_pin13_TEC2",
+      "14": "A15_pin14_TEC1",
+      "15": "A15_pin15_TECA"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 13,
+    "kind": "chip",
+    "ref": "B15",
+    "type": "74161",
+    "pins": {
+      "1": "T999",
+      "2": "D16_pin6_6TQ07",
+      "3": "0",
+      "4": "C16_pin7_5TEC9",
+      "5": "C16_pin7_5TEC9",
+      "6": "0",
+      "7": "A15_pin15_TECA",
+      "9": "B16_pin10_B15_pin9",
+      "10": "A15_pin15_TECA",
+      "11": "B15_pin11_TEC8",
+      "12": "B15_pin12_TEC7",
+      "13": "B15_pin13_TEC6",
+      "14": "B15_pin14_TEC5",
+      "15": "B15_pin15_TECB"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 14,
+    "kind": "prom",
+    "ref": "C15",
+    "type": "82S123",
+    "pins": {
+      "1": "C15_pin1_5TVRL",
+      "2": "C15_pin2_TCRG",
+      "3": "C15_pin3_TSS0",
+      "4": "C15_pin4_TSS1",
+      "5": "C15_pin5_TELG",
+      "6": "C15_pin6_THSC",
+      "7": "C15_pin7_E15_pin9",
+      "9": "C15_pin9_THBL",
+      "10": "B15_pin14_TEC5",
+      "11": "B15_pin13_TEC6",
+      "12": "B15_pin12_TEC7",
+      "13": "B15_pin11_TEC8",
+      "14": "C16_pin9_TEC9",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 15,
+    "kind": "gate",
+    "ref": "E15.6",
+    "type": "7411",
+    "pins": {
+      "6": "E15_pin6_F16_pin3",
+      "3": "C14_pin7_TVLG",
+      "4": "A14_pin13_TLC2",
+      "5": "B15_pin15_TECB"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 15,
+    "kind": "gate",
+    "ref": "E15.8",
+    "type": "7411",
+    "pins": {
+      "8": "E15_pin8_F16_pin6",
+      "9": "C15_pin7_E15_pin9",
+      "10": "A15_pin15_TECA",
+      "11": "C14_pin7_TVLG"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 16,
+    "kind": "gate",
+    "ref": "D15.1",
+    "type": "7402",
+    "pins": {
+      "1": "D15_pin1_5TCBG",
+      "2": "C15_pin9_THBL",
+      "3": "D14_pin5_TLC9"
+    },
+    "outputs": [
+      1
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 16,
+    "kind": "gate",
+    "ref": "D15.4",
+    "type": "7402",
+    "pins": {
+      "4": "D15_pin4_E16_pin2",
+      "5": "A14_pin11_TLC4",
+      "6": "A14_pin12_TLC3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 16,
+    "kind": "gate",
+    "ref": "D15.10",
+    "type": "7402",
+    "pins": {
+      "10": "D15_pin10_5THVA",
+      "8": "C14_pin6_TVGA",
+      "9": "C16_pin9_TEC9"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 16,
+    "kind": "gate",
+    "ref": "D15.13",
+    "type": "7402",
+    "pins": {
+      "13": "D15_pin13_5TLHB",
+      "11": "F15_pin8_TLNA",
+      "12": "F16_pin5_D15_pin12"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 17,
+    "kind": "gate",
+    "ref": "F15.3",
+    "type": "7432",
+    "pins": {
+      "3": "F15_pin3_5TCBL",
+      "1": "F16_pin7_1TSLN",
+      "2": "D15_pin1_5TCBG"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 17,
+    "kind": "gate",
+    "ref": "F15.6",
+    "type": "7432",
+    "pins": {
+      "6": "F15_pin6_F16_pin13",
+      "4": "C15_pin6_THSC",
+      "5": "E16_pin3_TVSC"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 17,
+    "kind": "gate",
+    "ref": "F15.8",
+    "type": "7432",
+    "pins": {
+      "8": "F15_pin8_TLNA",
+      "9": "F16_pin7_1TSLN",
+      "10": "E16_pin8_F15_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 18,
+    "kind": "gate",
+    "ref": "E16.3",
+    "type": "7408",
+    "pins": {
+      "3": "E16_pin3_TVSC",
+      "1": "C14_pin4_TVGY",
+      "2": "D15_pin4_E16_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 18,
+    "kind": "gate",
+    "ref": "E16.6",
+    "type": "7408",
+    "pins": {
+      "6": "E16_pin6_TGLC",
+      "4": "A15_pin15_TECA",
+      "5": "C15_pin5_TELG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 18,
+    "kind": "gate",
+    "ref": "E16.8",
+    "type": "7408",
+    "pins": {
+      "8": "E16_pin8_F15_pin10",
+      "9": "A14_pin15_TLCA",
+      "10": "C14_pin9_E16_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 19,
+    "kind": "gate",
+    "ref": "F14.3",
+    "type": "7437",
+    "pins": {
+      "3": "F14_pin3_2TQLC",
+      "1": "D16_pin11_6TQLC",
+      "2": "D16_pin11_6TQLC"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 19,
+    "kind": "gate",
+    "ref": "F14.6",
+    "type": "7437",
+    "pins": {
+      "6": "F14_pin6_6TQGX",
+      "4": "D16_pin3_1TQ07",
+      "5": "G14_pin6_TLGX"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 19,
+    "kind": "gate",
+    "ref": "F14.8",
+    "type": "7437",
+    "pins": {
+      "8": "F14_pin8_NC",
+      "9": "G14_pin8_TLGY",
+      "10": "D16_pin3_1TQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 19,
+    "kind": "gate",
+    "ref": "F14.11",
+    "type": "7437",
+    "pins": {
+      "11": "F14_pin11_6TQGZ",
+      "12": "H14_pin6_TLGZ",
+      "13": "D16_pin3_1TQ07"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 20,
+    "kind": "chip",
+    "ref": "A14",
+    "type": "74161",
+    "pins": {
+      "1": "T998",
+      "2": "D16_pin11_6TQLC",
+      "7": "T998",
+      "9": "T998",
+      "10": "T998",
+      "11": "A14_pin11_TLC4",
+      "12": "A14_pin12_TLC3",
+      "13": "A14_pin13_TLC2",
+      "14": "A14_pin14_TLC1",
+      "15": "A14_pin15_TLCA"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 21,
+    "kind": "chip",
+    "ref": "B14",
+    "type": "74161",
+    "pins": {
+      "1": "T998",
+      "2": "D16_pin11_6TQLC",
+      "3": "0",
+      "4": "D14_pin6_5TLC9",
+      "5": "D14_pin6_5TLC9",
+      "6": "D14_pin6_5TLC9",
+      "7": "A14_pin15_TLCA",
+      "9": "G15_pin2_B14_pin9",
+      "10": "A14_pin15_TLCA",
+      "11": "B14_pin11_TLC8",
+      "12": "B14_pin12_TLC7",
+      "13": "B14_pin13_TLC6",
+      "14": "B14_pin14_TLC5",
+      "15": "B14_pin15_TLCB"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 22,
+    "kind": "cell",
+    "ref": "D14.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F14_pin3_2TQLC",
+      "2": "B14_pin15_TLCB",
+      "3": "B14_pin15_TLCB",
+      "4": "T998",
+      "5": "D14_pin5_TLC9",
+      "6": "D14_pin6_5TLC9",
+      "15": "T998"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 22,
+    "kind": "cell",
+    "ref": "D14.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "D14_pin7_5TLC0",
+      "9": "D14_pin9_TLC0",
+      "10": "T998",
+      "11": "T998",
+      "12": "T998",
+      "13": "D14_pin5_TLC9",
+      "14": "T998"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 23,
+    "kind": "prom",
+    "ref": "C14",
+    "type": "82S123",
+    "pins": {
+      "1": "-",
+      "2": "-",
+      "3": "C14_pin3_H14_pin5",
+      "4": "C14_pin4_TVGY",
+      "5": "C14_pin5_G14_pin5",
+      "6": "C14_pin6_TVGA",
+      "7": "C14_pin7_TVLG",
+      "9": "C14_pin9_E16_pin10",
+      "10": "B14_pin14_TLC5",
+      "11": "B14_pin13_TLC6",
+      "12": "B14_pin12_TLC7",
+      "13": "B14_pin11_TLC8",
+      "14": "D14_pin5_TLC9",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 24,
+    "kind": "gate",
+    "ref": "G14.6",
+    "type": "7421",
+    "pins": {
+      "6": "G14_pin6_TLGX",
+      "1": "A15_pin15_TECA",
+      "2": "C15_pin5_TELG",
+      "4": "A14_pin15_TLCA",
+      "5": "C14_pin5_G14_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 24,
+    "kind": "gate",
+    "ref": "G14.8",
+    "type": "7421",
+    "pins": {
+      "8": "G14_pin8_TLGY",
+      "9": "C14_pin4_TVGY",
+      "10": "A14_pin15_TLCA",
+      "12": "C15_pin5_TELG",
+      "13": "A15_pin15_TECA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 25,
+    "kind": "gate",
+    "ref": "H14.6",
+    "type": "7421",
+    "pins": {
+      "6": "H14_pin6_TLGZ",
+      "1": "A15_pin15_TECA",
+      "2": "C15_pin5_TELG",
+      "4": "A14_pin15_TLCA",
+      "5": "C14_pin3_H14_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 26,
+    "kind": "gate",
+    "ref": "J14.3",
+    "type": "7437",
+    "pins": {
+      "3": "J14_pin3_2TQGX",
+      "1": "F14_pin6_6TQGX",
+      "2": "F14_pin6_6TQGX"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 26,
+    "kind": "gate",
+    "ref": "J14.6",
+    "type": "7437",
+    "pins": {
+      "6": "J14_pin6_2TQGZ",
+      "4": "F14_pin11_6TQGZ",
+      "5": "F14_pin11_6TQGZ"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 28,
+    "kind": "gate",
+    "ref": "A13.8",
+    "type": "7408",
+    "pins": {
+      "8": "A13_pin8_TDAM",
+      "9": "B14_pin15_TLCB",
+      "10": "C16_pin7_5TEC9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 1,
+    "line": 29,
+    "kind": "chip",
+    "ref": "F16",
+    "type": "74174",
+    "pins": {
+      "1": "T999",
+      "2": "F16_pin2_F16_pin4",
+      "3": "E15_pin6_F16_pin3",
+      "4": "F16_pin2_F16_pin4",
+      "5": "F16_pin5_D15_pin12",
+      "6": "E15_pin8_F16_pin6",
+      "7": "F16_pin7_1TSLN",
+      "9": "D16_pin6_6TQ07",
+      "10": "F16_pin10_G15_pin9",
+      "11": "E9_pin3_1PNVD",
+      "12": "F16_pin12_G15_pin11",
+      "13": "F15_pin6_F16_pin13",
+      "14": "F5_pin11_F16_pin14",
+      "15": "F16_pin15_G15_pin13"
+    },
+    "outputs": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 5,
+    "kind": "gate",
+    "ref": "G13.1",
+    "type": "7402",
+    "pins": {
+      "1": "G13_pin1_K16_pin2",
+      "2": "ECDA",
+      "3": "K15_pin6_5ECDD"
+    },
+    "outputs": [
+      1
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 6,
+    "kind": "cell",
+    "ref": "K16.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "D16_pin8_2TQ07",
+      "2": "G13_pin1_K16_pin2",
+      "3": "ECDA",
+      "4": "E999",
+      "5": "K16_pin5_K16_pin11",
+      "6": "K16_pin6_K16_pin12",
+      "15": "L14_pin9_EPOR"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 6,
+    "kind": "cell",
+    "ref": "K16.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "K16_pin7_K15_pin2",
+      "9": "K16_pin9_ECDC",
+      "10": "E999",
+      "11": "K16_pin5_K16_pin11",
+      "12": "K16_pin6_K16_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "L14_pin9_EPOR"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 7,
+    "kind": "cell",
+    "ref": "K15.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin8_1ECK0",
+      "2": "K16_pin7_K15_pin2",
+      "3": "K16_pin9_ECDC",
+      "4": "E999",
+      "5": "-",
+      "6": "K15_pin6_5ECDD",
+      "15": "L14_pin9_EPOR"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 7,
+    "kind": "cell",
+    "ref": "K15.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "K15_pin7_5EGME",
+      "9": "K15_pin9_EGME",
+      "10": "E999",
+      "11": "L16_pin11_ECDG",
+      "12": "G13_pin4_K15_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "L14_pin9_EPOR"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L16.3",
+    "type": "7408",
+    "pins": {
+      "3": "L16_pin3_L15_pin3",
+      "1": "L16_pin8_L16_pin1",
+      "2": "K15_pin9_EGME"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L16.6",
+    "type": "7408",
+    "pins": {
+      "6": "L16_pin6_L15_pin2",
+      "4": "L16_pin11_ECDG",
+      "5": "J15_pin9_ESGC"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L16.8",
+    "type": "7408",
+    "pins": {
+      "8": "L16_pin8_L16_pin1",
+      "9": "J15_pin7_5ESGC",
+      "10": "L16_pin11_ECDG"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L16.11",
+    "type": "7408",
+    "pins": {
+      "11": "L16_pin11_ECDG",
+      "12": "K16_pin9_ECDC",
+      "13": "K15_pin6_5ECDD"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 9,
+    "kind": "gate",
+    "ref": "J16.8",
+    "type": "7404",
+    "pins": {
+      "8": "J16_pin8_1ESGC",
+      "9": "J15_pin7_5ESGC"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 9,
+    "kind": "gate",
+    "ref": "J16.10",
+    "type": "7404",
+    "pins": {
+      "10": "J16_pin10_5ECDG",
+      "11": "L16_pin11_ECDG"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 9,
+    "kind": "gate",
+    "ref": "J16.12",
+    "type": "7404",
+    "pins": {
+      "12": "J16_pin12_H13_pin2",
+      "13": "L14_pin9_EPOR"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 10,
+    "kind": "cell",
+    "ref": "L15.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin8_1ECK0",
+      "2": "L16_pin6_L15_pin2",
+      "3": "L16_pin3_L15_pin3",
+      "4": "E999",
+      "5": "L15_pin5_E2PL",
+      "6": "L15_pin6_N14_pin1",
+      "15": "K15_pin9_EGME"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 11,
+    "kind": "cell",
+    "ref": "J15.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "D16_pin8_2TQ07",
+      "2": "L16_pin11_ECDG",
+      "3": "ESGA",
+      "4": "E999",
+      "5": "J15_pin5_J15_pin11",
+      "6": "J15_pin6_J15_pin12",
+      "15": "K15_pin9_EGME"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 11,
+    "kind": "cell",
+    "ref": "J15.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "J15_pin7_5ESGC",
+      "9": "J15_pin9_ESGC",
+      "10": "E999",
+      "11": "J15_pin5_J15_pin11",
+      "12": "J15_pin6_J15_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "K15_pin9_EGME"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 12,
+    "kind": "chip",
+    "ref": "H16",
+    "type": "74161",
+    "pins": {
+      "1": "E999",
+      "2": "D16_pin11_6TQLC",
+      "7": "D14_pin9_TLC0",
+      "9": "E999",
+      "10": "H14_pin6_TLGZ",
+      "11": "-",
+      "12": "H16_pin12_5ECK2",
+      "13": "H16_pin13_5ECK1",
+      "14": "H16_pin14_5ECK0",
+      "15": "H16_pin15_ECKC"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 16,
+    "kind": "chip",
+    "ref": "R5",
+    "type": "74161",
+    "pins": {
+      "1": "E999",
+      "2": "D16_pin11_6TQLC",
+      "3": "J9_pin7_ACT3",
+      "4": "0",
+      "5": "E999",
+      "6": "0",
+      "7": "H16_pin15_ECKC",
+      "9": "R5_pin12_5ECKS",
+      "10": "H16_pin15_ECKC",
+      "11": "-",
+      "12": "R5_pin12_5ECKS",
+      "13": "-",
+      "14": "-",
+      "15": "-"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 17,
+    "kind": "gate",
+    "ref": "H15.3",
+    "type": "7437",
+    "pins": {
+      "3": "H15_pin3_2ECK2",
+      "1": "H15_pin6_6ECK2",
+      "2": "H15_pin6_6ECK2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 17,
+    "kind": "gate",
+    "ref": "H15.6",
+    "type": "7437",
+    "pins": {
+      "6": "H15_pin6_6ECK2",
+      "4": "H15_pin11_1ECK2",
+      "5": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 17,
+    "kind": "gate",
+    "ref": "H15.8",
+    "type": "7437",
+    "pins": {
+      "8": "H15_pin8_1ECK0",
+      "9": "H16_pin14_5ECK0",
+      "10": "H16_pin14_5ECK0"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 17,
+    "kind": "gate",
+    "ref": "H15.11",
+    "type": "7437",
+    "pins": {
+      "11": "H15_pin11_1ECK2",
+      "12": "H16_pin12_5ECK2",
+      "13": "H16_pin12_5ECK2"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 18,
+    "kind": "cell",
+    "ref": "L14.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin8_1ECK0",
+      "2": "0",
+      "3": "EPOG",
+      "4": "E999",
+      "5": "L14_pin5_L14_pin11",
+      "6": "L14_pin6_L14_pin12",
+      "15": "EPOG"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 18,
+    "kind": "cell",
+    "ref": "L14.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "L14_pin9_EPOR",
+      "10": "E999",
+      "11": "L14_pin5_L14_pin11",
+      "12": "L14_pin6_L14_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "EPOG"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 21,
+    "kind": "gate",
+    "ref": "K14.2",
+    "type": "7407",
+    "pins": {
+      "2": "K14_pin2_NC",
+      "1": "K15_pin9_EGME"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 21,
+    "kind": "gate",
+    "ref": "K14.12",
+    "type": "7407",
+    "pins": {
+      "12": "K14_pin12_NC",
+      "13": "L15_pin5_E2PL"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 2,
+    "line": 22,
+    "kind": "gate",
+    "ref": "M16.10",
+    "type": "7404",
+    "pins": {
+      "10": "M16_pin10_NC",
+      "11": "K15_pin7_5EGME"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 5,
+    "kind": "chip",
+    "ref": "L12",
+    "type": "74151",
+    "pins": {
+      "1": "OPEN",
+      "2": "P15_pin7_STC7",
+      "3": "M11_pin7_L12_pin3",
+      "4": "L11_pin7_L12_pin4",
+      "5": "L12_pin5_SCS3",
+      "6": "-",
+      "7": "0",
+      "9": "B15_pin11_TEC8",
+      "10": "C15_pin4_TSS1",
+      "11": "C15_pin3_TSS0",
+      "12": "OPEN",
+      "13": "P11_pin7_L12_pin13",
+      "14": "N11_pin7_L12_pin14",
+      "15": "P16_pin7_STC3"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 6,
+    "kind": "chip",
+    "ref": "M12",
+    "type": "74151",
+    "pins": {
+      "1": "OPEN",
+      "2": "P15_pin6_STC6",
+      "3": "M11_pin6_M12_pin3",
+      "4": "L11_pin6_M12_pin4",
+      "5": "M12_pin5_P13_pin2",
+      "6": "-",
+      "7": "0",
+      "9": "B15_pin11_TEC8",
+      "10": "C15_pin4_TSS1",
+      "11": "C15_pin3_TSS0",
+      "12": "OPEN",
+      "13": "P11_pin6_M12_pin13",
+      "14": "N11_pin6_M12_pin14",
+      "15": "P16_pin6_STC2"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 7,
+    "kind": "chip",
+    "ref": "N12",
+    "type": "74151",
+    "pins": {
+      "1": "OPEN",
+      "2": "P15_pin2_STC5",
+      "3": "M11_pin2_N12_pin3",
+      "4": "L11_pin2_N12_pin4",
+      "5": "N12_pin5_P13_pin5",
+      "6": "-",
+      "7": "0",
+      "9": "B15_pin11_TEC8",
+      "10": "C15_pin4_TSS1",
+      "11": "C15_pin3_TSS0",
+      "12": "OPEN",
+      "13": "P11_pin2_N12_pin13",
+      "14": "N11_pin2_N12_pin14",
+      "15": "P16_pin2_STC1"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 8,
+    "kind": "chip",
+    "ref": "P12",
+    "type": "74151",
+    "pins": {
+      "1": "OPEN",
+      "2": "P15_pin3_STC4",
+      "3": "M11_pin3_P12_pin3",
+      "4": "L11_pin3_P12_pin4",
+      "5": "P12_pin5_SCS0",
+      "6": "-",
+      "7": "0",
+      "9": "B15_pin11_TEC8",
+      "10": "C15_pin4_TSS1",
+      "11": "C15_pin3_TSS0",
+      "12": "OPEN",
+      "13": "P11_pin3_P12_pin13",
+      "14": "N11_pin3_P12_pin14",
+      "15": "P16_pin3_STC0"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 9,
+    "kind": "gate",
+    "ref": "P14.3",
+    "type": "7432",
+    "pins": {
+      "3": "P14_pin3_N14_pin5",
+      "1": "C15_pin3_TSS0",
+      "2": "C15_pin4_TSS1"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 9,
+    "kind": "gate",
+    "ref": "P14.6",
+    "type": "7432",
+    "pins": {
+      "6": "P14_pin6_SPCA",
+      "4": "A15_pin12_TEC3",
+      "5": "A15_pin13_TEC2"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 9,
+    "kind": "gate",
+    "ref": "P14.8",
+    "type": "7432",
+    "pins": {
+      "8": "P14_pin8_N13_pin10",
+      "9": "L12_pin5_SCS3",
+      "10": "P14_pin6_SPCA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 10,
+    "kind": "gate",
+    "ref": "N14.6",
+    "type": "7420",
+    "pins": {
+      "6": "N14_pin6_M14_pin11",
+      "1": "L15_pin6_N14_pin1",
+      "2": "K15_pin9_EGME",
+      "4": "B15_pin11_TEC8",
+      "5": "P14_pin3_N14_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 10,
+    "kind": "gate",
+    "ref": "N14.8",
+    "type": "7420",
+    "pins": {
+      "8": "N14_pin8_5STCE",
+      "9": "N15_pin4_N14_pin9",
+      "10": "N15_pin1_N14_pin10",
+      "12": "N15_pin13_N14_pin12",
+      "13": "N15_pin10_N14_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 11,
+    "kind": "chip",
+    "ref": "P13",
+    "type": "74157",
+    "pins": {
+      "1": "L12_pin5_SCS3",
+      "2": "M12_pin5_P13_pin2",
+      "3": "P12_pin5_SCS0",
+      "4": "P13_pin4_N13_pin14",
+      "5": "N12_pin5_P13_pin5",
+      "6": "A15_pin11_TEC4",
+      "7": "P13_pin7_N13_pin13",
+      "9": "P13_pin9_N13_pin12",
+      "10": "P14_pin6_SPCA",
+      "11": "P12_pin5_SCS0",
+      "12": "P13_pin12_N13_pin11",
+      "13": "S999",
+      "14": "A15_pin11_TEC4",
+      "15": "0"
+    },
+    "outputs": [
+      4,
+      7,
+      9,
+      12
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 14,
+    "kind": "gate",
+    "ref": "M15.3",
+    "type": "7400",
+    "pins": {
+      "3": "M15_pin3_N16_pin3",
+      "1": "DIP_1MIN_N",
+      "2": "DIP_2MIN_N"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 14,
+    "kind": "gate",
+    "ref": "M15.6",
+    "type": "7400",
+    "pins": {
+      "6": "M15_pin6_M14_pin10",
+      "4": "C15_pin3_TSS0",
+      "5": "C15_pin4_TSS1"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 14,
+    "kind": "gate",
+    "ref": "M15.8",
+    "type": "7400",
+    "pins": {
+      "8": "M15_pin8_M14_pin9",
+      "9": "P14_pin6_SPCA",
+      "10": "A15_pin11_TEC4"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 15,
+    "kind": "gate",
+    "ref": "M14.6",
+    "type": "7410",
+    "pins": {
+      "6": "M14_pin6_P16_pin4",
+      "3": "N14_pin8_5STCE",
+      "4": "N16_pin15_STAA",
+      "5": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 15,
+    "kind": "gate",
+    "ref": "M14.8",
+    "type": "7410",
+    "pins": {
+      "8": "M14_pin8_M13_pin7",
+      "9": "M15_pin8_M14_pin9",
+      "10": "M15_pin6_M14_pin10",
+      "11": "N14_pin6_M14_pin11"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 16,
+    "kind": "prom",
+    "ref": "N13",
+    "type": "82S123",
+    "pins": {
+      "1": "N13_pin1_M13_pin4",
+      "2": "N13_pin2_M13_pin3",
+      "3": "N13_pin3_M13_pin2",
+      "4": "N13_pin4_M13_pin1",
+      "5": "N13_pin5_M13_pin15",
+      "6": "N13_pin6_M13_pin14",
+      "7": "N13_pin7_M13_pin13",
+      "9": "N13_pin9_M13_pin12",
+      "10": "P14_pin8_N13_pin10",
+      "11": "P13_pin12_N13_pin11",
+      "12": "P13_pin9_N13_pin12",
+      "13": "P13_pin7_N13_pin13",
+      "14": "P13_pin4_N13_pin14",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 17,
+    "kind": "chip",
+    "ref": "M13",
+    "type": "74151",
+    "pins": {
+      "1": "N13_pin4_M13_pin1",
+      "2": "N13_pin3_M13_pin2",
+      "3": "N13_pin2_M13_pin3",
+      "4": "N13_pin1_M13_pin4",
+      "5": "M13_pin5_L13_pin11",
+      "6": "M13_pin6_L13_pin12",
+      "7": "M14_pin8_M13_pin7",
+      "9": "A14_pin11_TLC4",
+      "10": "A14_pin12_TLC3",
+      "11": "A14_pin13_TLC2",
+      "12": "N13_pin9_M13_pin12",
+      "13": "N13_pin7_M13_pin13",
+      "14": "N13_pin6_M13_pin14",
+      "15": "N13_pin5_M13_pin15"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 18,
+    "kind": "cell",
+    "ref": "L13.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "L13_pin7_5SSSV",
+      "9": "-",
+      "10": "S999",
+      "11": "M13_pin5_L13_pin11",
+      "12": "M13_pin6_L13_pin12",
+      "13": "A15_pin14_TEC1",
+      "14": "C14_pin6_TVGA"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 19,
+    "kind": "gate",
+    "ref": "M16.2",
+    "type": "7404",
+    "pins": {
+      "2": "M16_pin2_SG20",
+      "1": "DIP_2MIN_N"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 19,
+    "kind": "gate",
+    "ref": "M16.4",
+    "type": "7404",
+    "pins": {
+      "4": "M16_pin4_N16_pin5",
+      "3": "M16_pin2_SG20"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 19,
+    "kind": "gate",
+    "ref": "M16.6",
+    "type": "7404",
+    "pins": {
+      "6": "M16_pin6_5STAA",
+      "5": "N16_pin15_STAA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 22,
+    "kind": "chip",
+    "ref": "N16",
+    "type": "74161",
+    "pins": {
+      "1": "S999",
+      "2": "H15_pin6_6ECK2",
+      "3": "M15_pin3_N16_pin3",
+      "4": "M16_pin2_SG20",
+      "5": "M16_pin4_N16_pin5",
+      "6": "S999",
+      "7": "S999",
+      "9": "K13_pin3_N16_pin9",
+      "10": "S999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "N16_pin15_STAA"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 23,
+    "kind": "gate",
+    "ref": "K13.3",
+    "type": "7408",
+    "pins": {
+      "3": "K13_pin3_N16_pin9",
+      "1": "M16_pin6_5STAA",
+      "2": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 24,
+    "kind": "chip",
+    "ref": "P16",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "P16_pin2_STC1",
+      "3": "P16_pin3_STC0",
+      "4": "M14_pin6_P16_pin4",
+      "5": "S999",
+      "6": "P16_pin6_STC2",
+      "7": "P16_pin7_STC3",
+      "9": "K15_pin9_EGME",
+      "10": "0",
+      "11": "J16_pin8_1ESGC",
+      "12": "P16_pin12_P15_pin5",
+      "13": "P16_pin13_P15_pin4",
+      "14": "0",
+      "15": "K15_pin9_EGME"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 25,
+    "kind": "chip",
+    "ref": "P15",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "P15_pin2_STC5",
+      "3": "P15_pin3_STC4",
+      "4": "P16_pin13_P15_pin4",
+      "5": "P16_pin12_P15_pin5",
+      "6": "P15_pin6_STC6",
+      "7": "P15_pin7_STC7",
+      "9": "K15_pin9_EGME",
+      "10": "0",
+      "11": "J16_pin8_1ESGC",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "K15_pin9_EGME"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 26,
+    "kind": "gate",
+    "ref": "N15.1",
+    "type": "7402",
+    "pins": {
+      "1": "N15_pin1_N14_pin10",
+      "2": "P16_pin3_STC0",
+      "3": "P16_pin2_STC1"
+    },
+    "outputs": [
+      1
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 26,
+    "kind": "gate",
+    "ref": "N15.4",
+    "type": "7402",
+    "pins": {
+      "4": "N15_pin4_N14_pin9",
+      "5": "P16_pin6_STC2",
+      "6": "P16_pin7_STC3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 26,
+    "kind": "gate",
+    "ref": "N15.10",
+    "type": "7402",
+    "pins": {
+      "10": "N15_pin10_N14_pin13",
+      "8": "P15_pin7_STC7",
+      "9": "P15_pin6_STC6"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 26,
+    "kind": "gate",
+    "ref": "N15.13",
+    "type": "7402",
+    "pins": {
+      "13": "N15_pin13_N14_pin12",
+      "11": "P15_pin3_STC4",
+      "12": "P15_pin2_STC5"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 27,
+    "kind": "gate",
+    "ref": "G13.4",
+    "type": "7402",
+    "pins": {
+      "4": "G13_pin4_K15_pin12",
+      "5": "M16_pin6_5STAA",
+      "6": "N14_pin8_5STCE"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 28,
+    "kind": "chip",
+    "ref": "M11",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "M11_pin2_N12_pin3",
+      "3": "M11_pin3_P12_pin3",
+      "4": "S999",
+      "5": "G13_pin10_5LMCK",
+      "6": "M11_pin6_M12_pin3",
+      "7": "M11_pin7_L12_pin3",
+      "9": "0",
+      "10": "0",
+      "11": "L14_pin9_EPOR",
+      "12": "M11_pin12_L11_pin5",
+      "13": "M11_pin13_L11_pin4",
+      "14": "L16_pin11_ECDG",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 29,
+    "kind": "chip",
+    "ref": "L11",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "L11_pin2_N12_pin4",
+      "3": "L11_pin3_P12_pin4",
+      "4": "M11_pin13_L11_pin4",
+      "5": "M11_pin12_L11_pin5",
+      "6": "L11_pin6_M12_pin4",
+      "7": "L11_pin7_L12_pin4",
+      "9": "0",
+      "10": "0",
+      "11": "L14_pin9_EPOR",
+      "12": "-",
+      "13": "-",
+      "14": "L16_pin11_ECDG",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 30,
+    "kind": "chip",
+    "ref": "P11",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "P11_pin2_N12_pin13",
+      "3": "P11_pin3_P12_pin13",
+      "4": "S999",
+      "5": "G13_pin13_5LNCK",
+      "6": "P11_pin6_M12_pin13",
+      "7": "P11_pin7_L12_pin13",
+      "9": "0",
+      "10": "0",
+      "11": "L14_pin9_EPOR",
+      "12": "P11_pin12_N11_pin5",
+      "13": "P11_pin13_N11_pin4",
+      "14": "L16_pin11_ECDG",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 3,
+    "line": 31,
+    "kind": "chip",
+    "ref": "N11",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "N11_pin2_N12_pin14",
+      "3": "N11_pin3_P12_pin14",
+      "4": "P11_pin13_N11_pin4",
+      "5": "P11_pin12_N11_pin5",
+      "6": "N11_pin6_M12_pin14",
+      "7": "N11_pin7_L12_pin14",
+      "9": "0",
+      "10": "0",
+      "11": "L14_pin9_EPOR",
+      "12": "-",
+      "13": "-",
+      "14": "L16_pin11_ECDG",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 4,
+    "kind": "chip",
+    "ref": "C7",
+    "type": "74153",
+    "pins": {
+      "1": "C16_pin7_5TEC9",
+      "2": "A15_pin11_TEC4",
+      "3": "J10_pin4_C7_pin3",
+      "4": "D5_pin4_C7_pin4",
+      "5": "G2_pin4_C7_pin5",
+      "6": "R1_pin4_C7_pin6",
+      "7": "C7_pin7_KKC3",
+      "9": "C7_pin9_KKC2",
+      "10": "R1_pin3_C7_pin10",
+      "11": "G2_pin3_C7_pin11",
+      "12": "D5_pin3_C7_pin12",
+      "13": "J10_pin3_C7_pin13",
+      "14": "A15_pin12_TEC3",
+      "15": "C16_pin7_5TEC9"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 5,
+    "kind": "chip",
+    "ref": "D7",
+    "type": "74153",
+    "pins": {
+      "1": "C16_pin7_5TEC9",
+      "2": "A15_pin11_TEC4",
+      "3": "J10_pin2_D7_pin3",
+      "4": "D5_pin2_D7_pin4",
+      "5": "G2_pin2_D7_pin5",
+      "6": "R1_pin2_D7_pin6",
+      "7": "D7_pin7_KKC1",
+      "9": "D7_pin9_F15_pin12",
+      "10": "R1_pin1_D7_pin10",
+      "11": "G2_pin1_D7_pin11",
+      "12": "D5_pin1_D7_pin12",
+      "13": "J10_pin1_D7_pin13",
+      "14": "A15_pin12_TEC3",
+      "15": "C16_pin7_5TEC9"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 6,
+    "kind": "chip",
+    "ref": "E7",
+    "type": "74153",
+    "pins": {
+      "1": "0",
+      "2": "A15_pin11_TEC4",
+      "3": "K6_pin7_BLC4",
+      "4": "D2_pin7_DLC4",
+      "5": "K4_pin7_E7_pin5",
+      "6": "L3_pin7_E7_pin6",
+      "7": "E7_pin7_F9_pin2",
+      "9": "E7_pin9_F9_pin5",
+      "10": "L3_pin6_E7_pin10",
+      "11": "K4_pin6_E7_pin11",
+      "12": "D2_pin6_DLC3",
+      "13": "K6_pin6_BLC3",
+      "14": "A15_pin12_TEC3",
+      "15": "0"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 7,
+    "kind": "chip",
+    "ref": "F7",
+    "type": "74153",
+    "pins": {
+      "1": "0",
+      "2": "A15_pin11_TEC4",
+      "3": "K6_pin2_F7_pin3",
+      "4": "D2_pin2_F7_pin4",
+      "5": "K4_pin2_F7_pin5",
+      "6": "L3_pin2_F7_pin6",
+      "7": "F7_pin7_F9_pin11",
+      "9": "F7_pin9_F9_pin14",
+      "10": "L3_pin3_F7_pin10",
+      "11": "K4_pin3_F7_pin11",
+      "12": "D2_pin3_F7_pin12",
+      "13": "K6_pin3_F7_pin13",
+      "14": "A15_pin12_TEC3",
+      "15": "0"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 8,
+    "kind": "chip",
+    "ref": "F9",
+    "type": "74157",
+    "pins": {
+      "1": "C16_pin7_5TEC9",
+      "2": "E7_pin7_F9_pin2",
+      "3": "A14_pin11_TLC4",
+      "4": "F9_pin4_F8_pin2",
+      "5": "E7_pin9_F9_pin5",
+      "6": "A14_pin12_TLC3",
+      "7": "F9_pin7_F8_pin5",
+      "9": "F9_pin9_F8_pin9",
+      "10": "A14_pin13_TLC2",
+      "11": "F7_pin7_F9_pin11",
+      "12": "F9_pin12_F8_pin12",
+      "13": "A14_pin14_TLC1",
+      "14": "F7_pin9_F9_pin14",
+      "15": "0"
+    },
+    "outputs": [
+      4,
+      7,
+      9,
+      12
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 9,
+    "kind": "gate",
+    "ref": "G6.3",
+    "type": "7486",
+    "pins": {
+      "3": "G6_pin3_G7_pin3",
+      "1": "J9_pin6_ACT2",
+      "2": "J9_pin7_ACT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 9,
+    "kind": "gate",
+    "ref": "G6.6",
+    "type": "7486",
+    "pins": {
+      "6": "G6_pin6_G7_pin4",
+      "4": "E5_pin6_CCT2",
+      "5": "E5_pin7_CCT3"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 9,
+    "kind": "gate",
+    "ref": "G6.8",
+    "type": "7486",
+    "pins": {
+      "8": "G6_pin8_G7_pin5",
+      "9": "E1_pin7_GCT3",
+      "10": "E1_pin6_GCT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 9,
+    "kind": "gate",
+    "ref": "G6.11",
+    "type": "7486",
+    "pins": {
+      "11": "G6_pin11_G7_pin6",
+      "12": "Q2_pin7_HCT3",
+      "13": "Q2_pin6_HCT2"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K13.8",
+    "type": "7408",
+    "pins": {
+      "8": "K13_pin8_F15_pin13",
+      "9": "C16_pin7_5TEC9",
+      "10": "B14_pin14_TLC5"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K13.11",
+    "type": "7408",
+    "pins": {
+      "11": "K13_pin11_P14_pin12",
+      "12": "C16_pin7_5TEC9",
+      "13": "B15_pin14_TEC5"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 11,
+    "kind": "gate",
+    "ref": "F15.11",
+    "type": "7432",
+    "pins": {
+      "11": "F15_pin11_KKG0",
+      "12": "D7_pin9_F15_pin12",
+      "13": "K13_pin8_F15_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 12,
+    "kind": "chip",
+    "ref": "G7",
+    "type": "74153",
+    "pins": {
+      "1": "C15_pin1_5TVRL",
+      "2": "A15_pin11_TEC4",
+      "3": "G6_pin3_G7_pin3",
+      "4": "G6_pin6_G7_pin4",
+      "5": "G6_pin8_G7_pin5",
+      "6": "G6_pin11_G7_pin6",
+      "7": "G7_pin7_P14_pin13",
+      "9": "G7_pin9_F11_pin15",
+      "10": "K5_pin8_G7_pin10",
+      "11": "K5_pin6_G7_pin11",
+      "12": "P999",
+      "13": "P999",
+      "14": "A15_pin12_TEC3",
+      "15": "C15_pin1_5TVRL"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 13,
+    "kind": "gate",
+    "ref": "P14.11",
+    "type": "7432",
+    "pins": {
+      "11": "P14_pin11_KLGG",
+      "12": "K13_pin11_P14_pin12",
+      "13": "G7_pin7_P14_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 14,
+    "kind": "gate",
+    "ref": "F8.3",
+    "type": "7486",
+    "pins": {
+      "3": "F8_pin3_KLG4",
+      "1": "P14_pin11_KLGG",
+      "2": "F9_pin4_F8_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 14,
+    "kind": "gate",
+    "ref": "F8.6",
+    "type": "7486",
+    "pins": {
+      "6": "F8_pin6_KLG3",
+      "4": "P14_pin11_KLGG",
+      "5": "F9_pin7_F8_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 14,
+    "kind": "gate",
+    "ref": "F8.8",
+    "type": "7486",
+    "pins": {
+      "8": "F8_pin8_KLG2",
+      "9": "F9_pin9_F8_pin9",
+      "10": "P14_pin11_KLGG"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 14,
+    "kind": "gate",
+    "ref": "F8.11",
+    "type": "7486",
+    "pins": {
+      "11": "F8_pin11_KLG1",
+      "12": "F9_pin12_F8_pin12",
+      "13": "P14_pin11_KLGG"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 15,
+    "kind": "prom",
+    "ref": "B8",
+    "type": "82S129",
+    "pins": {
+      "1": "C7_pin9_KKC2",
+      "2": "D7_pin7_KKC1",
+      "3": "F15_pin11_KKG0",
+      "4": "F8_pin3_KLG4",
+      "5": "F8_pin11_KLG1",
+      "6": "F8_pin8_KLG2",
+      "7": "F8_pin6_KLG3",
+      "9": "B8_pin9_KD15",
+      "10": "B8_pin10_KD14",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin12_KD12",
+      "13": "0",
+      "14": "0",
+      "15": "C7_pin7_KKC3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 16,
+    "kind": "prom",
+    "ref": "C8",
+    "type": "82S129",
+    "pins": {
+      "1": "C7_pin9_KKC2",
+      "2": "D7_pin7_KKC1",
+      "3": "F15_pin11_KKG0",
+      "4": "F8_pin3_KLG4",
+      "5": "F8_pin11_KLG1",
+      "6": "F8_pin8_KLG2",
+      "7": "F8_pin6_KLG3",
+      "9": "C8_pin9_KD11",
+      "10": "C8_pin10_KD10",
+      "11": "C8_pin11_KD09",
+      "12": "C8_pin12_KD08",
+      "13": "0",
+      "14": "0",
+      "15": "C7_pin7_KKC3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 17,
+    "kind": "prom",
+    "ref": "D8",
+    "type": "82S129",
+    "pins": {
+      "1": "C7_pin9_KKC2",
+      "2": "D7_pin7_KKC1",
+      "3": "F15_pin11_KKG0",
+      "4": "F8_pin3_KLG4",
+      "5": "F8_pin11_KLG1",
+      "6": "F8_pin8_KLG2",
+      "7": "F8_pin6_KLG3",
+      "9": "D8_pin9_KD07",
+      "10": "D8_pin10_KD06",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin12_KD04",
+      "13": "0",
+      "14": "0",
+      "15": "C7_pin7_KKC3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 18,
+    "kind": "prom",
+    "ref": "E8",
+    "type": "82S129",
+    "pins": {
+      "1": "C7_pin9_KKC2",
+      "2": "D7_pin7_KKC1",
+      "3": "F15_pin11_KKG0",
+      "4": "F8_pin3_KLG4",
+      "5": "F8_pin11_KLG1",
+      "6": "F8_pin8_KLG2",
+      "7": "F8_pin6_KLG3",
+      "9": "E8_pin9_KD03",
+      "10": "E8_pin10_KD02",
+      "11": "E8_pin11_KD01",
+      "12": "E8_pin12_KD00",
+      "13": "0",
+      "14": "0",
+      "15": "C7_pin7_KKC3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E14.8",
+    "type": "7400",
+    "pins": {
+      "8": "E14_pin8_F11_pin12",
+      "9": "A15_pin13_TEC2",
+      "10": "A15_pin14_TEC1"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 20,
+    "kind": "chip",
+    "ref": "F11",
+    "type": "7442",
+    "pins": {
+      "1": "-",
+      "2": "F11_pin2_5KVLN",
+      "3": "-",
+      "4": "F11_pin4_5KVLM",
+      "5": "-",
+      "6": "F11_pin6_5KVLD",
+      "7": "-",
+      "9": "F11_pin9_5KVLB",
+      "10": "-",
+      "11": "-",
+      "12": "E14_pin8_F11_pin12",
+      "13": "A15_pin11_TEC4",
+      "14": "A15_pin12_TEC3",
+      "15": "G7_pin9_F11_pin15"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 21,
+    "kind": "gate",
+    "ref": "F10.3",
+    "type": "7437",
+    "pins": {
+      "3": "F10_pin3_1KQ07",
+      "1": "E14_pin6_5TQ07",
+      "2": "E14_pin6_5TQ07"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 4,
+    "line": 21,
+    "kind": "gate",
+    "ref": "F10.6",
+    "type": "7437",
+    "pins": {
+      "6": "F10_pin6_2KQ07",
+      "4": "D16_pin6_6TQ07",
+      "5": "D16_pin6_6TQ07"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 4,
+    "kind": "chip",
+    "ref": "C12",
+    "type": "74174",
+    "pins": {
+      "1": "L999",
+      "2": "C12_pin2_A13_pin1",
+      "3": "C14_pin6_TVGA",
+      "4": "B14_pin11_TLC8",
+      "5": "C12_pin5_B12_pin3",
+      "6": "B14_pin12_TLC7",
+      "7": "C12_pin7_B12_pin6",
+      "9": "B13_pin8_6LQBB",
+      "10": "C12_pin10_B12_pin10",
+      "11": "B14_pin13_TLC6",
+      "12": "C12_pin12_B12_pin13",
+      "13": "B14_pin14_TLC5",
+      "14": "OPEN",
+      "15": "-"
+    },
+    "outputs": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 5,
+    "kind": "chip",
+    "ref": "E12",
+    "type": "74174",
+    "pins": {
+      "1": "L999",
+      "2": "E12_pin2_A13_pin4",
+      "3": "C16_pin9_TEC9",
+      "4": "B15_pin11_TEC8",
+      "5": "E12_pin5_D12_pin3",
+      "6": "B15_pin12_TEC7",
+      "7": "E12_pin7_D12_pin6",
+      "9": "B13_pin8_6LQBB",
+      "10": "E12_pin10_D12_pin10",
+      "11": "B15_pin13_TEC6",
+      "12": "E12_pin12_D12_pin13",
+      "13": "B15_pin14_TEC5",
+      "14": "OPEN",
+      "15": "-"
+    },
+    "outputs": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 6,
+    "kind": "chip",
+    "ref": "B12",
+    "type": "74157",
+    "pins": {
+      "1": "D14_pin5_TLC9",
+      "2": "B14_pin11_TLC8",
+      "3": "C12_pin5_B12_pin3",
+      "4": "B12_pin4_A12_pin15",
+      "5": "B14_pin12_TLC7",
+      "6": "C12_pin7_B12_pin6",
+      "7": "B12_pin7_A12_pin14",
+      "9": "B12_pin9_A12_pin11",
+      "10": "C12_pin10_B12_pin10",
+      "11": "B14_pin13_TLC6",
+      "12": "B12_pin12_A12_pin10",
+      "13": "C12_pin12_B12_pin13",
+      "14": "B14_pin14_TLC5",
+      "15": "0"
+    },
+    "outputs": [
+      4,
+      7,
+      9,
+      12
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 7,
+    "kind": "chip",
+    "ref": "D12",
+    "type": "74157",
+    "pins": {
+      "1": "D14_pin5_TLC9",
+      "2": "B15_pin11_TEC8",
+      "3": "E12_pin5_D12_pin3",
+      "4": "D12_pin4_A12_pin9",
+      "5": "B15_pin12_TEC7",
+      "6": "E12_pin7_D12_pin6",
+      "7": "D12_pin7_A12_pin7",
+      "9": "D12_pin9_A12_pin2",
+      "10": "E12_pin10_D12_pin10",
+      "11": "B15_pin13_TEC6",
+      "12": "D12_pin12_A12_pin1",
+      "13": "E12_pin12_D12_pin13",
+      "14": "B15_pin14_TEC5",
+      "15": "0"
+    },
+    "outputs": [
+      4,
+      7,
+      9,
+      12
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 8,
+    "kind": "gate",
+    "ref": "A13.3",
+    "type": "7408",
+    "pins": {
+      "3": "A13_pin3_A12_pin3",
+      "1": "C12_pin2_A13_pin1",
+      "2": "D14_pin5_TLC9"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 8,
+    "kind": "gate",
+    "ref": "A13.6",
+    "type": "7408",
+    "pins": {
+      "6": "A13_pin6_A12_pin5",
+      "4": "E12_pin2_A13_pin4",
+      "5": "D14_pin5_TLC9"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 8,
+    "kind": "gate",
+    "ref": "A13.11",
+    "type": "7408",
+    "pins": {
+      "11": "A13_pin11_J13_pin13",
+      "12": "C16_pin7_5TEC9",
+      "13": "J16_pin10_5ECDG"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 9,
+    "kind": "chip",
+    "ref": "A12",
+    "type": "74S200",
+    "pins": {
+      "1": "D12_pin12_A12_pin1",
+      "2": "D12_pin9_A12_pin2",
+      "3": "A13_pin3_A12_pin3",
+      "4": "0",
+      "5": "A13_pin6_A12_pin5",
+      "6": "A12_pin6_J13_pin9",
+      "7": "D12_pin7_A12_pin7",
+      "9": "D12_pin4_A12_pin9",
+      "10": "B12_pin12_A12_pin10",
+      "11": "B12_pin9_A12_pin11",
+      "12": "G12_pin6_A12_pin12",
+      "13": "D14_pin6_5TLC9",
+      "14": "B12_pin7_A12_pin14",
+      "15": "B12_pin4_A12_pin15"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 10,
+    "kind": "gate",
+    "ref": "F13.12",
+    "type": "7427",
+    "pins": {
+      "12": "F13_pin12_C13_pin11",
+      "1": "G15_pin6_1THVA",
+      "2": "C9_pin6_5PDVD",
+      "13": "C9_pin11_5PNVD"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 10,
+    "kind": "gate",
+    "ref": "F13.8",
+    "type": "7427",
+    "pins": {
+      "8": "F13_pin8_J13_pin12",
+      "9": "A15_pin13_TEC2",
+      "10": "A15_pin12_TEC3",
+      "11": "A15_pin11_TEC4"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 11,
+    "kind": "gate",
+    "ref": "J13.8",
+    "type": "5420",
+    "pins": {
+      "8": "J13_pin8_5LCEN",
+      "9": "A12_pin6_J13_pin9",
+      "10": "A15_pin14_TEC1",
+      "12": "F13_pin8_J13_pin12",
+      "13": "A13_pin11_J13_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 12,
+    "kind": "gate",
+    "ref": "M14.12",
+    "type": "7410",
+    "pins": {
+      "12": "M14_pin12_5LAAA",
+      "1": "C16_pin7_5TEC9",
+      "2": "B16_pin12_M14_pin2",
+      "13": "D14_pin6_5TLC9"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 13,
+    "kind": "chip",
+    "ref": "F12",
+    "type": "74153",
+    "pins": {
+      "1": "0",
+      "2": "H13_pin3_F12_pin2",
+      "3": "M14_pin12_5LAAA",
+      "4": "M14_pin12_5LAAA",
+      "5": "M15_pin11_5LWTD",
+      "6": "B13_pin6_5LWTB",
+      "7": "F12_pin7_5LAAB",
+      "9": "F12_pin9_B13_pin9",
+      "10": "Q3_pin6_F12_pin10",
+      "11": "Q3_pin8_F12_pin11",
+      "12": "0",
+      "13": "0",
+      "14": "D14_pin9_TLC0",
+      "15": "0"
+    },
+    "outputs": [
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 14,
+    "kind": "gate",
+    "ref": "H13.3",
+    "type": "7432",
+    "pins": {
+      "3": "H13_pin3_F12_pin2",
+      "1": "L16_pin11_ECDG",
+      "2": "J16_pin12_H13_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 15,
+    "kind": "gate",
+    "ref": "H12.2",
+    "type": "7404",
+    "pins": {
+      "2": "H12_pin2_G12_pin3",
+      "1": "F12_pin7_5LAAB"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 16,
+    "kind": "cell",
+    "ref": "G12.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "F12_pin7_5LAAB",
+      "3": "H12_pin2_G12_pin3",
+      "4": "L999",
+      "5": "-",
+      "6": "G12_pin6_A12_pin12",
+      "15": "L999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B13.3",
+    "type": "7400",
+    "pins": {
+      "3": "B13_pin3_B13_pin5",
+      "1": "D13_pin7_B13_pin1",
+      "2": "D13_pin6_B13_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B13.6",
+    "type": "7400",
+    "pins": {
+      "6": "B13_pin6_5LWTB",
+      "4": "G14_pin8_TLGY",
+      "5": "B13_pin3_B13_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B13.8",
+    "type": "7400",
+    "pins": {
+      "8": "B13_pin8_6LQBB",
+      "9": "F12_pin9_B13_pin9",
+      "10": "J14_pin8_1LQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B13.11",
+    "type": "7400",
+    "pins": {
+      "11": "B13_pin11_M15_pin12",
+      "12": "C13_pin6_B13_pin12",
+      "13": "C13_pin7_B13_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 18,
+    "kind": "gate",
+    "ref": "J14.8",
+    "type": "7437",
+    "pins": {
+      "8": "J14_pin8_1LQ07",
+      "9": "E14_pin6_5TQ07",
+      "10": "E14_pin6_5TQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 18,
+    "kind": "gate",
+    "ref": "J14.11",
+    "type": "7437",
+    "pins": {
+      "11": "J14_pin11_2LQ07",
+      "12": "D16_pin6_6TQ07",
+      "13": "D16_pin6_6TQ07"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E13.12",
+    "type": "7427",
+    "pins": {
+      "12": "E13_pin12_C13_pin3",
+      "1": "G15_pin6_1THVA",
+      "2": "C9_pin6_5PDVD",
+      "13": "C9_pin8_5PMVD"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E13.6",
+    "type": "7427",
+    "pins": {
+      "6": "E13_pin6_D13_pin3",
+      "3": "G15_pin6_1THVA",
+      "4": "C9_pin3_5PBVD",
+      "5": "C9_pin8_5PMVD"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E13.8",
+    "type": "7427",
+    "pins": {
+      "8": "E13_pin8_D13_pin11",
+      "9": "C9_pin11_5PNVD",
+      "10": "C9_pin3_5PBVD",
+      "11": "G15_pin6_1THVA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 20,
+    "kind": "cell",
+    "ref": "D13.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "G14_pin8_TLGY",
+      "3": "E13_pin6_D13_pin3",
+      "4": "L999",
+      "5": "D13_pin5_G13_pin9",
+      "6": "D13_pin6_B13_pin2",
+      "15": "D14_pin7_5TLC0"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 20,
+    "kind": "cell",
+    "ref": "D13.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "D13_pin7_B13_pin1",
+      "9": "D13_pin9_G13_pin11",
+      "10": "L999",
+      "11": "E13_pin8_D13_pin11",
+      "12": "G14_pin8_TLGY",
+      "13": "J14_pin11_2LQ07",
+      "14": "D14_pin7_5TLC0"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 21,
+    "kind": "cell",
+    "ref": "C13.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "G14_pin8_TLGY",
+      "3": "E13_pin12_C13_pin3",
+      "4": "L999",
+      "5": "C13_pin5_G13_pin8",
+      "6": "C13_pin6_B13_pin12",
+      "15": "D14_pin9_TLC0"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 21,
+    "kind": "cell",
+    "ref": "C13.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "C13_pin7_B13_pin13",
+      "9": "C13_pin9_G13_pin12",
+      "10": "L999",
+      "11": "F13_pin12_C13_pin11",
+      "12": "G14_pin8_TLGY",
+      "13": "J14_pin11_2LQ07",
+      "14": "D14_pin9_TLC0"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 22,
+    "kind": "gate",
+    "ref": "M15.11",
+    "type": "7400",
+    "pins": {
+      "11": "M15_pin11_5LWTD",
+      "12": "B13_pin11_M15_pin12",
+      "13": "G14_pin8_TLGY"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 23,
+    "kind": "gate",
+    "ref": "G13.10",
+    "type": "7402",
+    "pins": {
+      "10": "G13_pin10_5LMCK",
+      "8": "C13_pin5_G13_pin8",
+      "9": "D13_pin5_G13_pin9"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 5,
+    "line": 23,
+    "kind": "gate",
+    "ref": "G13.13",
+    "type": "7402",
+    "pins": {
+      "13": "G13_pin13_5LNCK",
+      "11": "D13_pin9_G13_pin11",
+      "12": "C13_pin9_G13_pin12"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 5,
+    "kind": "chip",
+    "ref": "A10",
+    "type": "74166",
+    "pins": {
+      "1": "A11_pin13_A10_pin1",
+      "2": "C8_pin12_KD08",
+      "3": "C8_pin11_KD09",
+      "4": "C8_pin10_KD10",
+      "5": "C8_pin9_KD11",
+      "6": "0",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "B8_pin12_KD12",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin10_KD14",
+      "13": "A10_pin13_PLVD",
+      "14": "B8_pin9_KD15",
+      "15": "J13_pin8_5LCEN"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 6,
+    "kind": "chip",
+    "ref": "A11",
+    "type": "74166",
+    "pins": {
+      "1": "0",
+      "2": "E8_pin12_KD00",
+      "3": "E8_pin11_KD01",
+      "4": "E8_pin10_KD02",
+      "5": "E8_pin9_KD03",
+      "6": "0",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "D8_pin12_KD04",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin10_KD06",
+      "13": "A11_pin13_A10_pin1",
+      "14": "D8_pin9_KD07",
+      "15": "J13_pin8_5LCEN"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 7,
+    "kind": "chip",
+    "ref": "B10",
+    "type": "74166",
+    "pins": {
+      "1": "B11_pin13_B10_pin1",
+      "2": "C8_pin12_KD08",
+      "3": "C8_pin11_KD09",
+      "4": "C8_pin10_KD10",
+      "5": "C8_pin9_KD11",
+      "6": "B9_pin3_5PBVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "B8_pin12_KD12",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin10_KD14",
+      "13": "B10_pin13_C9_pin2",
+      "14": "B8_pin9_KD15",
+      "15": "F11_pin9_5KVLB"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 8,
+    "kind": "chip",
+    "ref": "B11",
+    "type": "74166",
+    "pins": {
+      "1": "0",
+      "2": "E8_pin12_KD00",
+      "3": "E8_pin11_KD01",
+      "4": "E8_pin10_KD02",
+      "5": "E8_pin9_KD03",
+      "6": "B9_pin3_5PBVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "D8_pin12_KD04",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin10_KD06",
+      "13": "B11_pin13_B10_pin1",
+      "14": "D8_pin9_KD07",
+      "15": "F11_pin9_5KVLB"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 9,
+    "kind": "chip",
+    "ref": "C10",
+    "type": "74166",
+    "pins": {
+      "1": "C11_pin13_C10_pin1",
+      "2": "C8_pin12_KD08",
+      "3": "C8_pin11_KD09",
+      "4": "C8_pin10_KD10",
+      "5": "C8_pin9_KD11",
+      "6": "B9_pin6_5PMVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "B8_pin12_KD12",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin10_KD14",
+      "13": "C10_pin13_PMVC",
+      "14": "B8_pin9_KD15",
+      "15": "F11_pin4_5KVLM"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 10,
+    "kind": "chip",
+    "ref": "C11",
+    "type": "74166",
+    "pins": {
+      "1": "0",
+      "2": "E8_pin12_KD00",
+      "3": "E8_pin11_KD01",
+      "4": "E8_pin10_KD02",
+      "5": "E8_pin9_KD03",
+      "6": "B9_pin6_5PMVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "D8_pin12_KD04",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin10_KD06",
+      "13": "C11_pin13_C10_pin1",
+      "14": "D8_pin9_KD07",
+      "15": "F11_pin4_5KVLM"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 11,
+    "kind": "chip",
+    "ref": "D10",
+    "type": "74166",
+    "pins": {
+      "1": "D11_pin13_D10_pin1",
+      "2": "C8_pin12_KD08",
+      "3": "C8_pin11_KD09",
+      "4": "C8_pin10_KD10",
+      "5": "C8_pin9_KD11",
+      "6": "B9_pin8_5PDVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "B8_pin12_KD12",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin10_KD14",
+      "13": "D10_pin13_C9_pin5",
+      "14": "B8_pin9_KD15",
+      "15": "F11_pin6_5KVLD"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 12,
+    "kind": "chip",
+    "ref": "D11",
+    "type": "74166",
+    "pins": {
+      "1": "0",
+      "2": "E8_pin12_KD00",
+      "3": "E8_pin11_KD01",
+      "4": "E8_pin10_KD02",
+      "5": "E8_pin9_KD03",
+      "6": "B9_pin8_5PDVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "P999",
+      "10": "D8_pin12_KD04",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin10_KD06",
+      "13": "D11_pin13_D10_pin1",
+      "14": "D8_pin9_KD07",
+      "15": "F11_pin6_5KVLD"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 13,
+    "kind": "chip",
+    "ref": "E10",
+    "type": "74166",
+    "pins": {
+      "1": "E11_pin13_E10_pin1",
+      "2": "C8_pin12_KD08",
+      "3": "C8_pin11_KD09",
+      "4": "C8_pin10_KD10",
+      "5": "C8_pin9_KD11",
+      "6": "B9_pin11_5PNVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "H13_pin11_P2PL",
+      "10": "B8_pin12_KD12",
+      "11": "B8_pin11_KD13",
+      "12": "B8_pin10_KD14",
+      "13": "E10_pin13_PNVC",
+      "14": "B8_pin9_KD15",
+      "15": "F11_pin2_5KVLN"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 14,
+    "kind": "chip",
+    "ref": "E11",
+    "type": "74166",
+    "pins": {
+      "1": "0",
+      "2": "E8_pin12_KD00",
+      "3": "E8_pin11_KD01",
+      "4": "E8_pin10_KD02",
+      "5": "E8_pin9_KD03",
+      "6": "B9_pin11_5PNVE",
+      "7": "A9_pin6_6PQ07",
+      "9": "H13_pin11_P2PL",
+      "10": "D8_pin12_KD04",
+      "11": "D8_pin11_KD05",
+      "12": "D8_pin10_KD06",
+      "13": "E11_pin13_E10_pin1",
+      "14": "D8_pin9_KD07",
+      "15": "F11_pin2_5KVLN"
+    },
+    "outputs": [
+      13
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 15,
+    "kind": "gate",
+    "ref": "A8.2",
+    "type": "7404",
+    "pins": {
+      "2": "A8_pin2_5PLVD",
+      "1": "A10_pin13_PLVD"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 16,
+    "kind": "gate",
+    "ref": "A9.3",
+    "type": "7437",
+    "pins": {
+      "3": "A9_pin3_1PQ07",
+      "1": "E14_pin6_5TQ07",
+      "2": "E14_pin6_5TQ07"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 16,
+    "kind": "gate",
+    "ref": "A9.6",
+    "type": "7437",
+    "pins": {
+      "6": "A9_pin6_6PQ07",
+      "4": "D16_pin3_1TQ07",
+      "5": "D16_pin3_1TQ07"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 16,
+    "kind": "gate",
+    "ref": "A9.8",
+    "type": "7437",
+    "pins": {
+      "8": "A9_pin8_2PQ07",
+      "9": "D16_pin6_6TQ07",
+      "10": "D16_pin6_6TQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B9.3",
+    "type": "7408",
+    "pins": {
+      "3": "B9_pin3_5PBVE",
+      "1": "H6_pin9_5BDGC",
+      "2": "F11_pin9_5KVLB"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B9.6",
+    "type": "7408",
+    "pins": {
+      "6": "B9_pin6_5PMVE",
+      "4": "M3_pin6_5MECG",
+      "5": "F11_pin4_5KVLM"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B9.8",
+    "type": "7408",
+    "pins": {
+      "8": "B9_pin8_5PDVE",
+      "9": "F11_pin6_5KVLD",
+      "10": "B2_pin9_5DDGC"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 17,
+    "kind": "gate",
+    "ref": "B9.11",
+    "type": "7408",
+    "pins": {
+      "11": "B9_pin11_5PNVE",
+      "12": "F11_pin2_5KVLN",
+      "13": "M3_pin8_5NECG"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 18,
+    "kind": "gate",
+    "ref": "C9.3",
+    "type": "7400",
+    "pins": {
+      "3": "C9_pin3_5PBVD",
+      "1": "H8_pin2_1BDGC",
+      "2": "B10_pin13_C9_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 18,
+    "kind": "gate",
+    "ref": "C9.6",
+    "type": "7400",
+    "pins": {
+      "6": "C9_pin6_5PDVD",
+      "4": "B4_pin2_1DDGC",
+      "5": "D10_pin13_C9_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 18,
+    "kind": "gate",
+    "ref": "C9.8",
+    "type": "7400",
+    "pins": {
+      "8": "C9_pin8_5PMVD",
+      "9": "C10_pin13_PMVC",
+      "10": "N8_pin6_1MECG"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 18,
+    "kind": "gate",
+    "ref": "C9.11",
+    "type": "7400",
+    "pins": {
+      "11": "C9_pin11_5PNVD",
+      "12": "E10_pin13_PNVC",
+      "13": "N9_pin12_1NECG"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E9.3",
+    "type": "7408",
+    "pins": {
+      "3": "E9_pin3_1PNVD",
+      "1": "E10_pin13_PNVC",
+      "2": "N9_pin12_1NECG"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 19,
+    "kind": "gate",
+    "ref": "E9.11",
+    "type": "7408",
+    "pins": {
+      "11": "E9_pin11_J2_pin9",
+      "12": "N8_pin6_1MECG",
+      "13": "C10_pin13_PMVC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 20,
+    "kind": "gate",
+    "ref": "H13.11",
+    "type": "7432",
+    "pins": {
+      "11": "H13_pin11_P2PL",
+      "12": "L15_pin5_E2PL",
+      "13": "K15_pin7_5EGME"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 21,
+    "kind": "gate",
+    "ref": "D9.8",
+    "type": "7430",
+    "pins": {
+      "8": "D9_pin8_F5_pin12",
+      "1": "L13_pin7_5SSSV",
+      "2": "L13_pin7_5SSSV",
+      "3": "D15_pin13_5TLHB",
+      "4": "C9_pin11_5PNVD",
+      "5": "C9_pin8_5PMVD",
+      "6": "C9_pin6_5PDVD",
+      "11": "A8_pin2_5PLVD",
+      "12": "C9_pin3_5PBVD"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 6,
+    "line": 22,
+    "kind": "gate",
+    "ref": "F5.11",
+    "type": "7400",
+    "pins": {
+      "11": "F5_pin11_F16_pin14",
+      "12": "D9_pin8_F5_pin12",
+      "13": "F15_pin3_5TCBL"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L10.3",
+    "type": "7408",
+    "pins": {
+      "3": "L10_pin3_ARTG",
+      "1": "D14_pin9_TLC0",
+      "2": "H14_pin6_TLGZ"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L10.6",
+    "type": "7408",
+    "pins": {
+      "6": "L10_pin6_L9_pin5",
+      "4": "K11_pin2_5ART3",
+      "5": "G8_pin9_1BGUT"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L10.8",
+    "type": "7408",
+    "pins": {
+      "8": "L10_pin8_5APRS",
+      "9": "J16_pin10_5ECDG",
+      "10": "B13_pin6_5LWTB"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 5,
+    "kind": "gate",
+    "ref": "L9.6",
+    "type": "7432",
+    "pins": {
+      "6": "L9_pin6_ATWE",
+      "4": "N10_pin5_L9_pin4",
+      "5": "L10_pin6_L9_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 6,
+    "kind": "gate",
+    "ref": "K9.6",
+    "type": "7420",
+    "pins": {
+      "6": "K9_pin6_J9_pin4",
+      "1": "G8_pin5_K9_pin1",
+      "2": "L10_pin3_ARTG",
+      "4": "L9_pin6_ATWE",
+      "5": "J14_pin8_1LQ07"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 6,
+    "kind": "gate",
+    "ref": "K9.8",
+    "type": "7420",
+    "pins": {
+      "8": "K9_pin8_J9_pin5",
+      "9": "J14_pin8_1LQ07",
+      "10": "L9_pin6_ATWE",
+      "12": "L10_pin3_ARTG",
+      "13": "G8_pin6_K9_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 7,
+    "kind": "chip",
+    "ref": "J9",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "J9_pin2_ACT1",
+      "3": "J9_pin3_ACT0",
+      "4": "K9_pin6_J9_pin4",
+      "5": "K9_pin8_J9_pin5",
+      "6": "J9_pin6_ACT2",
+      "7": "J9_pin7_ACT3",
+      "9": "A999",
+      "10": "0",
+      "11": "L10_pin8_5APRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 8,
+    "kind": "gate",
+    "ref": "K11.2",
+    "type": "7404",
+    "pins": {
+      "2": "K11_pin2_5ART3",
+      "1": "M10_pin11_ART3"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 8,
+    "kind": "gate",
+    "ref": "K11.6",
+    "type": "7404",
+    "pins": {
+      "6": "K11_pin6_5ALCC",
+      "5": "K12_pin15_K11_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 8,
+    "kind": "gate",
+    "ref": "K11.8",
+    "type": "7404",
+    "pins": {
+      "8": "K11_pin8_5ACT2",
+      "9": "J9_pin6_ACT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 8,
+    "kind": "gate",
+    "ref": "K11.10",
+    "type": "7404",
+    "pins": {
+      "10": "K11_pin10_5AECC",
+      "11": "J12_pin15_K11_pin11"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 9,
+    "kind": "chip",
+    "ref": "N10",
+    "type": "74151",
+    "pins": {
+      "1": "0",
+      "2": "A999",
+      "3": "0",
+      "4": "0",
+      "5": "N10_pin5_L9_pin4",
+      "6": "-",
+      "7": "M10_pin11_ART3",
+      "9": "M10_pin12_N10_pin9",
+      "10": "M10_pin13_N10_pin10",
+      "11": "M10_pin14_N10_pin11",
+      "12": "OPEN",
+      "13": "J9_pin3_ACT0",
+      "14": "J9_pin2_ACT1",
+      "15": "J9_pin3_ACT0"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 11,
+    "kind": "chip",
+    "ref": "M10",
+    "type": "74161",
+    "pins": {
+      "1": "A999",
+      "2": "D16_pin11_6TQLC",
+      "3": "0",
+      "4": "0",
+      "5": "0",
+      "6": "0",
+      "7": "K11_pin2_5ART3",
+      "9": "K10_pin3_M10_pin9",
+      "10": "L10_pin3_ARTG",
+      "11": "M10_pin11_ART3",
+      "12": "M10_pin12_N10_pin9",
+      "13": "M10_pin13_N10_pin10",
+      "14": "M10_pin14_N10_pin11",
+      "15": "-"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 12,
+    "kind": "gate",
+    "ref": "K10.3",
+    "type": "7400",
+    "pins": {
+      "3": "K10_pin3_M10_pin9",
+      "1": "G9_pin5_BGGT",
+      "2": "G14_pin6_TLGX"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 12,
+    "kind": "gate",
+    "ref": "K10.6",
+    "type": "7400",
+    "pins": {
+      "6": "K10_pin6_K10_pin9",
+      "4": "K11_pin2_5ART3",
+      "5": "G8_pin9_1BGUT"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 12,
+    "kind": "gate",
+    "ref": "K10.8",
+    "type": "7400",
+    "pins": {
+      "8": "K10_pin8_J11_pin9",
+      "9": "K10_pin6_K10_pin9",
+      "10": "J14_pin8_1LQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 12,
+    "kind": "gate",
+    "ref": "K10.11",
+    "type": "7400",
+    "pins": {
+      "11": "K10_pin11_H12_pin11",
+      "12": "J14_pin3_2TQGX",
+      "13": "K11_pin2_5ART3"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 13,
+    "kind": "gate",
+    "ref": "G16.1",
+    "type": "7402",
+    "pins": {
+      "1": "G16_pin1_2AQTN",
+      "2": "K11_pin2_5ART3",
+      "3": "F14_pin6_6TQGX"
+    },
+    "outputs": [
+      1
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 14,
+    "kind": "gate",
+    "ref": "H12.10",
+    "type": "7404",
+    "pins": {
+      "10": "H12_pin10_NC",
+      "11": "K10_pin11_H12_pin11"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 15,
+    "kind": "prom",
+    "ref": "J10",
+    "type": "82S123",
+    "pins": {
+      "1": "J10_pin1_D7_pin13",
+      "2": "J10_pin2_D7_pin3",
+      "3": "J10_pin3_C7_pin13",
+      "4": "J10_pin4_C7_pin3",
+      "5": "J10_pin5_J11_pin14",
+      "6": "J10_pin6_J11_pin13",
+      "7": "J10_pin7_J11_pin11",
+      "9": "J10_pin9_J11_pin6",
+      "10": "J9_pin3_ACT0",
+      "11": "J9_pin2_ACT1",
+      "12": "J9_pin6_ACT2",
+      "13": "J9_pin7_ACT3",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 17,
+    "kind": "chip",
+    "ref": "J11",
+    "type": "74174",
+    "pins": {
+      "1": "A999",
+      "2": "J11_pin2_1ACT3",
+      "3": "J9_pin7_ACT3",
+      "4": "K11_pin8_5ACT2",
+      "5": "J11_pin5_K8_pin1",
+      "6": "J10_pin9_J11_pin6",
+      "7": "J11_pin7_J12_pin4",
+      "9": "K10_pin8_J11_pin9",
+      "10": "J11_pin10_J12_pin3",
+      "11": "J10_pin7_J11_pin11",
+      "12": "J11_pin12_K12_pin4",
+      "13": "J10_pin6_J11_pin13",
+      "14": "J10_pin5_J11_pin14",
+      "15": "J11_pin15_K12_pin3"
+    },
+    "outputs": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 18,
+    "kind": "gate",
+    "ref": "K8.3",
+    "type": "7486",
+    "pins": {
+      "3": "K8_pin3_L6_pin9",
+      "1": "J11_pin5_K8_pin1",
+      "2": "J11_pin2_1ACT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 19,
+    "kind": "chip",
+    "ref": "K12",
+    "type": "74161",
+    "pins": {
+      "1": "A999",
+      "2": "D16_pin11_6TQLC",
+      "3": "J11_pin15_K12_pin3",
+      "4": "J11_pin12_K12_pin4",
+      "5": "A999",
+      "6": "A999",
+      "7": "K11_pin6_5ALCC",
+      "9": "E14_pin3_5TFGY",
+      "10": "A999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "K12_pin15_K11_pin5"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 7,
+    "line": 20,
+    "kind": "chip",
+    "ref": "J12",
+    "type": "74161",
+    "pins": {
+      "1": "A999",
+      "2": "D16_pin6_6TQ07",
+      "3": "J11_pin10_J12_pin3",
+      "4": "J11_pin7_J12_pin4",
+      "5": "A999",
+      "6": "A999",
+      "7": "K11_pin10_5AECC",
+      "9": "E14_pin3_5TFGY",
+      "10": "A999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "J12_pin15_K11_pin11"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L6.3",
+    "type": "7432",
+    "pins": {
+      "3": "L6_pin3_BEGA",
+      "1": "D15_pin1_5TCBG",
+      "2": "J11_pin2_1ACT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L6.6",
+    "type": "7432",
+    "pins": {
+      "6": "L6_pin6_BEGB",
+      "4": "K11_pin10_5AECC",
+      "5": "D15_pin1_5TCBG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L6.8",
+    "type": "7432",
+    "pins": {
+      "8": "L6_pin8_BLGA",
+      "9": "K8_pin3_L6_pin9",
+      "10": "D14_pin6_5TLC9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L6.11",
+    "type": "7432",
+    "pins": {
+      "11": "L6_pin11_BLGB",
+      "12": "D14_pin6_5TLC9",
+      "13": "K11_pin6_5ALCC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 5,
+    "kind": "gate",
+    "ref": "L8.2",
+    "type": "7404",
+    "pins": {
+      "2": "L8_pin2_L7_pin5",
+      "1": "L6_pin8_BLGA"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 5,
+    "kind": "gate",
+    "ref": "L8.4",
+    "type": "7404",
+    "pins": {
+      "4": "L8_pin4_J7_pin5",
+      "3": "L6_pin3_BEGA"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 6,
+    "kind": "cell",
+    "ref": "J8.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "L6_pin6_BEGB",
+      "3": "L6_pin6_BEGB",
+      "4": "B999",
+      "5": "J8_pin5_J7_pin9",
+      "6": "J8_pin6_J7_pin1",
+      "15": "B999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 6,
+    "kind": "cell",
+    "ref": "J8.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "J8_pin7_H10_pin1",
+      "9": "J8_pin9_H7_pin13",
+      "10": "R5_pin12_5ECKS",
+      "11": "R4_pin6_J8_pin11",
+      "12": "H14_pin6_TLGZ",
+      "13": "J14_pin11_2LQ07",
+      "14": "M10_pin11_ART3"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 7,
+    "kind": "gate",
+    "ref": "J7.6",
+    "type": "7420",
+    "pins": {
+      "6": "J7_pin6_J5_pin4",
+      "1": "J8_pin6_J7_pin1",
+      "2": "J14_pin8_1LQ07",
+      "4": "L6_pin6_BEGB",
+      "5": "L8_pin4_J7_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 7,
+    "kind": "gate",
+    "ref": "J7.8",
+    "type": "7420",
+    "pins": {
+      "8": "J7_pin8_J5_pin5",
+      "9": "J8_pin5_J7_pin9",
+      "10": "J14_pin8_1LQ07",
+      "12": "L6_pin6_BEGB",
+      "13": "L6_pin3_BEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 8,
+    "kind": "chip",
+    "ref": "J5",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "J5_pin2_K8_pin5",
+      "3": "-",
+      "4": "J7_pin6_J5_pin4",
+      "5": "J7_pin8_J5_pin5",
+      "6": "J5_pin6_BEC4",
+      "7": "J5_pin7_H6_pin4",
+      "9": "B999",
+      "10": "B999",
+      "11": "L10_pin8_5APRS",
+      "12": "J5_pin12_H5_pin5",
+      "13": "J5_pin13_H5_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 9,
+    "kind": "chip",
+    "ref": "H5",
+    "type": "74192",
+    "pins": {
+      "1": "B999",
+      "2": "H5_pin2_H6_pin2",
+      "3": "H5_pin3_H6_pin3",
+      "4": "J5_pin13_H5_pin4",
+      "5": "J5_pin12_H5_pin5",
+      "6": "H5_pin6_K7_pin1",
+      "7": "H5_pin7_K7_pin2",
+      "9": "0",
+      "10": "0",
+      "11": "L10_pin8_5APRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K7.3",
+    "type": "7432",
+    "pins": {
+      "3": "K7_pin3_H6_pin13",
+      "1": "H5_pin6_K7_pin1",
+      "2": "H5_pin7_K7_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K7.6",
+    "type": "7432",
+    "pins": {
+      "6": "K7_pin6_BVDN",
+      "4": "A10_pin13_PLVD",
+      "5": "F15_pin8_TLNA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K7.8",
+    "type": "7432",
+    "pins": {
+      "8": "K7_pin8_C10_pin12",
+      "9": "K8_pin6_K7_pin9",
+      "10": "J9_pin6_ACT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K7.11",
+    "type": "7432",
+    "pins": {
+      "11": "K7_pin11_C10_pin13",
+      "12": "K8_pin8_K7_pin12",
+      "13": "K11_pin8_5ACT2"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 11,
+    "kind": "gate",
+    "ref": "L7.6",
+    "type": "7420",
+    "pins": {
+      "6": "L7_pin6_K6_pin4",
+      "1": "E16_pin6_TGLC",
+      "2": "J14_pin8_1LQ07",
+      "4": "L6_pin11_BLGB",
+      "5": "L8_pin2_L7_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 11,
+    "kind": "gate",
+    "ref": "L7.8",
+    "type": "7420",
+    "pins": {
+      "8": "L7_pin8_K6_pin5",
+      "9": "E16_pin6_TGLC",
+      "10": "L6_pin8_BLGA",
+      "12": "J14_pin8_1LQ07",
+      "13": "L6_pin11_BLGB"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 13,
+    "kind": "chip",
+    "ref": "K6",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "K6_pin2_F7_pin3",
+      "3": "K6_pin3_F7_pin13",
+      "4": "L7_pin6_K6_pin4",
+      "5": "L7_pin8_K6_pin5",
+      "6": "K6_pin6_BLC3",
+      "7": "K6_pin7_BLC4",
+      "9": "0",
+      "10": "0",
+      "11": "L10_pin8_5APRS",
+      "12": "K6_pin12_J6_pin5",
+      "13": "K6_pin13_J6_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 14,
+    "kind": "chip",
+    "ref": "J6",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "J6_pin2_H6_pin5",
+      "3": "J6_pin3_H6_pin14",
+      "4": "K6_pin13_J6_pin4",
+      "5": "K6_pin12_J6_pin5",
+      "6": "J6_pin6_H6_pin6",
+      "7": "J6_pin7_H6_pin7",
+      "9": "0",
+      "10": "0",
+      "11": "L10_pin8_5APRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "B999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 15,
+    "kind": "prom",
+    "ref": "H6",
+    "type": "82S129",
+    "pins": {
+      "1": "J9_pin6_ACT2",
+      "2": "H5_pin2_H6_pin2",
+      "3": "H5_pin3_H6_pin3",
+      "4": "J5_pin7_H6_pin4",
+      "5": "J6_pin2_H6_pin5",
+      "6": "J6_pin6_H6_pin6",
+      "7": "J6_pin7_H6_pin7",
+      "9": "H6_pin9_5BDGC",
+      "10": "H6_pin10_5BDGL",
+      "11": "H6_pin11_5BDGR",
+      "12": "H6_pin12_5BDGF",
+      "13": "K7_pin3_H6_pin13",
+      "14": "J6_pin3_H6_pin14",
+      "15": "J9_pin7_ACT3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.2",
+    "type": "7404",
+    "pins": {
+      "2": "H8_pin2_1BDGC",
+      "1": "H6_pin9_5BDGC"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.4",
+    "type": "7404",
+    "pins": {
+      "4": "H8_pin4_1BDGL",
+      "3": "H6_pin10_5BDGL"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.6",
+    "type": "7404",
+    "pins": {
+      "6": "H8_pin6_1BDGR",
+      "5": "H6_pin11_5BDGR"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.8",
+    "type": "7404",
+    "pins": {
+      "8": "H8_pin8_H10_pin2",
+      "9": "H6_pin12_5BDGF"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.10",
+    "type": "7404",
+    "pins": {
+      "10": "H8_pin10_5BGLR",
+      "11": "F4_pin3_BGLR"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 16,
+    "kind": "gate",
+    "ref": "H8.12",
+    "type": "7404",
+    "pins": {
+      "12": "H8_pin12_G8_pin12",
+      "13": "H11_pin8_BGUT"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 17,
+    "kind": "gate",
+    "ref": "Q3.6",
+    "type": "7427",
+    "pins": {
+      "6": "Q3_pin6_F12_pin10",
+      "3": "H6_pin9_5BDGC",
+      "4": "J5_pin6_BEC4",
+      "5": "K6_pin7_BLC4"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 18,
+    "kind": "gate",
+    "ref": "R4.6",
+    "type": "7411",
+    "pins": {
+      "6": "R4_pin6_J8_pin11",
+      "3": "K11_pin8_5ACT2",
+      "4": "C15_pin2_TCRG",
+      "5": "H8_pin2_1BDGC"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 20,
+    "kind": "gate",
+    "ref": "H7.12",
+    "type": "7410",
+    "pins": {
+      "12": "H7_pin12_G9_pin4",
+      "1": "A13_pin8_TDAM",
+      "2": "H8_pin10_5BGLR",
+      "13": "J8_pin9_H7_pin13"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 20,
+    "kind": "gate",
+    "ref": "H7.6",
+    "type": "7410",
+    "pins": {
+      "6": "H7_pin6_BVDC",
+      "3": "C9_pin6_5PDVD",
+      "4": "C9_pin11_5PNVD",
+      "5": "C9_pin8_5PMVD"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 20,
+    "kind": "gate",
+    "ref": "H7.8",
+    "type": "7410",
+    "pins": {
+      "8": "H7_pin8_H11_pin9",
+      "9": "C15_pin2_TCRG",
+      "10": "C15_pin2_TCRG",
+      "11": "J9_pin6_ACT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 21,
+    "kind": "gate",
+    "ref": "H9.6",
+    "type": "7421",
+    "pins": {
+      "6": "H9_pin6_G11_pin2",
+      "1": "H6_pin12_5BDGF",
+      "2": "H6_pin11_5BDGR",
+      "4": "H8_pin4_1BDGL",
+      "5": "K7_pin6_BVDN"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 21,
+    "kind": "gate",
+    "ref": "H9.8",
+    "type": "7421",
+    "pins": {
+      "8": "H9_pin8_G11_pin5",
+      "9": "K7_pin6_BVDN",
+      "10": "H8_pin6_1BDGR",
+      "12": "H6_pin10_5BDGL",
+      "13": "H6_pin12_5BDGF"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 22,
+    "kind": "gate",
+    "ref": "H10.12",
+    "type": "7411",
+    "pins": {
+      "12": "H10_pin12_G11_pin10",
+      "1": "J8_pin7_H10_pin1",
+      "2": "H8_pin8_H10_pin2",
+      "13": "H7_pin6_BVDC"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 22,
+    "kind": "gate",
+    "ref": "H10.6",
+    "type": "7411",
+    "pins": {
+      "6": "H10_pin6_G11_pin1",
+      "3": "H6_pin11_5BDGR",
+      "4": "H8_pin4_1BDGL",
+      "5": "H7_pin6_BVDC"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 22,
+    "kind": "gate",
+    "ref": "H10.8",
+    "type": "7411",
+    "pins": {
+      "8": "H10_pin8_G11_pin4",
+      "9": "H7_pin6_BVDC",
+      "10": "H8_pin6_1BDGR",
+      "11": "H6_pin10_5BDGL"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 23,
+    "kind": "gate",
+    "ref": "G11.3",
+    "type": "7432",
+    "pins": {
+      "3": "G11_pin3_G10_pin3",
+      "1": "H10_pin6_G11_pin1",
+      "2": "H9_pin6_G11_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 23,
+    "kind": "gate",
+    "ref": "G11.6",
+    "type": "7432",
+    "pins": {
+      "6": "G11_pin6_G10_pin11",
+      "4": "H10_pin8_G11_pin4",
+      "5": "H9_pin8_G11_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 23,
+    "kind": "gate",
+    "ref": "G11.8",
+    "type": "7432",
+    "pins": {
+      "8": "G11_pin8_G9_pin3",
+      "9": "H11_pin6_G11_pin9",
+      "10": "H10_pin12_G11_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 24,
+    "kind": "gate",
+    "ref": "H11.6",
+    "type": "7421",
+    "pins": {
+      "6": "H11_pin6_G11_pin9",
+      "1": "H8_pin6_1BDGR",
+      "2": "H8_pin4_1BDGL",
+      "4": "C10_pin11_H11_pin4",
+      "5": "K7_pin6_BVDN"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 24,
+    "kind": "gate",
+    "ref": "H11.8",
+    "type": "7421",
+    "pins": {
+      "8": "H11_pin8_BGUT",
+      "9": "H7_pin8_H11_pin9",
+      "10": "F4_pin3_BGLR",
+      "12": "G9_pin5_BGGT",
+      "13": "G9_pin9_H11_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 25,
+    "kind": "cell",
+    "ref": "G10.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "H14_pin6_TLGZ",
+      "3": "G11_pin3_G10_pin3",
+      "4": "B999",
+      "5": "G10_pin5_F4_pin2",
+      "6": "G10_pin6_G8_pin3",
+      "15": "B999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 25,
+    "kind": "cell",
+    "ref": "G10.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "G10_pin7_G8_pin2",
+      "9": "G10_pin9_F4_pin1",
+      "10": "B999",
+      "11": "G11_pin6_G10_pin11",
+      "12": "H14_pin6_TLGZ",
+      "13": "J14_pin11_2LQ07",
+      "14": "B999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 26,
+    "kind": "cell",
+    "ref": "G9.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin11_2LQ07",
+      "2": "H14_pin6_TLGZ",
+      "3": "G11_pin8_G9_pin3",
+      "4": "H7_pin12_G9_pin4",
+      "5": "G9_pin5_BGGT",
+      "6": "-",
+      "15": "M10_pin11_ART3"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 26,
+    "kind": "cell",
+    "ref": "G9.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "G9_pin9_H11_pin13",
+      "10": "B999",
+      "11": "F4_pin3_BGLR",
+      "12": "H8_pin10_5BGLR",
+      "13": "J14_pin6_2TQGZ",
+      "14": "M10_pin11_ART3"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 27,
+    "kind": "gate",
+    "ref": "F4.3",
+    "type": "7408",
+    "pins": {
+      "3": "F4_pin3_BGLR",
+      "1": "G10_pin9_F4_pin1",
+      "2": "G10_pin5_F4_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 28,
+    "kind": "cell",
+    "ref": "G8.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "G16_pin1_2AQTN",
+      "2": "G10_pin7_G8_pin2",
+      "3": "G10_pin6_G8_pin3",
+      "4": "B999",
+      "5": "G8_pin5_K9_pin1",
+      "6": "G8_pin6_K9_pin13",
+      "15": "B999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 28,
+    "kind": "cell",
+    "ref": "G8.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "G8_pin9_1BGUT",
+      "10": "B999",
+      "11": "H11_pin8_BGUT",
+      "12": "H8_pin12_G8_pin12",
+      "13": "G16_pin1_2AQTN",
+      "14": "B999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 29,
+    "kind": "gate",
+    "ref": "K8.6",
+    "type": "7486",
+    "pins": {
+      "6": "K8_pin6_K7_pin9",
+      "4": "J5_pin6_BEC4",
+      "5": "J5_pin2_K8_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 29,
+    "kind": "gate",
+    "ref": "K8.8",
+    "type": "7486",
+    "pins": {
+      "8": "K8_pin8_K7_pin12",
+      "9": "K6_pin6_BLC3",
+      "10": "K6_pin7_BLC4"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 8,
+    "line": 30,
+    "kind": "gate",
+    "ref": "C10.11",
+    "type": "7408",
+    "pins": {
+      "11": "C10_pin11_H11_pin4",
+      "12": "K7_pin8_C10_pin12",
+      "13": "K7_pin11_C10_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 4,
+    "kind": "gate",
+    "ref": "F4.6",
+    "type": "7408",
+    "pins": {
+      "6": "F4_pin6_CRTG",
+      "4": "D14_pin9_TLC0",
+      "5": "H14_pin6_TLGZ"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 4,
+    "kind": "gate",
+    "ref": "F4.8",
+    "type": "7408",
+    "pins": {
+      "8": "F4_pin8_5CPRS",
+      "9": "J16_pin10_5ECDG",
+      "10": "M15_pin11_5LWTD"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 4,
+    "kind": "gate",
+    "ref": "F4.11",
+    "type": "7408",
+    "pins": {
+      "11": "F4_pin11_G4_pin12",
+      "12": "L8_pin10_5CRT3",
+      "13": "A4_pin9_1DGUT"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 5,
+    "kind": "gate",
+    "ref": "G4.11",
+    "type": "7432",
+    "pins": {
+      "11": "G4_pin11_CTWE",
+      "12": "F4_pin11_G4_pin12",
+      "13": "E6_pin5_G4_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 6,
+    "kind": "gate",
+    "ref": "G5.6",
+    "type": "7420",
+    "pins": {
+      "6": "G5_pin6_E5_pin4",
+      "1": "A4_pin5_G5_pin1",
+      "2": "F4_pin6_CRTG",
+      "4": "F10_pin3_1KQ07",
+      "5": "G4_pin11_CTWE"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 6,
+    "kind": "gate",
+    "ref": "G5.8",
+    "type": "7420",
+    "pins": {
+      "8": "G5_pin8_E5_pin5",
+      "9": "G4_pin11_CTWE",
+      "10": "F10_pin3_1KQ07",
+      "12": "F4_pin6_CRTG",
+      "13": "A4_pin6_G5_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 7,
+    "kind": "chip",
+    "ref": "E5",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "E5_pin2_CCT1",
+      "3": "E5_pin3_CCT0",
+      "4": "G5_pin6_E5_pin4",
+      "5": "G5_pin8_E5_pin5",
+      "6": "E5_pin6_CCT2",
+      "7": "E5_pin7_CCT3",
+      "9": "C999",
+      "10": "0",
+      "11": "F4_pin8_5CPRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L8.10",
+    "type": "7404",
+    "pins": {
+      "10": "L8_pin10_5CRT3",
+      "11": "F6_pin11_CRT3"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 8,
+    "kind": "gate",
+    "ref": "L8.12",
+    "type": "7404",
+    "pins": {
+      "12": "L8_pin12_5CCT2",
+      "13": "E5_pin6_CCT2"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 9,
+    "kind": "chip",
+    "ref": "E6",
+    "type": "74151",
+    "pins": {
+      "1": "0",
+      "2": "C999",
+      "3": "0",
+      "4": "0",
+      "5": "E6_pin5_G4_pin13",
+      "6": "-",
+      "7": "F6_pin11_CRT3",
+      "9": "F6_pin12_E6_pin9",
+      "10": "F6_pin13_E6_pin10",
+      "11": "F6_pin14_E6_pin11",
+      "12": "OPEN",
+      "13": "E5_pin3_CCT0",
+      "14": "E5_pin2_CCT1",
+      "15": "E5_pin3_CCT0"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 11,
+    "kind": "chip",
+    "ref": "F6",
+    "type": "74161",
+    "pins": {
+      "1": "C999",
+      "2": "D16_pin11_6TQLC",
+      "3": "0",
+      "4": "0",
+      "5": "0",
+      "6": "0",
+      "7": "L8_pin10_5CRT3",
+      "9": "F5_pin3_F6_pin9",
+      "10": "F4_pin6_CRTG",
+      "11": "F6_pin11_CRT3",
+      "12": "F6_pin12_E6_pin9",
+      "13": "F6_pin13_E6_pin10",
+      "14": "F6_pin14_E6_pin11",
+      "15": "-"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 12,
+    "kind": "gate",
+    "ref": "F5.3",
+    "type": "7400",
+    "pins": {
+      "3": "F5_pin3_F6_pin9",
+      "1": "A5_pin5_DGGT",
+      "2": "G14_pin6_TLGX"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 12,
+    "kind": "gate",
+    "ref": "F5.6",
+    "type": "7400",
+    "pins": {
+      "6": "F5_pin6_F5_pin9",
+      "4": "L8_pin10_5CRT3",
+      "5": "A4_pin9_1DGUT"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 12,
+    "kind": "gate",
+    "ref": "F5.8",
+    "type": "7400",
+    "pins": {
+      "8": "F5_pin8_C5_pin9",
+      "9": "F5_pin6_F5_pin9",
+      "10": "F10_pin3_1KQ07"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 13,
+    "kind": "gate",
+    "ref": "G16.4",
+    "type": "7402",
+    "pins": {
+      "4": "G16_pin4_2CQTN",
+      "5": "L8_pin10_5CRT3",
+      "6": "F14_pin6_6TQGX"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 14,
+    "kind": "prom",
+    "ref": "D5",
+    "type": "82S123",
+    "pins": {
+      "1": "D5_pin1_D7_pin12",
+      "2": "D5_pin2_D7_pin4",
+      "3": "D5_pin3_C7_pin12",
+      "4": "D5_pin4_C7_pin4",
+      "5": "D5_pin5_C5_pin14",
+      "6": "D5_pin6_C5_pin13",
+      "7": "D5_pin7_C5_pin11",
+      "9": "D5_pin9_C5_pin6",
+      "10": "E5_pin3_CCT0",
+      "11": "E5_pin2_CCT1",
+      "12": "E5_pin6_CCT2",
+      "13": "E5_pin7_CCT3",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 16,
+    "kind": "chip",
+    "ref": "C5",
+    "type": "74174",
+    "pins": {
+      "1": "C999",
+      "2": "C5_pin2_1CCT3",
+      "3": "E5_pin7_CCT3",
+      "4": "L8_pin12_5CCT2",
+      "5": "C5_pin5_K8_pin13",
+      "6": "D5_pin9_C5_pin6",
+      "7": "C5_pin7_C6_pin4",
+      "9": "F5_pin8_C5_pin9",
+      "10": "C5_pin10_C6_pin3",
+      "11": "D5_pin7_C5_pin11",
+      "12": "C5_pin12_D6_pin4",
+      "13": "D5_pin6_C5_pin13",
+      "14": "D5_pin5_C5_pin14",
+      "15": "C5_pin15_D6_pin3"
+    },
+    "outputs": [
+      2,
+      5,
+      7,
+      10,
+      12,
+      15
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 17,
+    "kind": "gate",
+    "ref": "K8.11",
+    "type": "7486",
+    "pins": {
+      "11": "K8_pin11_E2_pin9",
+      "12": "C5_pin2_1CCT3",
+      "13": "C5_pin5_K8_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 18,
+    "kind": "chip",
+    "ref": "D6",
+    "type": "74161",
+    "pins": {
+      "1": "C999",
+      "2": "D16_pin11_6TQLC",
+      "3": "C5_pin15_D6_pin3",
+      "4": "C5_pin12_D6_pin4",
+      "5": "C999",
+      "6": "C999",
+      "7": "E4_pin2_5CLCC",
+      "9": "E14_pin3_5TFGY",
+      "10": "C999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "D6_pin15_E4_pin1"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 19,
+    "kind": "chip",
+    "ref": "C6",
+    "type": "74161",
+    "pins": {
+      "1": "C999",
+      "2": "D16_pin6_6TQ07",
+      "3": "C5_pin10_C6_pin3",
+      "4": "C5_pin7_C6_pin4",
+      "5": "C999",
+      "6": "C999",
+      "7": "E4_pin4_5CECC",
+      "9": "E14_pin3_5TFGY",
+      "10": "C999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "C6_pin15_E4_pin3"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 20,
+    "kind": "gate",
+    "ref": "E4.2",
+    "type": "7404",
+    "pins": {
+      "2": "E4_pin2_5CLCC",
+      "1": "D6_pin15_E4_pin1"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 9,
+    "line": 20,
+    "kind": "gate",
+    "ref": "E4.4",
+    "type": "7404",
+    "pins": {
+      "4": "E4_pin4_5CECC",
+      "3": "C6_pin15_E4_pin3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 4,
+    "kind": "gate",
+    "ref": "E2.3",
+    "type": "7432",
+    "pins": {
+      "3": "E2_pin3_DEGA",
+      "1": "D15_pin1_5TCBG",
+      "2": "C5_pin2_1CCT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 4,
+    "kind": "gate",
+    "ref": "E2.6",
+    "type": "7432",
+    "pins": {
+      "6": "E2_pin6_DEGB",
+      "4": "E4_pin4_5CECC",
+      "5": "D15_pin1_5TCBG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 4,
+    "kind": "gate",
+    "ref": "E2.8",
+    "type": "7432",
+    "pins": {
+      "8": "E2_pin8_DLGA",
+      "9": "K8_pin11_E2_pin9",
+      "10": "D14_pin6_5TLC9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 4,
+    "kind": "gate",
+    "ref": "E2.11",
+    "type": "7432",
+    "pins": {
+      "11": "E2_pin11_DLGB",
+      "12": "D14_pin6_5TLC9",
+      "13": "E4_pin2_5CLCC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 5,
+    "kind": "gate",
+    "ref": "E4.8",
+    "type": "7404",
+    "pins": {
+      "8": "E4_pin8_C3_pin5",
+      "9": "E2_pin3_DEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 5,
+    "kind": "gate",
+    "ref": "E4.10",
+    "type": "7404",
+    "pins": {
+      "10": "E4_pin10_E3_pin5",
+      "11": "E2_pin8_DLGA"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 6,
+    "kind": "cell",
+    "ref": "C4.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F10_pin6_2KQ07",
+      "2": "E2_pin6_DEGB",
+      "3": "E2_pin6_DEGB",
+      "4": "D999",
+      "5": "C4_pin5_C3_pin9",
+      "6": "C4_pin6_C3_pin1",
+      "15": "D999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 6,
+    "kind": "cell",
+    "ref": "C4.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "C4_pin7_B6_pin1",
+      "9": "C4_pin9_B3_pin13",
+      "10": "R5_pin12_5ECKS",
+      "11": "R4_pin8_C4_pin11",
+      "12": "H14_pin6_TLGZ",
+      "13": "F10_pin6_2KQ07",
+      "14": "F6_pin11_CRT3"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 7,
+    "kind": "gate",
+    "ref": "C3.6",
+    "type": "7420",
+    "pins": {
+      "6": "C3_pin6_C1_pin4",
+      "1": "C4_pin6_C3_pin1",
+      "2": "F10_pin3_1KQ07",
+      "4": "E2_pin6_DEGB",
+      "5": "E4_pin8_C3_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 7,
+    "kind": "gate",
+    "ref": "C3.8",
+    "type": "7420",
+    "pins": {
+      "8": "C3_pin8_C1_pin5",
+      "9": "C4_pin5_C3_pin9",
+      "10": "F10_pin3_1KQ07",
+      "12": "E2_pin6_DEGB",
+      "13": "E2_pin3_DEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 8,
+    "kind": "chip",
+    "ref": "C1",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "C1_pin2_D4_pin2",
+      "3": "-",
+      "4": "C3_pin6_C1_pin4",
+      "5": "C3_pin8_C1_pin5",
+      "6": "C1_pin6_DEC4",
+      "7": "C1_pin7_B2_pin4",
+      "9": "D999",
+      "10": "D999",
+      "11": "F4_pin8_5CPRS",
+      "12": "C1_pin12_B1_pin5",
+      "13": "C1_pin13_B1_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 9,
+    "kind": "chip",
+    "ref": "B1",
+    "type": "74192",
+    "pins": {
+      "1": "0",
+      "2": "B1_pin2_B2_pin2",
+      "3": "B1_pin3_B2_pin3",
+      "4": "C1_pin13_B1_pin4",
+      "5": "C1_pin12_B1_pin5",
+      "6": "B1_pin6_D3_pin13",
+      "7": "B1_pin7_D3_pin12",
+      "9": "0",
+      "10": "0",
+      "11": "F4_pin8_5CPRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "D999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 10,
+    "kind": "gate",
+    "ref": "D3.3",
+    "type": "7432",
+    "pins": {
+      "3": "D3_pin3_E9_pin5",
+      "1": "E5_pin6_CCT2",
+      "2": "D4_pin3_D3_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 10,
+    "kind": "gate",
+    "ref": "D3.6",
+    "type": "7432",
+    "pins": {
+      "6": "D3_pin6_E9_pin4",
+      "4": "L8_pin12_5CCT2",
+      "5": "D4_pin6_D3_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 10,
+    "kind": "gate",
+    "ref": "D3.8",
+    "type": "7432",
+    "pins": {
+      "8": "D3_pin8_DVDN",
+      "9": "F15_pin8_TLNA",
+      "10": "A10_pin13_PLVD"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 10,
+    "kind": "gate",
+    "ref": "D3.11",
+    "type": "7432",
+    "pins": {
+      "11": "D3_pin11_B2_pin13",
+      "12": "B1_pin7_D3_pin12",
+      "13": "B1_pin6_D3_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 11,
+    "kind": "gate",
+    "ref": "E3.6",
+    "type": "7420",
+    "pins": {
+      "6": "E3_pin6_D2_pin4",
+      "1": "E16_pin6_TGLC",
+      "2": "F10_pin3_1KQ07",
+      "4": "E2_pin11_DLGB",
+      "5": "E4_pin10_E3_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 11,
+    "kind": "gate",
+    "ref": "E3.8",
+    "type": "7420",
+    "pins": {
+      "8": "E3_pin8_D2_pin5",
+      "9": "E2_pin11_DLGB",
+      "10": "E16_pin6_TGLC",
+      "12": "F10_pin3_1KQ07",
+      "13": "E2_pin8_DLGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 12,
+    "kind": "chip",
+    "ref": "D2",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "D2_pin2_F7_pin4",
+      "3": "D2_pin3_F7_pin12",
+      "4": "E3_pin6_D2_pin4",
+      "5": "E3_pin8_D2_pin5",
+      "6": "D2_pin6_DLC3",
+      "7": "D2_pin7_DLC4",
+      "9": "0",
+      "10": "0",
+      "11": "F4_pin8_5CPRS",
+      "12": "D2_pin12_C2_pin5",
+      "13": "D2_pin13_C2_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 13,
+    "kind": "chip",
+    "ref": "C2",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "C2_pin2_B2_pin5",
+      "3": "C2_pin3_B2_pin14",
+      "4": "D2_pin13_C2_pin4",
+      "5": "D2_pin12_C2_pin5",
+      "6": "C2_pin6_B2_pin6",
+      "7": "C2_pin7_B2_pin7",
+      "9": "0",
+      "10": "0",
+      "11": "F4_pin8_5CPRS",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "D999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 14,
+    "kind": "prom",
+    "ref": "B2",
+    "type": "82S129",
+    "pins": {
+      "1": "E5_pin6_CCT2",
+      "2": "B1_pin2_B2_pin2",
+      "3": "B1_pin3_B2_pin3",
+      "4": "C1_pin7_B2_pin4",
+      "5": "C2_pin2_B2_pin5",
+      "6": "C2_pin6_B2_pin6",
+      "7": "C2_pin7_B2_pin7",
+      "9": "B2_pin9_5DDGC",
+      "10": "B2_pin10_5DDGL",
+      "11": "B2_pin11_5DDGR",
+      "12": "B2_pin12_5DDGF",
+      "13": "D3_pin11_B2_pin13",
+      "14": "C2_pin3_B2_pin14",
+      "15": "E5_pin7_CCT3"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.2",
+    "type": "7404",
+    "pins": {
+      "2": "B4_pin2_1DDGC",
+      "1": "B2_pin9_5DDGC"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.4",
+    "type": "7404",
+    "pins": {
+      "4": "B4_pin4_1DDGL",
+      "3": "B2_pin10_5DDGL"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.6",
+    "type": "7404",
+    "pins": {
+      "6": "B4_pin6_1DDGR",
+      "5": "B2_pin11_5DDGR"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.8",
+    "type": "7404",
+    "pins": {
+      "8": "B4_pin8_B6_pin2",
+      "9": "B2_pin12_5DDGF"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.10",
+    "type": "7404",
+    "pins": {
+      "10": "B4_pin10_5DGLR",
+      "11": "E9_pin8_DGLR"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 15,
+    "kind": "gate",
+    "ref": "B4.12",
+    "type": "7404",
+    "pins": {
+      "12": "B4_pin12_A4_pin12",
+      "13": "B7_pin8_DGUT"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 16,
+    "kind": "gate",
+    "ref": "Q3.8",
+    "type": "7427",
+    "pins": {
+      "8": "Q3_pin8_F12_pin11",
+      "9": "D2_pin7_DLC4",
+      "10": "C1_pin6_DEC4",
+      "11": "B2_pin9_5DDGC"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 17,
+    "kind": "gate",
+    "ref": "R4.8",
+    "type": "7411",
+    "pins": {
+      "8": "R4_pin8_C4_pin11",
+      "9": "B4_pin2_1DDGC",
+      "10": "C15_pin2_TCRG",
+      "11": "L8_pin12_5CCT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 19,
+    "kind": "gate",
+    "ref": "B3.12",
+    "type": "7410",
+    "pins": {
+      "12": "B3_pin12_A5_pin4",
+      "1": "A13_pin8_TDAM",
+      "2": "B4_pin10_5DGLR",
+      "13": "C4_pin9_B3_pin13"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 19,
+    "kind": "gate",
+    "ref": "B3.6",
+    "type": "7410",
+    "pins": {
+      "6": "B3_pin6_DVDC",
+      "3": "C9_pin3_5PBVD",
+      "4": "C9_pin11_5PNVD",
+      "5": "C9_pin8_5PMVD"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 19,
+    "kind": "gate",
+    "ref": "B3.8",
+    "type": "7410",
+    "pins": {
+      "8": "B3_pin8_B7_pin9",
+      "9": "C15_pin2_TCRG",
+      "10": "C15_pin2_TCRG",
+      "11": "E5_pin6_CCT2"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 20,
+    "kind": "gate",
+    "ref": "B5.6",
+    "type": "7421",
+    "pins": {
+      "6": "B5_pin6_A7_pin2",
+      "1": "B2_pin12_5DDGF",
+      "2": "B2_pin11_5DDGR",
+      "4": "B4_pin4_1DDGL",
+      "5": "D3_pin8_DVDN"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 20,
+    "kind": "gate",
+    "ref": "B5.8",
+    "type": "7421",
+    "pins": {
+      "8": "B5_pin8_A7_pin5",
+      "9": "D3_pin8_DVDN",
+      "10": "B4_pin6_1DDGR",
+      "12": "B2_pin10_5DDGL",
+      "13": "B2_pin12_5DDGF"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 21,
+    "kind": "gate",
+    "ref": "B6.12",
+    "type": "7411",
+    "pins": {
+      "12": "B6_pin12_A7_pin10",
+      "1": "C4_pin7_B6_pin1",
+      "2": "B4_pin8_B6_pin2",
+      "13": "B3_pin6_DVDC"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 21,
+    "kind": "gate",
+    "ref": "B6.6",
+    "type": "7411",
+    "pins": {
+      "6": "B6_pin6_A7_pin1",
+      "3": "B2_pin11_5DDGR",
+      "4": "B4_pin4_1DDGL",
+      "5": "B3_pin6_DVDC"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 21,
+    "kind": "gate",
+    "ref": "B6.8",
+    "type": "7411",
+    "pins": {
+      "8": "B6_pin8_A7_pin4",
+      "9": "B3_pin6_DVDC",
+      "10": "B4_pin6_1DDGR",
+      "11": "B2_pin10_5DDGL"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 22,
+    "kind": "gate",
+    "ref": "A7.3",
+    "type": "7432",
+    "pins": {
+      "3": "A7_pin3_A6_pin3",
+      "1": "B6_pin6_A7_pin1",
+      "2": "B5_pin6_A7_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 22,
+    "kind": "gate",
+    "ref": "A7.6",
+    "type": "7432",
+    "pins": {
+      "6": "A7_pin6_A6_pin11",
+      "4": "B6_pin8_A7_pin4",
+      "5": "B5_pin8_A7_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 22,
+    "kind": "gate",
+    "ref": "A7.8",
+    "type": "7432",
+    "pins": {
+      "8": "A7_pin8_A5_pin3",
+      "9": "B7_pin6_A7_pin9",
+      "10": "B6_pin12_A7_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 23,
+    "kind": "gate",
+    "ref": "B7.6",
+    "type": "7421",
+    "pins": {
+      "6": "B7_pin6_A7_pin9",
+      "1": "B4_pin6_1DDGR",
+      "2": "B4_pin4_1DDGL",
+      "4": "E9_pin6_B7_pin4",
+      "5": "D3_pin8_DVDN"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 23,
+    "kind": "gate",
+    "ref": "B7.8",
+    "type": "7421",
+    "pins": {
+      "8": "B7_pin8_DGUT",
+      "9": "B3_pin8_B7_pin9",
+      "10": "E9_pin8_DGLR",
+      "12": "A5_pin5_DGGT",
+      "13": "A5_pin9_B7_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 24,
+    "kind": "cell",
+    "ref": "A6.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F10_pin6_2KQ07",
+      "2": "H14_pin6_TLGZ",
+      "3": "A7_pin3_A6_pin3",
+      "4": "D999",
+      "5": "A6_pin5_E9_pin9",
+      "6": "A6_pin6_A4_pin3",
+      "15": "D999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 24,
+    "kind": "cell",
+    "ref": "A6.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "A6_pin7_A4_pin2",
+      "9": "A6_pin9_E9_pin10",
+      "10": "D999",
+      "11": "A7_pin6_A6_pin11",
+      "12": "H14_pin6_TLGZ",
+      "13": "F10_pin6_2KQ07",
+      "14": "D999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 25,
+    "kind": "cell",
+    "ref": "A5.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F10_pin6_2KQ07",
+      "2": "H14_pin6_TLGZ",
+      "3": "A7_pin8_A5_pin3",
+      "4": "B3_pin12_A5_pin4",
+      "5": "A5_pin5_DGGT",
+      "6": "-",
+      "15": "F6_pin11_CRT3"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 25,
+    "kind": "cell",
+    "ref": "A5.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "A5_pin9_B7_pin13",
+      "10": "D999",
+      "11": "E9_pin8_DGLR",
+      "12": "B4_pin10_5DGLR",
+      "13": "J14_pin6_2TQGZ",
+      "14": "F6_pin11_CRT3"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 26,
+    "kind": "gate",
+    "ref": "E9.6",
+    "type": "7408",
+    "pins": {
+      "6": "E9_pin6_B7_pin4",
+      "4": "D3_pin6_E9_pin4",
+      "5": "D3_pin3_E9_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 26,
+    "kind": "gate",
+    "ref": "E9.8",
+    "type": "7408",
+    "pins": {
+      "8": "E9_pin8_DGLR",
+      "9": "A6_pin5_E9_pin9",
+      "10": "A6_pin9_E9_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 27,
+    "kind": "cell",
+    "ref": "A4.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "G16_pin4_2CQTN",
+      "2": "A6_pin7_A4_pin2",
+      "3": "A6_pin6_A4_pin3",
+      "4": "D999",
+      "5": "A4_pin5_G5_pin1",
+      "6": "A4_pin6_G5_pin13",
+      "15": "D999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 27,
+    "kind": "cell",
+    "ref": "A4.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "A4_pin9_1DGUT",
+      "10": "D999",
+      "11": "B7_pin8_DGUT",
+      "12": "B4_pin12_A4_pin12",
+      "13": "G16_pin4_2CQTN",
+      "14": "D999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 28,
+    "kind": "gate",
+    "ref": "D4.3",
+    "type": "7486",
+    "pins": {
+      "3": "D4_pin3_D3_pin2",
+      "1": "C1_pin6_DEC4",
+      "2": "C1_pin2_D4_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 10,
+    "line": 28,
+    "kind": "gate",
+    "ref": "D4.6",
+    "type": "7486",
+    "pins": {
+      "6": "D4_pin6_D3_pin5",
+      "4": "D2_pin7_DLC4",
+      "5": "D2_pin6_DLC3"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 4,
+    "kind": "gate",
+    "ref": "J2.3",
+    "type": "7408",
+    "pins": {
+      "3": "J2_pin3_H1_pin3",
+      "1": "MTTB",
+      "2": "MTTA"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 4,
+    "kind": "gate",
+    "ref": "J2.6",
+    "type": "7408",
+    "pins": {
+      "6": "J2_pin6_H1_pin2",
+      "4": "P9_pin4_5MTTB",
+      "5": "P9_pin2_5MTTA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 4,
+    "kind": "gate",
+    "ref": "J2.8",
+    "type": "7408",
+    "pins": {
+      "8": "J2_pin8_J1_pin3",
+      "9": "E9_pin11_J2_pin9",
+      "10": "K1_pin6_J2_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 4,
+    "kind": "gate",
+    "ref": "J2.11",
+    "type": "7408",
+    "pins": {
+      "11": "J2_pin11_J4_pin14",
+      "12": "J1_pin5_GTHA",
+      "13": "J1_pin7_5GTHB"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 5,
+    "kind": "cell",
+    "ref": "H1.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "A9_pin8_2PQ07",
+      "2": "J2_pin6_H1_pin2",
+      "3": "J2_pin3_H1_pin3",
+      "4": "G999",
+      "5": "H1_pin5_GTWA",
+      "6": "H1_pin6_H1_pin12",
+      "15": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 5,
+    "kind": "cell",
+    "ref": "H1.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "H1_pin7_5GTWB",
+      "9": "-",
+      "10": "G999",
+      "11": "H1_pin5_GTWA",
+      "12": "H1_pin6_H1_pin12",
+      "13": "A9_pin8_2PQ07",
+      "14": "G999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 6,
+    "kind": "gate",
+    "ref": "F1.6",
+    "type": "7410",
+    "pins": {
+      "6": "F1_pin6_E1_pin4",
+      "3": "P7_pin6_MTNL",
+      "4": "H1_pin7_5GTWB",
+      "5": "H1_pin5_GTWA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 6,
+    "kind": "gate",
+    "ref": "F1.8",
+    "type": "7410",
+    "pins": {
+      "8": "F1_pin8_E1_pin5",
+      "9": "H1_pin5_GTWA",
+      "10": "H1_pin7_5GTWB",
+      "11": "P7_pin3_MTNR"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 7,
+    "kind": "chip",
+    "ref": "E1",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "E1_pin2_G2_pin11",
+      "3": "E1_pin3_G2_pin10",
+      "4": "F1_pin6_E1_pin4",
+      "5": "F1_pin8_E1_pin5",
+      "6": "E1_pin6_GCT2",
+      "7": "E1_pin7_GCT3",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 8,
+    "kind": "gate",
+    "ref": "D1.3",
+    "type": "7486",
+    "pins": {
+      "3": "D1_pin3_GGT3",
+      "1": "H3_pin12_D1_pin1",
+      "2": "E1_pin7_GCT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 8,
+    "kind": "gate",
+    "ref": "D1.6",
+    "type": "7486",
+    "pins": {
+      "6": "D1_pin6_M6_pin9",
+      "4": "F3_pin10_D1_pin4",
+      "5": "D1_pin3_GGT3"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 9,
+    "kind": "gate",
+    "ref": "F3.4",
+    "type": "7404",
+    "pins": {
+      "4": "F3_pin4_5GRCC",
+      "3": "H4_pin15_F3_pin3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 9,
+    "kind": "gate",
+    "ref": "F3.6",
+    "type": "7404",
+    "pins": {
+      "6": "F3_pin6_5GLCC",
+      "5": "G3_pin15_F3_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 9,
+    "kind": "gate",
+    "ref": "F3.8",
+    "type": "7404",
+    "pins": {
+      "8": "F3_pin8_5GECC",
+      "9": "F2_pin15_F3_pin9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 9,
+    "kind": "gate",
+    "ref": "F3.10",
+    "type": "7404",
+    "pins": {
+      "10": "F3_pin10_D1_pin4",
+      "11": "E1_pin6_GCT2"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K1.6",
+    "type": "7420",
+    "pins": {
+      "6": "K1_pin6_J2_pin10",
+      "1": "A8_pin2_5PLVD",
+      "2": "C9_pin11_5PNVD",
+      "4": "D15_pin10_5THVA",
+      "5": "D15_pin13_5TLHB"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 11,
+    "kind": "cell",
+    "ref": "J1.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "A9_pin8_2PQ07",
+      "2": "G14_pin6_TLGX",
+      "3": "J2_pin8_J1_pin3",
+      "4": "G13_pin10_5LMCK",
+      "5": "J1_pin5_GTHA",
+      "6": "J1_pin6_H2_pin12",
+      "15": "G999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 11,
+    "kind": "cell",
+    "ref": "J1.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "J1_pin7_5GTHB",
+      "9": "J1_pin9_GTHB",
+      "10": "G999",
+      "11": "J1_pin5_GTHA",
+      "12": "H2_pin11_J1_pin12",
+      "13": "J14_pin3_2TQGX",
+      "14": "G999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 12,
+    "kind": "gate",
+    "ref": "H2.3",
+    "type": "7408",
+    "pins": {
+      "3": "H2_pin3_GTHD",
+      "1": "K2_pin6_H2_pin1",
+      "2": "J1_pin9_GTHB"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 12,
+    "kind": "gate",
+    "ref": "H2.11",
+    "type": "7408",
+    "pins": {
+      "11": "H2_pin11_J1_pin12",
+      "12": "J1_pin6_H2_pin12",
+      "13": "H3_pin9_GRPM"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 14,
+    "kind": "cell",
+    "ref": "K2.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "J14_pin3_2TQGX",
+      "2": "J1_pin7_5GTHB",
+      "3": "J1_pin9_GTHB",
+      "4": "G999",
+      "5": "-",
+      "6": "K2_pin6_H2_pin1",
+      "15": "G999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 15,
+    "kind": "gate",
+    "ref": "G1.2",
+    "type": "7407",
+    "pins": {
+      "2": "G1_pin2_GTHE",
+      "1": "H2_pin3_GTHD"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 15,
+    "kind": "gate",
+    "ref": "G1.4",
+    "type": "7407",
+    "pins": {
+      "4": "G1_pin4_GMC2",
+      "3": "H3_pin9_GRPM"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 15,
+    "kind": "gate",
+    "ref": "G1.6",
+    "type": "7407",
+    "pins": {
+      "6": "G1_pin6_GMC1",
+      "5": "J4_pin2_GRS1"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 15,
+    "kind": "gate",
+    "ref": "G1.8",
+    "type": "7407",
+    "pins": {
+      "8": "G1_pin8_GMC0",
+      "9": "J4_pin3_GRS0"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 16,
+    "kind": "gate",
+    "ref": "J3.3",
+    "type": "7400",
+    "pins": {
+      "3": "J3_pin3_J4_pin4",
+      "1": "H3_pin11_J3_pin1",
+      "2": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 16,
+    "kind": "gate",
+    "ref": "J3.6",
+    "type": "7400",
+    "pins": {
+      "6": "J3_pin6_J4_pin5",
+      "4": "H3_pin10_J3_pin4",
+      "5": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 16,
+    "kind": "gate",
+    "ref": "J3.8",
+    "type": "7400",
+    "pins": {
+      "8": "J3_pin8_J4_pin11",
+      "9": "J1_pin9_GTHB",
+      "10": "M8_pin9_1MTSR"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 17,
+    "kind": "chip",
+    "ref": "J4",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "J4_pin2_GRS1",
+      "3": "J4_pin3_GRS0",
+      "4": "J3_pin3_J4_pin4",
+      "5": "J3_pin6_J4_pin5",
+      "6": "J4_pin6_GRS2",
+      "7": "J4_pin7_GRS3",
+      "9": "G999",
+      "10": "G999",
+      "11": "J3_pin8_J4_pin11",
+      "12": "-",
+      "13": "-",
+      "14": "J2_pin11_J4_pin14",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 18,
+    "kind": "prom",
+    "ref": "H3",
+    "type": "82S129",
+    "pins": {
+      "1": "M8_pin9_1MTSR",
+      "2": "M9_pin9_H3_pin2",
+      "3": "M8_pin5_H3_pin3",
+      "4": "J4_pin7_GRS3",
+      "5": "J4_pin3_GRS0",
+      "6": "J4_pin2_GRS1",
+      "7": "J4_pin6_GRS2",
+      "9": "H3_pin9_GRPM",
+      "10": "H3_pin10_J3_pin4",
+      "11": "H3_pin11_J3_pin1",
+      "12": "H3_pin12_D1_pin1",
+      "13": "0",
+      "14": "0",
+      "15": "J1_pin9_GTHB"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 19,
+    "kind": "prom",
+    "ref": "G2",
+    "type": "82S123",
+    "pins": {
+      "1": "G2_pin1_D7_pin11",
+      "2": "G2_pin2_D7_pin5",
+      "3": "G2_pin3_C7_pin11",
+      "4": "G2_pin4_C7_pin5",
+      "5": "G2_pin5_G3_pin3",
+      "6": "G2_pin6_G3_pin4",
+      "7": "G2_pin7_F2_pin3",
+      "9": "G2_pin9_F2_pin4",
+      "10": "E1_pin3_G2_pin10",
+      "11": "E1_pin2_G2_pin11",
+      "12": "E1_pin6_GCT2",
+      "13": "E1_pin7_GCT3",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 20,
+    "kind": "chip",
+    "ref": "H4",
+    "type": "74161",
+    "pins": {
+      "1": "J16_pin8_1ESGC",
+      "2": "D16_pin11_6TQLC",
+      "3": "J4_pin3_GRS0",
+      "4": "J4_pin2_GRS1",
+      "5": "J4_pin6_GRS2",
+      "6": "J4_pin7_GRS3",
+      "7": "H3_pin9_GRPM",
+      "9": "F3_pin4_5GRCC",
+      "10": "G14_pin8_TLGY",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "H4_pin15_F3_pin3"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 21,
+    "kind": "chip",
+    "ref": "G3",
+    "type": "74161",
+    "pins": {
+      "1": "G999",
+      "2": "D16_pin11_6TQLC",
+      "3": "G2_pin5_G3_pin3",
+      "4": "G2_pin6_G3_pin4",
+      "5": "G999",
+      "6": "G999",
+      "7": "F3_pin6_5GLCC",
+      "9": "F3_pin4_5GRCC",
+      "10": "G999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "G3_pin15_F3_pin5"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 11,
+    "line": 22,
+    "kind": "chip",
+    "ref": "F2",
+    "type": "74161",
+    "pins": {
+      "1": "G999",
+      "2": "A9_pin6_6PQ07",
+      "3": "G2_pin7_F2_pin3",
+      "4": "G2_pin9_F2_pin4",
+      "5": "G999",
+      "6": "G999",
+      "7": "F3_pin8_5GECC",
+      "9": "F3_pin4_5GRCC",
+      "10": "G999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "F2_pin15_F3_pin9"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 4,
+    "kind": "gate",
+    "ref": "M6.3",
+    "type": "7432",
+    "pins": {
+      "3": "M6_pin3_MEGA",
+      "1": "D15_pin1_5TCBG",
+      "2": "D1_pin3_GGT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 4,
+    "kind": "gate",
+    "ref": "M6.6",
+    "type": "7432",
+    "pins": {
+      "6": "M6_pin6_MEGB",
+      "4": "F3_pin8_5GECC",
+      "5": "D15_pin1_5TCBG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 4,
+    "kind": "gate",
+    "ref": "M6.8",
+    "type": "7432",
+    "pins": {
+      "8": "M6_pin8_MLGA",
+      "9": "D1_pin6_M6_pin9",
+      "10": "D14_pin6_5TLC9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 4,
+    "kind": "gate",
+    "ref": "M6.11",
+    "type": "7432",
+    "pins": {
+      "11": "M6_pin11_MLGB",
+      "12": "D14_pin6_5TLC9",
+      "13": "F3_pin6_5GLCC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.10",
+    "type": "7404",
+    "pins": {
+      "10": "N7_pin10_M5_pin5",
+      "11": "M6_pin3_MEGA"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.12",
+    "type": "7404",
+    "pins": {
+      "12": "N7_pin12_L4_pin5",
+      "13": "M6_pin8_MLGA"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 6,
+    "kind": "cell",
+    "ref": "N6.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "N6_pin7_M5_pin1",
+      "9": "N6_pin9_M5_pin9",
+      "10": "M999",
+      "11": "M6_pin6_MEGB",
+      "12": "M6_pin6_MEGB",
+      "13": "A9_pin8_2PQ07",
+      "14": "M999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 7,
+    "kind": "gate",
+    "ref": "M5.6",
+    "type": "7420",
+    "pins": {
+      "6": "M5_pin6_N5_pin4",
+      "1": "N6_pin7_M5_pin1",
+      "2": "A9_pin3_1PQ07",
+      "4": "M6_pin6_MEGB",
+      "5": "N7_pin10_M5_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 7,
+    "kind": "gate",
+    "ref": "M5.8",
+    "type": "7420",
+    "pins": {
+      "8": "M5_pin8_N5_pin5",
+      "9": "N6_pin9_M5_pin9",
+      "10": "A9_pin3_1PQ07",
+      "12": "M6_pin6_MEGB",
+      "13": "M6_pin3_MEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 8,
+    "kind": "chip",
+    "ref": "N5",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "-",
+      "3": "-",
+      "4": "M5_pin6_N5_pin4",
+      "5": "M5_pin8_N5_pin5",
+      "6": "-",
+      "7": "N5_pin7_M3_pin1",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "N5_pin12_N4_pin5",
+      "13": "N5_pin13_N4_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 9,
+    "kind": "chip",
+    "ref": "N4",
+    "type": "74192",
+    "pins": {
+      "1": "M999",
+      "2": "N4_pin2_N3_pin3",
+      "3": "N4_pin3_M3_pin2",
+      "4": "N5_pin13_N4_pin4",
+      "5": "N5_pin12_N4_pin5",
+      "6": "N4_pin6_N3_pin2",
+      "7": "N4_pin7_M3_pin4",
+      "9": "0",
+      "10": "M999",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "M999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 10,
+    "kind": "gate",
+    "ref": "N3.1",
+    "type": "7402",
+    "pins": {
+      "1": "N3_pin1_M3_pin5",
+      "2": "N4_pin6_N3_pin2",
+      "3": "N4_pin2_N3_pin3"
+    },
+    "outputs": [
+      1
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 11,
+    "kind": "gate",
+    "ref": "M3.6",
+    "type": "7420",
+    "pins": {
+      "6": "M3_pin6_5MECG",
+      "1": "N5_pin7_M3_pin1",
+      "2": "N4_pin3_M3_pin2",
+      "4": "N4_pin7_M3_pin4",
+      "5": "N3_pin1_M3_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 12,
+    "kind": "gate",
+    "ref": "N8.6",
+    "type": "7404",
+    "pins": {
+      "6": "N8_pin6_1MECG",
+      "5": "M3_pin6_5MECG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 12,
+    "kind": "gate",
+    "ref": "N8.8",
+    "type": "7404",
+    "pins": {
+      "8": "N8_pin8_M9_pin12",
+      "9": "MTA1"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 12,
+    "kind": "gate",
+    "ref": "N8.10",
+    "type": "7404",
+    "pins": {
+      "10": "N8_pin10_M8_pin2",
+      "11": "MTA0"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 12,
+    "kind": "gate",
+    "ref": "N8.12",
+    "type": "7404",
+    "pins": {
+      "12": "N8_pin12_M8_pin12",
+      "13": "MTSR"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 13,
+    "kind": "gate",
+    "ref": "L4.6",
+    "type": "7420",
+    "pins": {
+      "6": "L4_pin6_K4_pin4",
+      "1": "E16_pin6_TGLC",
+      "2": "A9_pin3_1PQ07",
+      "4": "M6_pin11_MLGB",
+      "5": "N7_pin12_L4_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 13,
+    "kind": "gate",
+    "ref": "L4.8",
+    "type": "7420",
+    "pins": {
+      "8": "L4_pin8_K4_pin5",
+      "9": "E16_pin6_TGLC",
+      "10": "A9_pin3_1PQ07",
+      "12": "M6_pin11_MLGB",
+      "13": "M6_pin8_MLGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 14,
+    "kind": "chip",
+    "ref": "K4",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "K4_pin2_F7_pin5",
+      "3": "K4_pin3_F7_pin11",
+      "4": "L4_pin6_K4_pin4",
+      "5": "L4_pin8_K4_pin5",
+      "6": "K4_pin6_E7_pin11",
+      "7": "K4_pin7_E7_pin5",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "K4_pin12_L5_pin5",
+      "13": "K4_pin13_L5_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 15,
+    "kind": "chip",
+    "ref": "L5",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "L5_pin2_K5_pin2",
+      "3": "L5_pin3_K5_pin1",
+      "4": "K4_pin13_L5_pin4",
+      "5": "K4_pin12_L5_pin5",
+      "6": "L5_pin6_K5_pin4",
+      "7": "L5_pin7_K5_pin5",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "M999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 16,
+    "kind": "gate",
+    "ref": "K5.6",
+    "type": "7421",
+    "pins": {
+      "6": "K5_pin6_G7_pin11",
+      "1": "L5_pin3_K5_pin1",
+      "2": "L5_pin2_K5_pin2",
+      "4": "L5_pin6_K5_pin4",
+      "5": "L5_pin7_K5_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 18,
+    "kind": "gate",
+    "ref": "P9.2",
+    "type": "7404",
+    "pins": {
+      "2": "P9_pin2_5MTTA",
+      "1": "MTTA"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 18,
+    "kind": "gate",
+    "ref": "P9.4",
+    "type": "7404",
+    "pins": {
+      "4": "P9_pin4_5MTTB",
+      "3": "MTTB"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 19,
+    "kind": "gate",
+    "ref": "P8.3",
+    "type": "7432",
+    "pins": {
+      "3": "P8_pin3_P7_pin2",
+      "1": "P9_pin4_5MTTB",
+      "2": "P7_pin3_MTNR"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 19,
+    "kind": "gate",
+    "ref": "P8.6",
+    "type": "7432",
+    "pins": {
+      "6": "P8_pin6_P7_pin4",
+      "4": "P7_pin6_MTNL",
+      "5": "P9_pin2_5MTTA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 20,
+    "kind": "gate",
+    "ref": "P7.3",
+    "type": "7408",
+    "pins": {
+      "3": "P7_pin3_MTNR",
+      "1": "MTTA",
+      "2": "P8_pin3_P7_pin2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 20,
+    "kind": "gate",
+    "ref": "P7.6",
+    "type": "7408",
+    "pins": {
+      "6": "P7_pin6_MTNL",
+      "4": "P8_pin6_P7_pin4",
+      "5": "MTTB"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 21,
+    "kind": "cell",
+    "ref": "M9.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "M9_pin9_H3_pin2",
+      "10": "M999",
+      "11": "MTA1",
+      "12": "N8_pin8_M9_pin12",
+      "13": "H15_pin3_2ECK2",
+      "14": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 22,
+    "kind": "cell",
+    "ref": "M8.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin3_2ECK2",
+      "2": "N8_pin10_M8_pin2",
+      "3": "MTA0",
+      "4": "M999",
+      "5": "M8_pin5_H3_pin3",
+      "6": "-",
+      "15": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 12,
+    "line": 22,
+    "kind": "cell",
+    "ref": "M8.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "M8_pin9_1MTSR",
+      "10": "M999",
+      "11": "MTSR",
+      "12": "N8_pin12_M8_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L1.3",
+    "type": "7408",
+    "pins": {
+      "3": "L1_pin3_L2_pin3",
+      "1": "NTTB",
+      "2": "NTTA"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L1.6",
+    "type": "7408",
+    "pins": {
+      "6": "L1_pin6_L2_pin2",
+      "4": "P9_pin12_5NTTB",
+      "5": "P9_pin10_5NTTA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L1.8",
+    "type": "7408",
+    "pins": {
+      "8": "L1_pin8_M2_pin3",
+      "9": "E9_pin3_1PNVD",
+      "10": "K1_pin8_L1_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 4,
+    "kind": "gate",
+    "ref": "L1.11",
+    "type": "7408",
+    "pins": {
+      "11": "L1_pin11_P1_pin14",
+      "12": "M2_pin5_HTHA",
+      "13": "M2_pin7_5HTHB"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 5,
+    "kind": "cell",
+    "ref": "L2.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "A9_pin8_2PQ07",
+      "2": "L1_pin6_L2_pin2",
+      "3": "L1_pin3_L2_pin3",
+      "4": "H999",
+      "5": "L2_pin5_HTWA",
+      "6": "L2_pin6_L2_pin12",
+      "15": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 5,
+    "kind": "cell",
+    "ref": "L2.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "L2_pin7_5HTWB",
+      "9": "-",
+      "10": "H999",
+      "11": "L2_pin5_HTWA",
+      "12": "L2_pin6_L2_pin12",
+      "13": "A9_pin8_2PQ07",
+      "14": "H999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 6,
+    "kind": "gate",
+    "ref": "Q1.6",
+    "type": "7410",
+    "pins": {
+      "6": "Q1_pin6_Q2_pin4",
+      "3": "P7_pin11_NTNL",
+      "4": "L2_pin7_5HTWB",
+      "5": "L2_pin5_HTWA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 6,
+    "kind": "gate",
+    "ref": "Q1.8",
+    "type": "7410",
+    "pins": {
+      "8": "Q1_pin8_Q2_pin5",
+      "9": "L2_pin5_HTWA",
+      "10": "L2_pin7_5HTWB",
+      "11": "P7_pin8_NTNR"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 7,
+    "kind": "chip",
+    "ref": "Q2",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "Q2_pin2_R1_pin11",
+      "3": "Q2_pin3_R1_pin10",
+      "4": "Q1_pin6_Q2_pin4",
+      "5": "Q1_pin8_Q2_pin5",
+      "6": "Q2_pin6_HCT2",
+      "7": "Q2_pin7_HCT3",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 8,
+    "kind": "gate",
+    "ref": "D1.8",
+    "type": "7486",
+    "pins": {
+      "8": "D1_pin8_HGT3",
+      "9": "Q2_pin7_HCT3",
+      "10": "N1_pin12_D1_pin10"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 8,
+    "kind": "gate",
+    "ref": "D1.11",
+    "type": "7486",
+    "pins": {
+      "11": "D1_pin11_P6_pin9",
+      "12": "D1_pin8_HGT3",
+      "13": "A1_pin2_D1_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 9,
+    "kind": "gate",
+    "ref": "A1.2",
+    "type": "7404",
+    "pins": {
+      "2": "A1_pin2_D1_pin13",
+      "1": "Q2_pin6_HCT2"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 9,
+    "kind": "gate",
+    "ref": "A1.4",
+    "type": "7404",
+    "pins": {
+      "4": "A1_pin4_5HRCC",
+      "3": "P2_pin15_A1_pin3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 9,
+    "kind": "gate",
+    "ref": "A1.6",
+    "type": "7404",
+    "pins": {
+      "6": "A1_pin6_5HLCC",
+      "5": "A2_pin15_A1_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 9,
+    "kind": "gate",
+    "ref": "A1.8",
+    "type": "7404",
+    "pins": {
+      "8": "A1_pin8_5HECC",
+      "9": "A3_pin15_A1_pin9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 10,
+    "kind": "gate",
+    "ref": "K1.8",
+    "type": "7420",
+    "pins": {
+      "8": "K1_pin8_L1_pin10",
+      "9": "D15_pin13_5TLHB",
+      "10": "D15_pin10_5THVA",
+      "12": "C9_pin8_5PMVD",
+      "13": "A8_pin2_5PLVD"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 11,
+    "kind": "cell",
+    "ref": "M2.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "A9_pin8_2PQ07",
+      "2": "G14_pin6_TLGX",
+      "3": "L1_pin8_M2_pin3",
+      "4": "G13_pin13_5LNCK",
+      "5": "M2_pin5_HTHA",
+      "6": "M2_pin6_H2_pin9",
+      "15": "H999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 11,
+    "kind": "cell",
+    "ref": "M2.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "M2_pin7_5HTHB",
+      "9": "M2_pin9_HTHB",
+      "10": "H999",
+      "11": "M2_pin5_HTHA",
+      "12": "H2_pin8_M2_pin12",
+      "13": "J14_pin3_2TQGX",
+      "14": "H999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 12,
+    "kind": "gate",
+    "ref": "H2.6",
+    "type": "7408",
+    "pins": {
+      "6": "H2_pin6_HTHD",
+      "4": "K2_pin7_H2_pin4",
+      "5": "M2_pin9_HTHB"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 12,
+    "kind": "gate",
+    "ref": "H2.8",
+    "type": "7408",
+    "pins": {
+      "8": "H2_pin8_M2_pin12",
+      "9": "M2_pin6_H2_pin9",
+      "10": "N1_pin9_HRPM"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 15,
+    "kind": "cell",
+    "ref": "K2.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "K2_pin7_H2_pin4",
+      "9": "-",
+      "10": "H999",
+      "11": "M2_pin9_HTHB",
+      "12": "M2_pin7_5HTHB",
+      "13": "J14_pin3_2TQGX",
+      "14": "H999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 16,
+    "kind": "gate",
+    "ref": "G1.10",
+    "type": "7407",
+    "pins": {
+      "10": "G1_pin10_HTHE",
+      "11": "H2_pin6_HTHD"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 16,
+    "kind": "gate",
+    "ref": "G1.12",
+    "type": "7407",
+    "pins": {
+      "12": "G1_pin12_HMC2",
+      "13": "N1_pin9_HRPM"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 17,
+    "kind": "gate",
+    "ref": "M1.3",
+    "type": "7400",
+    "pins": {
+      "3": "M1_pin3_P1_pin4",
+      "1": "N1_pin11_M1_pin1",
+      "2": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 17,
+    "kind": "gate",
+    "ref": "M1.6",
+    "type": "7400",
+    "pins": {
+      "6": "M1_pin6_P1_pin5",
+      "4": "N1_pin10_M1_pin4",
+      "5": "H15_pin11_1ECK2"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 17,
+    "kind": "gate",
+    "ref": "M1.8",
+    "type": "7400",
+    "pins": {
+      "8": "M1_pin8_P1_pin11",
+      "9": "M2_pin9_HTHB",
+      "10": "M7_pin9_1NTSR"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 18,
+    "kind": "chip",
+    "ref": "P1",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "P1_pin2_HRS1",
+      "3": "P1_pin3_HRS0",
+      "4": "M1_pin3_P1_pin4",
+      "5": "M1_pin6_P1_pin5",
+      "6": "P1_pin6_HRS2",
+      "7": "P1_pin7_HRS3",
+      "9": "H999",
+      "10": "H999",
+      "11": "M1_pin8_P1_pin11",
+      "12": "-",
+      "13": "-",
+      "14": "L1_pin11_P1_pin14",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 19,
+    "kind": "prom",
+    "ref": "N1",
+    "type": "82S129",
+    "pins": {
+      "1": "M7_pin9_1NTSR",
+      "2": "M9_pin5_N1_pin2",
+      "3": "M7_pin5_N1_pin3",
+      "4": "P1_pin7_HRS3",
+      "5": "P1_pin3_HRS0",
+      "6": "P1_pin2_HRS1",
+      "7": "P1_pin6_HRS2",
+      "9": "N1_pin9_HRPM",
+      "10": "N1_pin10_M1_pin4",
+      "11": "N1_pin11_M1_pin1",
+      "12": "N1_pin12_D1_pin10",
+      "13": "0",
+      "14": "0",
+      "15": "M2_pin9_HTHB"
+    },
+    "outputs": [
+      12,
+      11,
+      10,
+      9
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 20,
+    "kind": "gate",
+    "ref": "N2.2",
+    "type": "7407",
+    "pins": {
+      "2": "N2_pin2_HMC1",
+      "1": "P1_pin2_HRS1"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 20,
+    "kind": "gate",
+    "ref": "N2.4",
+    "type": "7407",
+    "pins": {
+      "4": "N2_pin4_HMC0",
+      "3": "P1_pin3_HRS0"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 21,
+    "kind": "prom",
+    "ref": "R1",
+    "type": "82S123",
+    "pins": {
+      "1": "R1_pin1_D7_pin10",
+      "2": "R1_pin2_D7_pin6",
+      "3": "R1_pin3_C7_pin10",
+      "4": "R1_pin4_C7_pin6",
+      "5": "R1_pin5_A2_pin3",
+      "6": "R1_pin6_A2_pin4",
+      "7": "R1_pin7_A3_pin3",
+      "9": "R1_pin9_A3_pin4",
+      "10": "Q2_pin3_R1_pin10",
+      "11": "Q2_pin2_R1_pin11",
+      "12": "Q2_pin6_HCT2",
+      "13": "Q2_pin7_HCT3",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 22,
+    "kind": "chip",
+    "ref": "P2",
+    "type": "74161",
+    "pins": {
+      "1": "J16_pin8_1ESGC",
+      "2": "D16_pin11_6TQLC",
+      "3": "P1_pin3_HRS0",
+      "4": "P1_pin2_HRS1",
+      "5": "P1_pin6_HRS2",
+      "6": "P1_pin7_HRS3",
+      "7": "N1_pin9_HRPM",
+      "9": "A1_pin4_5HRCC",
+      "10": "G14_pin8_TLGY",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "P2_pin15_A1_pin3"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 23,
+    "kind": "chip",
+    "ref": "A2",
+    "type": "74161",
+    "pins": {
+      "1": "H999",
+      "2": "D16_pin11_6TQLC",
+      "3": "R1_pin5_A2_pin3",
+      "4": "R1_pin6_A2_pin4",
+      "5": "H999",
+      "6": "H999",
+      "7": "A1_pin6_5HLCC",
+      "9": "A1_pin4_5HRCC",
+      "10": "H999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "A2_pin15_A1_pin5"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 13,
+    "line": 24,
+    "kind": "chip",
+    "ref": "A3",
+    "type": "74161",
+    "pins": {
+      "1": "H999",
+      "2": "A9_pin6_6PQ07",
+      "3": "R1_pin7_A3_pin3",
+      "4": "R1_pin9_A3_pin4",
+      "5": "H999",
+      "6": "H999",
+      "7": "A1_pin8_5HECC",
+      "9": "A1_pin4_5HRCC",
+      "10": "H999",
+      "11": "-",
+      "12": "-",
+      "13": "-",
+      "14": "-",
+      "15": "A3_pin15_A1_pin9"
+    },
+    "outputs": [
+      14,
+      13,
+      12,
+      11,
+      15
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 4,
+    "kind": "gate",
+    "ref": "P6.3",
+    "type": "7432",
+    "pins": {
+      "3": "P6_pin3_NEGA",
+      "1": "D15_pin1_5TCBG",
+      "2": "D1_pin8_HGT3"
+    },
+    "outputs": [
+      3
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 4,
+    "kind": "gate",
+    "ref": "P6.6",
+    "type": "7432",
+    "pins": {
+      "6": "P6_pin6_NEGB",
+      "4": "A1_pin8_5HECC",
+      "5": "D15_pin1_5TCBG"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 4,
+    "kind": "gate",
+    "ref": "P6.8",
+    "type": "7432",
+    "pins": {
+      "8": "P6_pin8_NLGA",
+      "9": "D1_pin11_P6_pin9",
+      "10": "D14_pin6_5TLC9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 4,
+    "kind": "gate",
+    "ref": "P6.11",
+    "type": "7432",
+    "pins": {
+      "11": "P6_pin11_NLGB",
+      "12": "D14_pin6_5TLC9",
+      "13": "A1_pin6_5HLCC"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.2",
+    "type": "7404",
+    "pins": {
+      "2": "N7_pin2_M7_pin2",
+      "1": "NTA0"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.4",
+    "type": "7404",
+    "pins": {
+      "4": "N7_pin4_M7_pin12",
+      "3": "NTSR"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.6",
+    "type": "7404",
+    "pins": {
+      "6": "N7_pin6_M4_pin5",
+      "5": "P6_pin8_NLGA"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 5,
+    "kind": "gate",
+    "ref": "N7.8",
+    "type": "7404",
+    "pins": {
+      "8": "N7_pin8_P5_pin5",
+      "9": "P6_pin3_NEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 6,
+    "kind": "cell",
+    "ref": "N6.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "A9_pin8_2PQ07",
+      "2": "P6_pin6_NEGB",
+      "3": "P6_pin6_NEGB",
+      "4": "N999",
+      "5": "N6_pin5_P5_pin9",
+      "6": "N6_pin6_P5_pin1",
+      "15": "N999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 7,
+    "kind": "gate",
+    "ref": "P5.6",
+    "type": "7420",
+    "pins": {
+      "6": "P5_pin6_P4_pin4",
+      "1": "N6_pin6_P5_pin1",
+      "2": "A9_pin3_1PQ07",
+      "4": "P6_pin6_NEGB",
+      "5": "N7_pin8_P5_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 7,
+    "kind": "gate",
+    "ref": "P5.8",
+    "type": "7420",
+    "pins": {
+      "8": "P5_pin8_P4_pin5",
+      "9": "N6_pin5_P5_pin9",
+      "10": "A9_pin3_1PQ07",
+      "12": "P6_pin6_NEGB",
+      "13": "P6_pin3_NEGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 8,
+    "kind": "chip",
+    "ref": "P4",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "-",
+      "3": "-",
+      "4": "P5_pin6_P4_pin4",
+      "5": "P5_pin8_P4_pin5",
+      "6": "-",
+      "7": "P4_pin7_M3_pin13",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "P4_pin12_P3_pin5",
+      "13": "P4_pin13_P3_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 9,
+    "kind": "chip",
+    "ref": "P3",
+    "type": "74192",
+    "pins": {
+      "1": "N999",
+      "2": "P3_pin2_N3_pin6",
+      "3": "P3_pin3_M3_pin12",
+      "4": "P4_pin13_P3_pin4",
+      "5": "P4_pin12_P3_pin5",
+      "6": "P3_pin6_N3_pin5",
+      "7": "P3_pin7_M3_pin10",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 13,
+    "kind": "gate",
+    "ref": "N3.4",
+    "type": "7402",
+    "pins": {
+      "4": "N3_pin4_M3_pin9",
+      "5": "P3_pin6_N3_pin5",
+      "6": "P3_pin2_N3_pin6"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 14,
+    "kind": "gate",
+    "ref": "M3.8",
+    "type": "7420",
+    "pins": {
+      "8": "M3_pin8_5NECG",
+      "9": "N3_pin4_M3_pin9",
+      "10": "P3_pin7_M3_pin10",
+      "12": "P3_pin3_M3_pin12",
+      "13": "P4_pin7_M3_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 15,
+    "kind": "gate",
+    "ref": "N9.12",
+    "type": "7404",
+    "pins": {
+      "12": "N9_pin12_1NECG",
+      "13": "M3_pin8_5NECG"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 16,
+    "kind": "gate",
+    "ref": "M4.6",
+    "type": "7420",
+    "pins": {
+      "6": "M4_pin6_L3_pin4",
+      "1": "E16_pin6_TGLC",
+      "2": "A9_pin3_1PQ07",
+      "4": "P6_pin11_NLGB",
+      "5": "N7_pin6_M4_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 16,
+    "kind": "gate",
+    "ref": "M4.8",
+    "type": "7420",
+    "pins": {
+      "8": "M4_pin8_L3_pin5",
+      "9": "P6_pin11_NLGB",
+      "10": "E16_pin6_TGLC",
+      "12": "A9_pin3_1PQ07",
+      "13": "P6_pin8_NLGA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 17,
+    "kind": "chip",
+    "ref": "L3",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "L3_pin2_F7_pin6",
+      "3": "L3_pin3_F7_pin10",
+      "4": "M4_pin6_L3_pin4",
+      "5": "M4_pin8_L3_pin5",
+      "6": "L3_pin6_E7_pin10",
+      "7": "L3_pin7_E7_pin6",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "L3_pin12_K3_pin5",
+      "13": "L3_pin13_K3_pin4",
+      "14": "0",
+      "15": "0"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 18,
+    "kind": "chip",
+    "ref": "K3",
+    "type": "74193",
+    "pins": {
+      "1": "0",
+      "2": "K3_pin2_K5_pin12",
+      "3": "K3_pin3_K5_pin13",
+      "4": "L3_pin13_K3_pin4",
+      "5": "L3_pin12_K3_pin5",
+      "6": "K3_pin6_K5_pin10",
+      "7": "K3_pin7_K5_pin9",
+      "9": "0",
+      "10": "0",
+      "11": "J16_pin10_5ECDG",
+      "12": "-",
+      "13": "-",
+      "14": "0",
+      "15": "N999"
+    },
+    "outputs": [
+      3,
+      2,
+      6,
+      7,
+      12,
+      13
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 19,
+    "kind": "gate",
+    "ref": "K5.8",
+    "type": "7421",
+    "pins": {
+      "8": "K5_pin8_G7_pin10",
+      "9": "K3_pin7_K5_pin9",
+      "10": "K3_pin6_K5_pin10",
+      "12": "K3_pin2_K5_pin12",
+      "13": "K3_pin3_K5_pin13"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 21,
+    "kind": "gate",
+    "ref": "P9.10",
+    "type": "7404",
+    "pins": {
+      "10": "P9_pin10_5NTTA",
+      "11": "NTTA"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 21,
+    "kind": "gate",
+    "ref": "P9.12",
+    "type": "7404",
+    "pins": {
+      "12": "P9_pin12_5NTTB",
+      "13": "NTTB"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 22,
+    "kind": "gate",
+    "ref": "P8.8",
+    "type": "7432",
+    "pins": {
+      "8": "P8_pin8_P7_pin9",
+      "9": "P7_pin8_NTNR",
+      "10": "P9_pin12_5NTTB"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 22,
+    "kind": "gate",
+    "ref": "P8.11",
+    "type": "7432",
+    "pins": {
+      "11": "P8_pin11_P7_pin13",
+      "12": "P9_pin10_5NTTA",
+      "13": "P7_pin11_NTNL"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 23,
+    "kind": "gate",
+    "ref": "P7.8",
+    "type": "7408",
+    "pins": {
+      "8": "P7_pin8_NTNR",
+      "9": "P8_pin8_P7_pin9",
+      "10": "NTTA"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 23,
+    "kind": "gate",
+    "ref": "P7.11",
+    "type": "7408",
+    "pins": {
+      "11": "P7_pin11_NTNL",
+      "12": "NTTB",
+      "13": "P8_pin11_P7_pin13"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 24,
+    "kind": "gate",
+    "ref": "P10.12",
+    "type": "7404",
+    "pins": {
+      "12": "P10_pin12_M9_pin2",
+      "13": "NTA1"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 25,
+    "kind": "cell",
+    "ref": "M9.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin3_2ECK2",
+      "2": "P10_pin12_M9_pin2",
+      "3": "NTA1",
+      "4": "N999",
+      "5": "M9_pin5_N1_pin2",
+      "6": "-",
+      "15": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 26,
+    "kind": "cell",
+    "ref": "M7.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "H15_pin3_2ECK2",
+      "2": "N7_pin2_M7_pin2",
+      "3": "NTA0",
+      "4": "N999",
+      "5": "M7_pin5_N1_pin3",
+      "6": "-",
+      "15": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 14,
+    "line": 26,
+    "kind": "cell",
+    "ref": "M7.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "-",
+      "9": "M7_pin9_1NTSR",
+      "10": "N999",
+      "11": "NTSR",
+      "12": "N7_pin4_M7_pin12",
+      "13": "H15_pin8_1ECK0",
+      "14": "J16_pin8_1ESGC"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 11,
+    "kind": "cell",
+    "ref": "U5.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F14_pin3_2TQLC",
+      "2": "XCR1",
+      "3": "X999",
+      "4": "X999",
+      "5": "U5_pin5_U6_pin3",
+      "6": "U5_pin6_XC11",
+      "15": "X999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 11,
+    "kind": "cell",
+    "ref": "U5.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "U5_pin7_U6_pin1",
+      "9": "U5_pin9_U6_pin13",
+      "10": "X999",
+      "11": "U5_pin6_XC11",
+      "12": "U5_pin6_XC11",
+      "13": "F14_pin3_2TQLC",
+      "14": "X999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.2",
+    "type": "7407",
+    "pins": {
+      "2": "U6_pin2_XC1B",
+      "1": "U5_pin7_U6_pin1"
+    },
+    "outputs": [
+      2
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.4",
+    "type": "7407",
+    "pins": {
+      "4": "U6_pin4_6XC11",
+      "3": "U5_pin5_U6_pin3"
+    },
+    "outputs": [
+      4
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.6",
+    "type": "7407",
+    "pins": {
+      "6": "U6_pin6_XC2B",
+      "5": "U7_pin7_U6_pin5"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.8",
+    "type": "7407",
+    "pins": {
+      "8": "U6_pin8_XC2A",
+      "9": "U7_pin9_U6_pin9"
+    },
+    "outputs": [
+      8
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.10",
+    "type": "7407",
+    "pins": {
+      "10": "U6_pin10_6XC21",
+      "11": "U7_pin5_U6_pin11"
+    },
+    "outputs": [
+      10
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 12,
+    "kind": "gate",
+    "ref": "U6.12",
+    "type": "7407",
+    "pins": {
+      "12": "U6_pin12_XC1A",
+      "13": "U5_pin9_U6_pin13"
+    },
+    "outputs": [
+      12
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 13,
+    "kind": "cell",
+    "ref": "U7.a",
+    "type": "JK112A",
+    "pins": {
+      "1": "F14_pin3_2TQLC",
+      "2": "XCR2",
+      "3": "X999",
+      "4": "X999",
+      "5": "U7_pin5_U6_pin11",
+      "6": "U7_pin6_XC21",
+      "15": "X999"
+    },
+    "outputs": [
+      5,
+      6
+    ]
+  },
+  {
+    "sheet": 15,
+    "line": 13,
+    "kind": "cell",
+    "ref": "U7.b",
+    "type": "JK112B",
+    "pins": {
+      "7": "U7_pin7_U6_pin5",
+      "9": "U7_pin9_U6_pin9",
+      "10": "X999",
+      "11": "U7_pin6_XC21",
+      "12": "U7_pin6_XC21",
+      "13": "F14_pin3_2TQLC",
+      "14": "X999"
+    },
+    "outputs": [
+      9,
+      7
+    ]
+  },
+  {
+    "sheet": 16,
+    "line": 5,
+    "kind": "gate",
+    "ref": "13R.11",
+    "type": "7408",
+    "pins": {
+      "11": "13R_pin11_F16_pin11",
+      "12": "E9_pin3_1PNVD",
+      "13": "F15_pin3_5TCBL"
+    },
+    "outputs": [
+      11
+    ]
+  },
+  {
+    "sheet": 16,
+    "line": 6,
+    "kind": "gate",
+    "ref": "4P.6",
+    "type": "7432",
+    "pins": {
+      "6": "4P_pin6_G1_pin1",
+      "4": "H2_pin6_HTHD",
+      "5": "H2_pin3_GTHD"
+    },
+    "outputs": [
+      6
+    ]
+  },
+  {
+    "sheet": 16,
+    "line": 8,
+    "kind": "gate",
+    "ref": "4S.6",
+    "type": "7400",
+    "pins": {
+      "6": "4S_pin6_LADO",
+      "4": "G13_pin13_5LNCK",
+      "5": "G13_pin10_5LMCK"
+    },
+    "outputs": [
+      6
+    ]
+  }
+]

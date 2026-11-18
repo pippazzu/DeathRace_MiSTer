@@ -1,0 +1,92 @@
+# Player car 1, second sheet. PDF page 14, block M.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip M6 7432
+chip N7 7404
+chip N6 74112
+chip M5 7420
+chip N5 74193
+chip N4 74192
+chip N3 7402
+chip M3 7420
+chip N8 7404
+chip L4 7420
+chip K4 74193
+chip L5 74193
+chip K5 7421
+# MTTA, MTTB, MTA1, MTA0, MTSR are N9 outputs with 6.8 capacitors.
+chip P9 7404
+chip P8 7432
+chip P7 7408
+chip M9 74112
+chip M8 74112
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net MEGA M6.3 N7.11 M5.13
+net 5TCBG M6.1 M6.5
+net GGT3 M6.2
+net MEGB M6.6 N6.12 N6.11 M5.4 M5.12
+net 5GECC M6.4
+net 5MEGA N7.10 M5.5
+net 2PQ07 N6.13
+net M999 N6.10 N6.14 N4.15 N4.1 N4.10 L5.15 M9.10 M8.4 M8.10 BOARD
+net MEC1 N6.9 M5.9
+net 5MEC1 N6.7 M5.1
+net 6MQED M5.6 N5.4
+net 1PQ07 M5.2 M5.10 L4.2 L4.10
+net 6MQEU M5.8 N5.5
+net 5ECDG N5.11 N4.11 K4.11 L5.11
+net GND N5.14 N5.15 N5.1 N5.10 N5.9 N4.14 N4.9 K4.14 K4.15 K4.1 K4.10 K4.9 L5.14 L5.1 L5.10 L5.9
+net NC N5.3 N5.2 N5.6 N4.13 N4.12 L5.13 L5.12 M9.7 M8.6 M8.7
+net MEC5 N5.7 M3.1
+net 5MECD N5.13 N4.4
+net 5MECU N5.12 N4.5
+net MEC6 N4.3 M3.2
+net MEC7 N4.2 N3.3
+net MEC8 N4.6 N3.2
+net MEC9 N4.7 M3.4
+net MECE N3.1 M3.5
+net 5MECG M3.6 N8.5
+net 1MECG N8.6
+net MLGA M6.8 N7.13 L4.13
+net GGT2 M6.9
+net 5TLC9 M6.10 M6.12
+net MLGB M6.11 L4.4 L4.12
+net 5GLCC M6.13
+net 5MLGA N7.12 L4.5
+net 6MQLD L4.6 K4.4
+net TGLC L4.1 L4.9
+net 6MQLU L4.8 K4.5
+net MLC1 K4.3
+net MLC2 K4.2
+net MLC3 K4.6
+net MLC4 K4.7
+net 5MLCD K4.13 L5.4
+net 5MLCU K4.12 L5.5
+net MLC5 L5.3 K5.1
+net MLC6 L5.2 K5.2
+net MLC7 L5.6 K5.4
+net MLC8 L5.7 K5.5
+net MLCG K5.6
+net 5MTTA P9.2 P8.5
+net MTTA P9.1 P7.1
+net 5MTTB P9.4 P8.1
+net MTTB P9.3 P7.5
+net MTCR P8.3 P7.2
+net MTNR P8.2 P7.3
+net MTCC P8.6 P7.4
+net MTNL P8.4 P7.6
+net 5MTA1 N8.8 M9.12
+net MTA1 N8.9 M9.11 BOARD
+net 5MTA0 N8.10 M8.2
+net MTA0 N8.11 M8.3 BOARD
+net 5MTSR N8.12 M8.12
+net MTSR N8.13 M8.11 BOARD
+net 2ECK2 M9.13 M8.1
+net 1MTA1 M9.9
+net 1ESGC M9.14 M8.15 M8.14
+net 1MTA0 M8.5
+net 1ECK0 M8.13
+net 1MTSR M8.9

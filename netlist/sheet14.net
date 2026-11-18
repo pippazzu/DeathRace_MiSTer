@@ -1,0 +1,96 @@
+# Player car 2, second sheet. PDF page 16, block N.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip P6 7432
+chip N7 7404
+chip N6 74112
+chip P5 7420
+chip P4 74193
+chip P3 74192   # preset 2: pin 1 alone on N999; 15/10/9 on the bus fed by the right-hand ground (fixed 2026-11-15, DR-1A 6A agrees). N4 on sheet 12 is 7
+# Fixed 2026-11-05. Source sheet 14: N3.5 from P3.6 (NEC8), N3.6 from P3.2 (NEC7);
+# M3.10 NEC9, M3.12 NEC6, M3.13 from P4.7 (NEC5). Death Race 7A/7B agree, and this
+# now mirrors sheet 12. The old decode required BCD 13, which P3 never reaches.
+chip N3 7402
+chip M3 7420
+chip N9 7404
+chip M4 7420
+chip L3 74193
+chip K3 74193
+chip K5 7421
+# NTTA, NTTB, NTA1, NTA0, NTSR are P10 outputs with 6.8 capacitors.
+chip P9 7404
+chip P8 7432
+chip P7 7408
+chip P10 7404
+chip M9 74112
+chip M7 74112
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net NEGA P6.3 N7.9 P5.13
+net 5TCBG P6.1 P6.5
+net HGT3 P6.2
+net NEGB P6.6 N6.2 N6.3 P5.4 P5.12
+net 5HECC P6.4
+net 5NEGA N7.8 P5.5
+net 2PQ07 N6.1
+net N999 N6.4 N6.15 P3.1 K3.15 M9.4 M7.4 M7.10 BOARD
+net NEC1 N6.5 P5.9
+net 5NEC1 N6.6 P5.1
+net 6NQED P5.6 P4.4
+net 1PQ07 P5.2 P5.10 M4.2 M4.12
+net 6NQEU P5.8 P4.5
+net 5ECDG P4.11 P3.11 L3.11 K3.11
+net GND P4.14 P4.15 P4.1 P4.10 P4.9 P3.14 P3.15 P3.10 P3.9 L3.14 L3.15 L3.1 L3.10 L3.9 K3.14 K3.1 K3.10 K3.9
+net NC P4.3 P4.2 P4.6 P3.13 P3.12 K3.13 K3.12 M9.6 M7.6 M7.7
+net NEC5 P4.7 M3.13
+net 5NECD P4.13 P3.4
+net 5NECU P4.12 P3.5
+net NEC6 P3.3 M3.12
+net NEC7 P3.2 N3.6
+net NEC8 P3.6 N3.5
+net NEC9 P3.7 M3.10
+net NECE N3.4 M3.9
+net 5NECG M3.8 N9.13
+net 1NECG N9.12
+net NLGA P6.8 N7.5 M4.13
+net HGT2 P6.9
+net 5TLC9 P6.10 P6.12
+net NLGB P6.11 M4.4 M4.9
+net 5HLCC P6.13
+net 5NLGA N7.6 M4.5
+net 6NQLD M4.6 L3.4
+net TGLC M4.1 M4.10
+net 6NQLU M4.8 L3.5
+net NLC1 L3.3
+net NLC2 L3.2
+net NLC3 L3.6
+net NLC4 L3.7
+net 5NLCD L3.13 K3.4
+net 5NLCU L3.12 K3.5
+net NLC5 K3.3 K5.13
+net NLC6 K3.2 K5.12
+net NLC7 K3.6 K5.10
+net NLC8 K3.7 K5.9
+net NLCG K5.8
+net 5NTTA P9.10 P8.12
+net NTTA P9.11 P7.10
+net 5NTTB P9.12 P8.10
+net NTTB P9.13 P7.12
+net NTCR P8.8 P7.9
+net NTNR P8.9 P7.8
+net NTCL P8.11 P7.13
+net NTNL P8.13 P7.11
+net 5NTA1 P10.12 M9.2
+net NTA1 P10.13 M9.3 BOARD
+net 5NTA0 N7.2 M7.2
+net NTA0 N7.1 M7.3 BOARD
+net 5NTSR N7.4 M7.12
+net NTSR N7.3 M7.11 BOARD
+net 2ECK2 M9.1 M7.1
+net 1NTA1 M9.5
+net 1ESGC M9.15 M7.15 M7.14
+net 1NTA0 M7.5
+net 1ECK0 M7.13
+net 1NTSR M7.9

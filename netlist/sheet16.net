@@ -1,0 +1,21 @@
+# Gates that exist only on Death Race DR-1A. Their outputs are selected through
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# netlist/deathrace.overrides, so they are idle on Demolition Derby.
+chip 13R 7408
+chip 4P 7432
+# Sheet L, hand added: 4S LADO starts the scream of sheet W when a car scores a hit.
+chip 4S 7400
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net TNVD14 13R.11
+net 5TCBL 13R.13
+net 1PNVD 13R.12
+net GTHX 4P.6
+net GTHD 4P.5
+net HTHD 4P.4
+net LADO 4S.6 BOARD
+net 5LNCK 4S.4
+net 5LMCK 4S.5

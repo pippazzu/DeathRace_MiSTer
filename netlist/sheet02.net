@@ -1,0 +1,74 @@
+# Game control. PDF page 4, printed page 2, block E.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# ECDA, ESGA, E999, EPOG are analog boundary nodes (RC-loaded gate outputs).
+chip G13 7402
+chip K16 74112
+chip K15 74112
+chip L16 7408
+chip J16 7404
+chip L15 74112
+chip J15 74112
+chip H16 74161
+# R5 pins 4/5 leads overlap in this drawing; output stubs 13/11/14 are T-bar
+# terminated. Exidy Death Race DR-1A sheet E (3R) draws power-good clearly
+# crossing ground to pin 5 and SECKS from pin 12; adopted here.
+chip R5 74161
+chip H15 7437
+chip L14 74112
+# K14 7407 open-collector outputs go to the sound board (sheet 17 amp inputs);
+# K14.4 EPOG is the power-on RC buffer, modelled by the EPOG boundary input.
+chip K14 7407
+chip M16 7404
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net ECDR G13.1 K16.2
+net ECDA G13.2 K16.3 BOARD
+net 5ECDD G13.3 K15.6 L16.13
+net 2TQ07 K16.1 J15.1
+net E999 K16.4 K16.10 K15.4 K15.10 L15.4 J15.4 J15.10 H16.1 H16.9 R5.1 R5.5 L14.4 L14.10 BOARD
+net ECDB K16.5 K16.11
+net 5ECDB K16.6 K16.12
+net EPOR K16.15 K16.14 K15.15 K15.14 L14.9 J16.13
+net 1ECK0 K16.13 K15.1 K15.13 L15.1 J15.13 H15.8 L14.1 L14.13
+net ECDC K16.9 K15.3 L16.12
+net 5ECDC K16.7 K15.2
+net NC K15.5 H16.11 R5.11 R5.13 R5.14 R5.15 L14.7
+net ECDG L16.11 J16.11 L16.10 K15.11 L16.4 J15.2
+net 5ECDG J16.10
+net ECDE L16.8 L16.1
+net 5ESGC L16.9 J15.7 J16.9
+net STGO K15.12
+net EGME K15.9 L16.2 L15.15 J15.15 J15.14 K14.1 BOARD
+net 5EGME K15.7 M16.11
+net E2PS L16.3 L15.3
+net EP2R L16.6 L15.2
+net ESGC L16.5 J15.9 BOARD
+net E2PL L15.5 K14.13 BOARD
+net 5E2PL L15.6
+net ESGA J15.3 BOARD
+net ESGB J15.5 J15.11
+net 5ESGB J15.6 J15.12
+net 1ESGC J16.8
+net 6TQLC H16.2 R5.2
+net TLC0 H16.7
+net TLGZ H16.10
+net 5ECK2 H16.12 H15.12 H15.13
+net 5ECK1 H16.13
+net 5ECK0 H16.14 H15.9 H15.10
+net ECKC H16.15 R5.7 R5.10
+net ACT3 R5.3
+net GND R5.4 R5.6 L14.2
+net 5ECKS R5.9 R5.12
+net 1ECK2 H15.11 H15.4 H15.5
+net 6ECK2 H15.6 H15.1 H15.2
+net 2ECK2 H15.3
+net EPOG L14.3 L14.15 L14.14 BOARD
+net EPOS L14.5 L14.11
+net 5EPOS L14.6 L14.12
+net 6EPOR J16.12
+net EGMC K14.2
+net EHMC K14.12
+net 4EGME M16.10

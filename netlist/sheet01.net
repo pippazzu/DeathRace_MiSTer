@@ -1,0 +1,122 @@
+# Clock and video output. PDF page 3, printed page 1, block T.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# NC marks a drawn output stub. Unlisted inputs remain unknown.
+# Clock input 1TQ14 replaces B16 crystal oscillator at its pin 6.
+# T999 and T998 are external power-up/analog boundary signals, not forced resets.
+chip B16 7404
+chip G15 7404
+chip C16 74112
+chip E14 7400
+chip D16 7437
+chip A15 74161
+chip B15 74161
+prom C15 82S123 31
+chip E15 7411
+chip D15 7402
+chip F15 7432
+chip E16 7408
+chip F14 7437
+chip A14 74161
+chip B14 74161
+chip D14 74112
+prom C14 82S123 32
+chip G14 7421
+chip H14 7421
+chip J14 7437
+# Fixed 2026-11-05: pin 9 reads TLCB on this drawing and Death Race 8B.
+chip A13 7408
+chip F16 74174
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net 5TECB B16.10 B15.9
+net TECB B16.11 B15.15 C16.12 C16.11 E15.5
+net 5TEC3 B16.12
+net TEC3 B16.13 A15.12 BOARD
+net 5TLCB G15.2 B14.9
+net TLCB G15.1 B14.15 D14.2 D14.3 A13.9
+net 1THVA G15.6
+net 5THVA G15.5 D15.10
+net 5TNVD G15.8 BOARD
+net TNVD G15.9 F16.10
+net 6TCSC G15.10
+net 1TCSC G15.11 F16.12
+net 1TBVD G15.12 BOARD
+net 5TBVD G15.13 F16.15
+net 1TQ14 C16.1 E14.5 BOARD
+net T999 C16.2 C16.3 C16.4 C16.15 A15.1 A15.7 A15.9 A15.10 B15.1 C16.10 C16.14 F16.1 BOARD
+net NC C16.5 C14.1 C14.2
+net C16_6 C16.6 E14.4
+net 5TQ07 E14.6 D16.1 D16.2
+net 1TQ07 D16.3 D16.4 D16.5 D16.12 F14.4 F14.10 F14.13
+net 6TQ07 D16.6 D16.9 D16.10 A15.2 B15.2 F16.9 BOARD
+net 2TQ07 D16.8 C16.13
+net TEC4 A15.11 BOARD
+net TEC2 A15.13 BOARD
+net TEC1 A15.14 BOARD
+net TECA A15.15 B15.7 B15.10 E15.10 E16.4 G14.1 G14.13 H14.1
+net GND B15.3 B15.6 C15.15 B14.3 C14.15
+net 5TEC9 B15.4 B15.5 C16.7 A13.10
+net TEC8 B15.11 C15.13 BOARD
+net TEC7 B15.12 C15.12 BOARD
+net TEC6 B15.13 C15.11 BOARD
+net TEC5 B15.14 C15.10 BOARD
+net TEC9 C16.9 C15.14 D15.9 BOARD
+net 5TVRL C15.1
+net TCRG C15.2
+net TSS0 C15.3
+net TSS1 C15.4
+net TELG C15.5 E16.5 G14.2 G14.12 H14.2
+net THSC C15.6 F15.4 BOARD
+net TSLG C15.7 E15.9
+net THBL C15.9 D15.2 BOARD
+net TDLN E15.6 F16.3
+net TVLG E15.3 E15.11 C14.7
+net TLC2 E15.4 A14.13 BOARD
+net TSLN E15.8 F16.6
+net 5TCBG D15.1 F15.2
+net TLC9 D15.3 D14.5 D14.13 C14.14 BOARD
+net 5TCBL F15.3
+net 1TSLN F15.1 F15.9 F16.7
+net TVSC E16.3 F15.5 BOARD
+net TVGY E16.1 C14.4 G14.9
+net TVSG E16.2 D15.4
+net TCSC F15.6 F16.13
+net TGLC E16.6 D16.13
+net 6TQLC D16.11 F14.1 F14.2 A14.2 B14.2
+net 2TQLC F14.3 D14.1
+net T998 A14.1 A14.7 A14.9 A14.10 B14.1 D14.4 D14.15 D14.12 D14.11 D14.10 D14.14 BOARD
+net TLC4 A14.11 D15.5 BOARD
+net TLC3 A14.12 D15.6 BOARD
+net TLC1 A14.14 BOARD
+net TLCA A14.15 B14.7 B14.10 E16.9 G14.4 G14.10 H14.4
+net 5TLC9 B14.4 B14.5 B14.6 D14.6
+net TLC8 B14.11 C14.13 BOARD
+net TLC7 B14.12 C14.12 BOARD
+net TLC6 B14.13 C14.11 BOARD
+net TLC5 B14.14 C14.10 BOARD
+net TLC0 D14.9 E14.1
+net 5TLC0 D14.7
+net TVGZ C14.3 H14.5
+net TVGX C14.5 G14.5
+net TVGA C14.6 D15.8
+net THLG C14.9 E16.10
+net 5TFGY E14.3
+net TLGY E14.2 G14.8 F14.9
+net THLM E16.8 F15.10
+net TLNA F15.8 D15.11
+net 5TLHB D15.13
+net 2TDLN D15.12 F16.5
+net TLGX G14.6 F14.5
+net TLGZ H14.6 F14.12
+net 6TQGX F14.6 J14.1 J14.2
+net 6TQGY F14.8
+net 6TQGZ F14.11 J14.4 J14.5
+net 2TQGX J14.3
+net 2TQGZ J14.6
+net TDAM A13.8
+net 1TDLN F16.4 F16.2
+net 1PNVD F16.11
+net 5PV1B F16.14

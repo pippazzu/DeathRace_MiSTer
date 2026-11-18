@@ -1,0 +1,488 @@
+# Sheet connectivity
+
+Generated from the pin trace. Coordinates and exceptions are in the trace evidence bundle.
+
+- Sheet 1, B16.10, 7404: 10=B16_pin10_B15_pin9, 11=B15_pin15_TECB
+- Sheet 1, B16.12, 7404: 12=B16_pin12_M14_pin2, 13=A15_pin12_TEC3
+- Sheet 1, G15.2, 7404: 2=G15_pin2_B14_pin9, 1=B14_pin15_TLCB
+- Sheet 1, G15.6, 7404: 6=G15_pin6_1THVA, 5=D15_pin10_5THVA
+- Sheet 1, G15.8, 7404: 8=G15_pin8_5TNVD, 9=F16_pin10_G15_pin9
+- Sheet 1, G15.10, 7404: 10=G15_pin10_NC, 11=F16_pin12_G15_pin11
+- Sheet 1, G15.12, 7404: 12=G15_pin12_1TBVD, 13=F16_pin15_G15_pin13
+- Sheet 1, C16.a, JK112A: 1=1TQ14, 2=T999, 3=T999, 4=T999, 5=-, 6=C16_pin6_E14_pin4, 15=T999
+- Sheet 1, C16.b, JK112B: 7=C16_pin7_5TEC9, 9=C16_pin9_TEC9, 10=T999, 11=B15_pin15_TECB, 12=B15_pin15_TECB, 13=D16_pin8_2TQ07, 14=T999
+- Sheet 1, E14.3, 7400: 3=E14_pin3_5TFGY, 1=D14_pin9_TLC0, 2=G14_pin8_TLGY
+- Sheet 1, E14.6, 7400: 6=E14_pin6_5TQ07, 4=C16_pin6_E14_pin4, 5=1TQ14
+- Sheet 1, D16.3, 7437: 3=D16_pin3_1TQ07, 1=E14_pin6_5TQ07, 2=E14_pin6_5TQ07
+- Sheet 1, D16.6, 7437: 6=D16_pin6_6TQ07, 4=D16_pin3_1TQ07, 5=D16_pin3_1TQ07
+- Sheet 1, D16.8, 7437: 8=D16_pin8_2TQ07, 9=D16_pin6_6TQ07, 10=D16_pin6_6TQ07
+- Sheet 1, D16.11, 7437: 11=D16_pin11_6TQLC, 12=D16_pin3_1TQ07, 13=E16_pin6_TGLC
+- Sheet 1, A15, 74161: 1=T999, 2=D16_pin6_6TQ07, 7=T999, 9=T999, 10=T999, 11=A15_pin11_TEC4, 12=A15_pin12_TEC3, 13=A15_pin13_TEC2, 14=A15_pin14_TEC1, 15=A15_pin15_TECA
+- Sheet 1, B15, 74161: 1=T999, 2=D16_pin6_6TQ07, 3=0, 4=C16_pin7_5TEC9, 5=C16_pin7_5TEC9, 6=0, 7=A15_pin15_TECA, 9=B16_pin10_B15_pin9, 10=A15_pin15_TECA, 11=B15_pin11_TEC8, 12=B15_pin12_TEC7, 13=B15_pin13_TEC6, 14=B15_pin14_TEC5, 15=B15_pin15_TECB
+- Sheet 1, C15, 82S123: 1=C15_pin1_5TVRL, 2=C15_pin2_TCRG, 3=C15_pin3_TSS0, 4=C15_pin4_TSS1, 5=C15_pin5_TELG, 6=C15_pin6_THSC, 7=C15_pin7_E15_pin9, 9=C15_pin9_THBL, 10=B15_pin14_TEC5, 11=B15_pin13_TEC6, 12=B15_pin12_TEC7, 13=B15_pin11_TEC8, 14=C16_pin9_TEC9, 15=0
+- Sheet 1, E15.6, 7411: 6=E15_pin6_F16_pin3, 3=C14_pin7_TVLG, 4=A14_pin13_TLC2, 5=B15_pin15_TECB
+- Sheet 1, E15.8, 7411: 8=E15_pin8_F16_pin6, 9=C15_pin7_E15_pin9, 10=A15_pin15_TECA, 11=C14_pin7_TVLG
+- Sheet 1, D15.1, 7402: 1=D15_pin1_5TCBG, 2=C15_pin9_THBL, 3=D14_pin5_TLC9
+- Sheet 1, D15.4, 7402: 4=D15_pin4_E16_pin2, 5=A14_pin11_TLC4, 6=A14_pin12_TLC3
+- Sheet 1, D15.10, 7402: 10=D15_pin10_5THVA, 8=C14_pin6_TVGA, 9=C16_pin9_TEC9
+- Sheet 1, D15.13, 7402: 13=D15_pin13_5TLHB, 11=F15_pin8_TLNA, 12=F16_pin5_D15_pin12
+- Sheet 1, F15.3, 7432: 3=F15_pin3_5TCBL, 1=F16_pin7_1TSLN, 2=D15_pin1_5TCBG
+- Sheet 1, F15.6, 7432: 6=F15_pin6_F16_pin13, 4=C15_pin6_THSC, 5=E16_pin3_TVSC
+- Sheet 1, F15.8, 7432: 8=F15_pin8_TLNA, 9=F16_pin7_1TSLN, 10=E16_pin8_F15_pin10
+- Sheet 1, E16.3, 7408: 3=E16_pin3_TVSC, 1=C14_pin4_TVGY, 2=D15_pin4_E16_pin2
+- Sheet 1, E16.6, 7408: 6=E16_pin6_TGLC, 4=A15_pin15_TECA, 5=C15_pin5_TELG
+- Sheet 1, E16.8, 7408: 8=E16_pin8_F15_pin10, 9=A14_pin15_TLCA, 10=C14_pin9_E16_pin10
+- Sheet 1, F14.3, 7437: 3=F14_pin3_2TQLC, 1=D16_pin11_6TQLC, 2=D16_pin11_6TQLC
+- Sheet 1, F14.6, 7437: 6=F14_pin6_6TQGX, 4=D16_pin3_1TQ07, 5=G14_pin6_TLGX
+- Sheet 1, F14.8, 7437: 8=F14_pin8_NC, 9=G14_pin8_TLGY, 10=D16_pin3_1TQ07
+- Sheet 1, F14.11, 7437: 11=F14_pin11_6TQGZ, 12=H14_pin6_TLGZ, 13=D16_pin3_1TQ07
+- Sheet 1, A14, 74161: 1=T998, 2=D16_pin11_6TQLC, 7=T998, 9=T998, 10=T998, 11=A14_pin11_TLC4, 12=A14_pin12_TLC3, 13=A14_pin13_TLC2, 14=A14_pin14_TLC1, 15=A14_pin15_TLCA
+- Sheet 1, B14, 74161: 1=T998, 2=D16_pin11_6TQLC, 3=0, 4=D14_pin6_5TLC9, 5=D14_pin6_5TLC9, 6=D14_pin6_5TLC9, 7=A14_pin15_TLCA, 9=G15_pin2_B14_pin9, 10=A14_pin15_TLCA, 11=B14_pin11_TLC8, 12=B14_pin12_TLC7, 13=B14_pin13_TLC6, 14=B14_pin14_TLC5, 15=B14_pin15_TLCB
+- Sheet 1, D14.a, JK112A: 1=F14_pin3_2TQLC, 2=B14_pin15_TLCB, 3=B14_pin15_TLCB, 4=T998, 5=D14_pin5_TLC9, 6=D14_pin6_5TLC9, 15=T998
+- Sheet 1, D14.b, JK112B: 7=D14_pin7_5TLC0, 9=D14_pin9_TLC0, 10=T998, 11=T998, 12=T998, 13=D14_pin5_TLC9, 14=T998
+- Sheet 1, C14, 82S123: 1=-, 2=-, 3=C14_pin3_H14_pin5, 4=C14_pin4_TVGY, 5=C14_pin5_G14_pin5, 6=C14_pin6_TVGA, 7=C14_pin7_TVLG, 9=C14_pin9_E16_pin10, 10=B14_pin14_TLC5, 11=B14_pin13_TLC6, 12=B14_pin12_TLC7, 13=B14_pin11_TLC8, 14=D14_pin5_TLC9, 15=0
+- Sheet 1, G14.6, 7421: 6=G14_pin6_TLGX, 1=A15_pin15_TECA, 2=C15_pin5_TELG, 4=A14_pin15_TLCA, 5=C14_pin5_G14_pin5
+- Sheet 1, G14.8, 7421: 8=G14_pin8_TLGY, 9=C14_pin4_TVGY, 10=A14_pin15_TLCA, 12=C15_pin5_TELG, 13=A15_pin15_TECA
+- Sheet 1, H14.6, 7421: 6=H14_pin6_TLGZ, 1=A15_pin15_TECA, 2=C15_pin5_TELG, 4=A14_pin15_TLCA, 5=C14_pin3_H14_pin5
+- Sheet 1, J14.3, 7437: 3=J14_pin3_2TQGX, 1=F14_pin6_6TQGX, 2=F14_pin6_6TQGX
+- Sheet 1, J14.6, 7437: 6=J14_pin6_2TQGZ, 4=F14_pin11_6TQGZ, 5=F14_pin11_6TQGZ
+- Sheet 1, A13.8, 7408: 8=A13_pin8_TDAM, 9=B14_pin15_TLCB, 10=C16_pin7_5TEC9
+- Sheet 1, F16, 74174: 1=T999, 2=F16_pin2_F16_pin4, 3=E15_pin6_F16_pin3, 4=F16_pin2_F16_pin4, 5=F16_pin5_D15_pin12, 6=E15_pin8_F16_pin6, 7=F16_pin7_1TSLN, 9=D16_pin6_6TQ07, 10=F16_pin10_G15_pin9, 11=E9_pin3_1PNVD, 12=F16_pin12_G15_pin11, 13=F15_pin6_F16_pin13, 14=F5_pin11_F16_pin14, 15=F16_pin15_G15_pin13
+- Sheet 2, G13.1, 7402: 1=G13_pin1_K16_pin2, 2=ECDA, 3=K15_pin6_5ECDD
+- Sheet 2, K16.a, JK112A: 1=D16_pin8_2TQ07, 2=G13_pin1_K16_pin2, 3=ECDA, 4=E999, 5=K16_pin5_K16_pin11, 6=K16_pin6_K16_pin12, 15=L14_pin9_EPOR
+- Sheet 2, K16.b, JK112B: 7=K16_pin7_K15_pin2, 9=K16_pin9_ECDC, 10=E999, 11=K16_pin5_K16_pin11, 12=K16_pin6_K16_pin12, 13=H15_pin8_1ECK0, 14=L14_pin9_EPOR
+- Sheet 2, K15.a, JK112A: 1=H15_pin8_1ECK0, 2=K16_pin7_K15_pin2, 3=K16_pin9_ECDC, 4=E999, 5=-, 6=K15_pin6_5ECDD, 15=L14_pin9_EPOR
+- Sheet 2, K15.b, JK112B: 7=K15_pin7_5EGME, 9=K15_pin9_EGME, 10=E999, 11=L16_pin11_ECDG, 12=G13_pin4_K15_pin12, 13=H15_pin8_1ECK0, 14=L14_pin9_EPOR
+- Sheet 2, L16.3, 7408: 3=L16_pin3_L15_pin3, 1=L16_pin8_L16_pin1, 2=K15_pin9_EGME
+- Sheet 2, L16.6, 7408: 6=L16_pin6_L15_pin2, 4=L16_pin11_ECDG, 5=J15_pin9_ESGC
+- Sheet 2, L16.8, 7408: 8=L16_pin8_L16_pin1, 9=J15_pin7_5ESGC, 10=L16_pin11_ECDG
+- Sheet 2, L16.11, 7408: 11=L16_pin11_ECDG, 12=K16_pin9_ECDC, 13=K15_pin6_5ECDD
+- Sheet 2, J16.8, 7404: 8=J16_pin8_1ESGC, 9=J15_pin7_5ESGC
+- Sheet 2, J16.10, 7404: 10=J16_pin10_5ECDG, 11=L16_pin11_ECDG
+- Sheet 2, J16.12, 7404: 12=J16_pin12_H13_pin2, 13=L14_pin9_EPOR
+- Sheet 2, L15.a, JK112A: 1=H15_pin8_1ECK0, 2=L16_pin6_L15_pin2, 3=L16_pin3_L15_pin3, 4=E999, 5=L15_pin5_E2PL, 6=L15_pin6_N14_pin1, 15=K15_pin9_EGME
+- Sheet 2, J15.a, JK112A: 1=D16_pin8_2TQ07, 2=L16_pin11_ECDG, 3=ESGA, 4=E999, 5=J15_pin5_J15_pin11, 6=J15_pin6_J15_pin12, 15=K15_pin9_EGME
+- Sheet 2, J15.b, JK112B: 7=J15_pin7_5ESGC, 9=J15_pin9_ESGC, 10=E999, 11=J15_pin5_J15_pin11, 12=J15_pin6_J15_pin12, 13=H15_pin8_1ECK0, 14=K15_pin9_EGME
+- Sheet 2, H16, 74161: 1=E999, 2=D16_pin11_6TQLC, 7=D14_pin9_TLC0, 9=E999, 10=H14_pin6_TLGZ, 11=-, 12=H16_pin12_5ECK2, 13=H16_pin13_5ECK1, 14=H16_pin14_5ECK0, 15=H16_pin15_ECKC
+- Sheet 2, R5, 74161: 1=E999, 2=D16_pin11_6TQLC, 3=J9_pin7_ACT3, 4=0, 5=E999, 6=0, 7=H16_pin15_ECKC, 9=R5_pin12_5ECKS, 10=H16_pin15_ECKC, 11=-, 12=R5_pin12_5ECKS, 13=-, 14=-, 15=-
+- Sheet 2, H15.3, 7437: 3=H15_pin3_2ECK2, 1=H15_pin6_6ECK2, 2=H15_pin6_6ECK2
+- Sheet 2, H15.6, 7437: 6=H15_pin6_6ECK2, 4=H15_pin11_1ECK2, 5=H15_pin11_1ECK2
+- Sheet 2, H15.8, 7437: 8=H15_pin8_1ECK0, 9=H16_pin14_5ECK0, 10=H16_pin14_5ECK0
+- Sheet 2, H15.11, 7437: 11=H15_pin11_1ECK2, 12=H16_pin12_5ECK2, 13=H16_pin12_5ECK2
+- Sheet 2, L14.a, JK112A: 1=H15_pin8_1ECK0, 2=0, 3=EPOG, 4=E999, 5=L14_pin5_L14_pin11, 6=L14_pin6_L14_pin12, 15=EPOG
+- Sheet 2, L14.b, JK112B: 7=-, 9=L14_pin9_EPOR, 10=E999, 11=L14_pin5_L14_pin11, 12=L14_pin6_L14_pin12, 13=H15_pin8_1ECK0, 14=EPOG
+- Sheet 2, K14.2, 7407: 2=K14_pin2_NC, 1=K15_pin9_EGME
+- Sheet 2, K14.12, 7407: 12=K14_pin12_NC, 13=L15_pin5_E2PL
+- Sheet 2, M16.10, 7404: 10=M16_pin10_NC, 11=K15_pin7_5EGME
+- Sheet 3, L12, 74151: 1=OPEN, 2=P15_pin7_STC7, 3=M11_pin7_L12_pin3, 4=L11_pin7_L12_pin4, 5=L12_pin5_SCS3, 6=-, 7=0, 9=B15_pin11_TEC8, 10=C15_pin4_TSS1, 11=C15_pin3_TSS0, 12=OPEN, 13=P11_pin7_L12_pin13, 14=N11_pin7_L12_pin14, 15=P16_pin7_STC3
+- Sheet 3, M12, 74151: 1=OPEN, 2=P15_pin6_STC6, 3=M11_pin6_M12_pin3, 4=L11_pin6_M12_pin4, 5=M12_pin5_P13_pin2, 6=-, 7=0, 9=B15_pin11_TEC8, 10=C15_pin4_TSS1, 11=C15_pin3_TSS0, 12=OPEN, 13=P11_pin6_M12_pin13, 14=N11_pin6_M12_pin14, 15=P16_pin6_STC2
+- Sheet 3, N12, 74151: 1=OPEN, 2=P15_pin2_STC5, 3=M11_pin2_N12_pin3, 4=L11_pin2_N12_pin4, 5=N12_pin5_P13_pin5, 6=-, 7=0, 9=B15_pin11_TEC8, 10=C15_pin4_TSS1, 11=C15_pin3_TSS0, 12=OPEN, 13=P11_pin2_N12_pin13, 14=N11_pin2_N12_pin14, 15=P16_pin2_STC1
+- Sheet 3, P12, 74151: 1=OPEN, 2=P15_pin3_STC4, 3=M11_pin3_P12_pin3, 4=L11_pin3_P12_pin4, 5=P12_pin5_SCS0, 6=-, 7=0, 9=B15_pin11_TEC8, 10=C15_pin4_TSS1, 11=C15_pin3_TSS0, 12=OPEN, 13=P11_pin3_P12_pin13, 14=N11_pin3_P12_pin14, 15=P16_pin3_STC0
+- Sheet 3, P14.3, 7432: 3=P14_pin3_N14_pin5, 1=C15_pin3_TSS0, 2=C15_pin4_TSS1
+- Sheet 3, P14.6, 7432: 6=P14_pin6_SPCA, 4=A15_pin12_TEC3, 5=A15_pin13_TEC2
+- Sheet 3, P14.8, 7432: 8=P14_pin8_N13_pin10, 9=L12_pin5_SCS3, 10=P14_pin6_SPCA
+- Sheet 3, N14.6, 7420: 6=N14_pin6_M14_pin11, 1=L15_pin6_N14_pin1, 2=K15_pin9_EGME, 4=B15_pin11_TEC8, 5=P14_pin3_N14_pin5
+- Sheet 3, N14.8, 7420: 8=N14_pin8_5STCE, 9=N15_pin4_N14_pin9, 10=N15_pin1_N14_pin10, 12=N15_pin13_N14_pin12, 13=N15_pin10_N14_pin13
+- Sheet 3, P13, 74157: 1=L12_pin5_SCS3, 2=M12_pin5_P13_pin2, 3=P12_pin5_SCS0, 4=P13_pin4_N13_pin14, 5=N12_pin5_P13_pin5, 6=A15_pin11_TEC4, 7=P13_pin7_N13_pin13, 9=P13_pin9_N13_pin12, 10=P14_pin6_SPCA, 11=P12_pin5_SCS0, 12=P13_pin12_N13_pin11, 13=S999, 14=A15_pin11_TEC4, 15=0
+- Sheet 3, M15.3, 7400: 3=M15_pin3_N16_pin3, 1=DIP_1MIN_N, 2=DIP_2MIN_N
+- Sheet 3, M15.6, 7400: 6=M15_pin6_M14_pin10, 4=C15_pin3_TSS0, 5=C15_pin4_TSS1
+- Sheet 3, M15.8, 7400: 8=M15_pin8_M14_pin9, 9=P14_pin6_SPCA, 10=A15_pin11_TEC4
+- Sheet 3, M14.6, 7410: 6=M14_pin6_P16_pin4, 3=N14_pin8_5STCE, 4=N16_pin15_STAA, 5=H15_pin11_1ECK2
+- Sheet 3, M14.8, 7410: 8=M14_pin8_M13_pin7, 9=M15_pin8_M14_pin9, 10=M15_pin6_M14_pin10, 11=N14_pin6_M14_pin11
+- Sheet 3, N13, 82S123: 1=N13_pin1_M13_pin4, 2=N13_pin2_M13_pin3, 3=N13_pin3_M13_pin2, 4=N13_pin4_M13_pin1, 5=N13_pin5_M13_pin15, 6=N13_pin6_M13_pin14, 7=N13_pin7_M13_pin13, 9=N13_pin9_M13_pin12, 10=P14_pin8_N13_pin10, 11=P13_pin12_N13_pin11, 12=P13_pin9_N13_pin12, 13=P13_pin7_N13_pin13, 14=P13_pin4_N13_pin14, 15=0
+- Sheet 3, M13, 74151: 1=N13_pin4_M13_pin1, 2=N13_pin3_M13_pin2, 3=N13_pin2_M13_pin3, 4=N13_pin1_M13_pin4, 5=M13_pin5_L13_pin11, 6=M13_pin6_L13_pin12, 7=M14_pin8_M13_pin7, 9=A14_pin11_TLC4, 10=A14_pin12_TLC3, 11=A14_pin13_TLC2, 12=N13_pin9_M13_pin12, 13=N13_pin7_M13_pin13, 14=N13_pin6_M13_pin14, 15=N13_pin5_M13_pin15
+- Sheet 3, L13.b, JK112B: 7=L13_pin7_5SSSV, 9=-, 10=S999, 11=M13_pin5_L13_pin11, 12=M13_pin6_L13_pin12, 13=A15_pin14_TEC1, 14=C14_pin6_TVGA
+- Sheet 3, M16.2, 7404: 2=M16_pin2_SG20, 1=DIP_2MIN_N
+- Sheet 3, M16.4, 7404: 4=M16_pin4_N16_pin5, 3=M16_pin2_SG20
+- Sheet 3, M16.6, 7404: 6=M16_pin6_5STAA, 5=N16_pin15_STAA
+- Sheet 3, N16, 74161: 1=S999, 2=H15_pin6_6ECK2, 3=M15_pin3_N16_pin3, 4=M16_pin2_SG20, 5=M16_pin4_N16_pin5, 6=S999, 7=S999, 9=K13_pin3_N16_pin9, 10=S999, 11=-, 12=-, 13=-, 14=-, 15=N16_pin15_STAA
+- Sheet 3, K13.3, 7408: 3=K13_pin3_N16_pin9, 1=M16_pin6_5STAA, 2=J16_pin8_1ESGC
+- Sheet 3, P16, 74192: 1=0, 2=P16_pin2_STC1, 3=P16_pin3_STC0, 4=M14_pin6_P16_pin4, 5=S999, 6=P16_pin6_STC2, 7=P16_pin7_STC3, 9=K15_pin9_EGME, 10=0, 11=J16_pin8_1ESGC, 12=P16_pin12_P15_pin5, 13=P16_pin13_P15_pin4, 14=0, 15=K15_pin9_EGME
+- Sheet 3, P15, 74192: 1=0, 2=P15_pin2_STC5, 3=P15_pin3_STC4, 4=P16_pin13_P15_pin4, 5=P16_pin12_P15_pin5, 6=P15_pin6_STC6, 7=P15_pin7_STC7, 9=K15_pin9_EGME, 10=0, 11=J16_pin8_1ESGC, 12=-, 13=-, 14=0, 15=K15_pin9_EGME
+- Sheet 3, N15.1, 7402: 1=N15_pin1_N14_pin10, 2=P16_pin3_STC0, 3=P16_pin2_STC1
+- Sheet 3, N15.4, 7402: 4=N15_pin4_N14_pin9, 5=P16_pin6_STC2, 6=P16_pin7_STC3
+- Sheet 3, N15.10, 7402: 10=N15_pin10_N14_pin13, 8=P15_pin7_STC7, 9=P15_pin6_STC6
+- Sheet 3, N15.13, 7402: 13=N15_pin13_N14_pin12, 11=P15_pin3_STC4, 12=P15_pin2_STC5
+- Sheet 3, G13.4, 7402: 4=G13_pin4_K15_pin12, 5=M16_pin6_5STAA, 6=N14_pin8_5STCE
+- Sheet 3, M11, 74192: 1=0, 2=M11_pin2_N12_pin3, 3=M11_pin3_P12_pin3, 4=S999, 5=G13_pin10_5LMCK, 6=M11_pin6_M12_pin3, 7=M11_pin7_L12_pin3, 9=0, 10=0, 11=L14_pin9_EPOR, 12=M11_pin12_L11_pin5, 13=M11_pin13_L11_pin4, 14=L16_pin11_ECDG, 15=0
+- Sheet 3, L11, 74192: 1=0, 2=L11_pin2_N12_pin4, 3=L11_pin3_P12_pin4, 4=M11_pin13_L11_pin4, 5=M11_pin12_L11_pin5, 6=L11_pin6_M12_pin4, 7=L11_pin7_L12_pin4, 9=0, 10=0, 11=L14_pin9_EPOR, 12=-, 13=-, 14=L16_pin11_ECDG, 15=0
+- Sheet 3, P11, 74192: 1=0, 2=P11_pin2_N12_pin13, 3=P11_pin3_P12_pin13, 4=S999, 5=G13_pin13_5LNCK, 6=P11_pin6_M12_pin13, 7=P11_pin7_L12_pin13, 9=0, 10=0, 11=L14_pin9_EPOR, 12=P11_pin12_N11_pin5, 13=P11_pin13_N11_pin4, 14=L16_pin11_ECDG, 15=0
+- Sheet 3, N11, 74192: 1=0, 2=N11_pin2_N12_pin14, 3=N11_pin3_P12_pin14, 4=P11_pin13_N11_pin4, 5=P11_pin12_N11_pin5, 6=N11_pin6_M12_pin14, 7=N11_pin7_L12_pin14, 9=0, 10=0, 11=L14_pin9_EPOR, 12=-, 13=-, 14=L16_pin11_ECDG, 15=0
+- Sheet 4, C7, 74153: 1=C16_pin7_5TEC9, 2=A15_pin11_TEC4, 3=J10_pin4_C7_pin3, 4=D5_pin4_C7_pin4, 5=G2_pin4_C7_pin5, 6=R1_pin4_C7_pin6, 7=C7_pin7_KKC3, 9=C7_pin9_KKC2, 10=R1_pin3_C7_pin10, 11=G2_pin3_C7_pin11, 12=D5_pin3_C7_pin12, 13=J10_pin3_C7_pin13, 14=A15_pin12_TEC3, 15=C16_pin7_5TEC9
+- Sheet 4, D7, 74153: 1=C16_pin7_5TEC9, 2=A15_pin11_TEC4, 3=J10_pin2_D7_pin3, 4=D5_pin2_D7_pin4, 5=G2_pin2_D7_pin5, 6=R1_pin2_D7_pin6, 7=D7_pin7_KKC1, 9=D7_pin9_F15_pin12, 10=R1_pin1_D7_pin10, 11=G2_pin1_D7_pin11, 12=D5_pin1_D7_pin12, 13=J10_pin1_D7_pin13, 14=A15_pin12_TEC3, 15=C16_pin7_5TEC9
+- Sheet 4, E7, 74153: 1=0, 2=A15_pin11_TEC4, 3=K6_pin7_BLC4, 4=D2_pin7_DLC4, 5=K4_pin7_E7_pin5, 6=L3_pin7_E7_pin6, 7=E7_pin7_F9_pin2, 9=E7_pin9_F9_pin5, 10=L3_pin6_E7_pin10, 11=K4_pin6_E7_pin11, 12=D2_pin6_DLC3, 13=K6_pin6_BLC3, 14=A15_pin12_TEC3, 15=0
+- Sheet 4, F7, 74153: 1=0, 2=A15_pin11_TEC4, 3=K6_pin2_F7_pin3, 4=D2_pin2_F7_pin4, 5=K4_pin2_F7_pin5, 6=L3_pin2_F7_pin6, 7=F7_pin7_F9_pin11, 9=F7_pin9_F9_pin14, 10=L3_pin3_F7_pin10, 11=K4_pin3_F7_pin11, 12=D2_pin3_F7_pin12, 13=K6_pin3_F7_pin13, 14=A15_pin12_TEC3, 15=0
+- Sheet 4, F9, 74157: 1=C16_pin7_5TEC9, 2=E7_pin7_F9_pin2, 3=A14_pin11_TLC4, 4=F9_pin4_F8_pin2, 5=E7_pin9_F9_pin5, 6=A14_pin12_TLC3, 7=F9_pin7_F8_pin5, 9=F9_pin9_F8_pin9, 10=A14_pin13_TLC2, 11=F7_pin7_F9_pin11, 12=F9_pin12_F8_pin12, 13=A14_pin14_TLC1, 14=F7_pin9_F9_pin14, 15=0
+- Sheet 4, G6.3, 7486: 3=G6_pin3_G7_pin3, 1=J9_pin6_ACT2, 2=J9_pin7_ACT3
+- Sheet 4, G6.6, 7486: 6=G6_pin6_G7_pin4, 4=E5_pin6_CCT2, 5=E5_pin7_CCT3
+- Sheet 4, G6.8, 7486: 8=G6_pin8_G7_pin5, 9=E1_pin7_GCT3, 10=E1_pin6_GCT2
+- Sheet 4, G6.11, 7486: 11=G6_pin11_G7_pin6, 12=Q2_pin7_HCT3, 13=Q2_pin6_HCT2
+- Sheet 4, K13.8, 7408: 8=K13_pin8_F15_pin13, 9=C16_pin7_5TEC9, 10=B14_pin14_TLC5
+- Sheet 4, K13.11, 7408: 11=K13_pin11_P14_pin12, 12=C16_pin7_5TEC9, 13=B15_pin14_TEC5
+- Sheet 4, F15.11, 7432: 11=F15_pin11_KKG0, 12=D7_pin9_F15_pin12, 13=K13_pin8_F15_pin13
+- Sheet 4, G7, 74153: 1=C15_pin1_5TVRL, 2=A15_pin11_TEC4, 3=G6_pin3_G7_pin3, 4=G6_pin6_G7_pin4, 5=G6_pin8_G7_pin5, 6=G6_pin11_G7_pin6, 7=G7_pin7_P14_pin13, 9=G7_pin9_F11_pin15, 10=K5_pin8_G7_pin10, 11=K5_pin6_G7_pin11, 12=P999, 13=P999, 14=A15_pin12_TEC3, 15=C15_pin1_5TVRL
+- Sheet 4, P14.11, 7432: 11=P14_pin11_KLGG, 12=K13_pin11_P14_pin12, 13=G7_pin7_P14_pin13
+- Sheet 4, F8.3, 7486: 3=F8_pin3_KLG4, 1=P14_pin11_KLGG, 2=F9_pin4_F8_pin2
+- Sheet 4, F8.6, 7486: 6=F8_pin6_KLG3, 4=P14_pin11_KLGG, 5=F9_pin7_F8_pin5
+- Sheet 4, F8.8, 7486: 8=F8_pin8_KLG2, 9=F9_pin9_F8_pin9, 10=P14_pin11_KLGG
+- Sheet 4, F8.11, 7486: 11=F8_pin11_KLG1, 12=F9_pin12_F8_pin12, 13=P14_pin11_KLGG
+- Sheet 4, B8, 82S129: 1=C7_pin9_KKC2, 2=D7_pin7_KKC1, 3=F15_pin11_KKG0, 4=F8_pin3_KLG4, 5=F8_pin11_KLG1, 6=F8_pin8_KLG2, 7=F8_pin6_KLG3, 9=B8_pin9_KD15, 10=B8_pin10_KD14, 11=B8_pin11_KD13, 12=B8_pin12_KD12, 13=0, 14=0, 15=C7_pin7_KKC3
+- Sheet 4, C8, 82S129: 1=C7_pin9_KKC2, 2=D7_pin7_KKC1, 3=F15_pin11_KKG0, 4=F8_pin3_KLG4, 5=F8_pin11_KLG1, 6=F8_pin8_KLG2, 7=F8_pin6_KLG3, 9=C8_pin9_KD11, 10=C8_pin10_KD10, 11=C8_pin11_KD09, 12=C8_pin12_KD08, 13=0, 14=0, 15=C7_pin7_KKC3
+- Sheet 4, D8, 82S129: 1=C7_pin9_KKC2, 2=D7_pin7_KKC1, 3=F15_pin11_KKG0, 4=F8_pin3_KLG4, 5=F8_pin11_KLG1, 6=F8_pin8_KLG2, 7=F8_pin6_KLG3, 9=D8_pin9_KD07, 10=D8_pin10_KD06, 11=D8_pin11_KD05, 12=D8_pin12_KD04, 13=0, 14=0, 15=C7_pin7_KKC3
+- Sheet 4, E8, 82S129: 1=C7_pin9_KKC2, 2=D7_pin7_KKC1, 3=F15_pin11_KKG0, 4=F8_pin3_KLG4, 5=F8_pin11_KLG1, 6=F8_pin8_KLG2, 7=F8_pin6_KLG3, 9=E8_pin9_KD03, 10=E8_pin10_KD02, 11=E8_pin11_KD01, 12=E8_pin12_KD00, 13=0, 14=0, 15=C7_pin7_KKC3
+- Sheet 4, E14.8, 7400: 8=E14_pin8_F11_pin12, 9=A15_pin13_TEC2, 10=A15_pin14_TEC1
+- Sheet 4, F11, 7442: 1=-, 2=F11_pin2_5KVLN, 3=-, 4=F11_pin4_5KVLM, 5=-, 6=F11_pin6_5KVLD, 7=-, 9=F11_pin9_5KVLB, 10=-, 11=-, 12=E14_pin8_F11_pin12, 13=A15_pin11_TEC4, 14=A15_pin12_TEC3, 15=G7_pin9_F11_pin15
+- Sheet 4, F10.3, 7437: 3=F10_pin3_1KQ07, 1=E14_pin6_5TQ07, 2=E14_pin6_5TQ07
+- Sheet 4, F10.6, 7437: 6=F10_pin6_2KQ07, 4=D16_pin6_6TQ07, 5=D16_pin6_6TQ07
+- Sheet 5, C12, 74174: 1=L999, 2=C12_pin2_A13_pin1, 3=C14_pin6_TVGA, 4=B14_pin11_TLC8, 5=C12_pin5_B12_pin3, 6=B14_pin12_TLC7, 7=C12_pin7_B12_pin6, 9=B13_pin8_6LQBB, 10=C12_pin10_B12_pin10, 11=B14_pin13_TLC6, 12=C12_pin12_B12_pin13, 13=B14_pin14_TLC5, 14=OPEN, 15=-
+- Sheet 5, E12, 74174: 1=L999, 2=E12_pin2_A13_pin4, 3=C16_pin9_TEC9, 4=B15_pin11_TEC8, 5=E12_pin5_D12_pin3, 6=B15_pin12_TEC7, 7=E12_pin7_D12_pin6, 9=B13_pin8_6LQBB, 10=E12_pin10_D12_pin10, 11=B15_pin13_TEC6, 12=E12_pin12_D12_pin13, 13=B15_pin14_TEC5, 14=OPEN, 15=-
+- Sheet 5, B12, 74157: 1=D14_pin5_TLC9, 2=B14_pin11_TLC8, 3=C12_pin5_B12_pin3, 4=B12_pin4_A12_pin15, 5=B14_pin12_TLC7, 6=C12_pin7_B12_pin6, 7=B12_pin7_A12_pin14, 9=B12_pin9_A12_pin11, 10=C12_pin10_B12_pin10, 11=B14_pin13_TLC6, 12=B12_pin12_A12_pin10, 13=C12_pin12_B12_pin13, 14=B14_pin14_TLC5, 15=0
+- Sheet 5, D12, 74157: 1=D14_pin5_TLC9, 2=B15_pin11_TEC8, 3=E12_pin5_D12_pin3, 4=D12_pin4_A12_pin9, 5=B15_pin12_TEC7, 6=E12_pin7_D12_pin6, 7=D12_pin7_A12_pin7, 9=D12_pin9_A12_pin2, 10=E12_pin10_D12_pin10, 11=B15_pin13_TEC6, 12=D12_pin12_A12_pin1, 13=E12_pin12_D12_pin13, 14=B15_pin14_TEC5, 15=0
+- Sheet 5, A13.3, 7408: 3=A13_pin3_A12_pin3, 1=C12_pin2_A13_pin1, 2=D14_pin5_TLC9
+- Sheet 5, A13.6, 7408: 6=A13_pin6_A12_pin5, 4=E12_pin2_A13_pin4, 5=D14_pin5_TLC9
+- Sheet 5, A13.11, 7408: 11=A13_pin11_J13_pin13, 12=C16_pin7_5TEC9, 13=J16_pin10_5ECDG
+- Sheet 5, A12, 74S200: 1=D12_pin12_A12_pin1, 2=D12_pin9_A12_pin2, 3=A13_pin3_A12_pin3, 4=0, 5=A13_pin6_A12_pin5, 6=A12_pin6_J13_pin9, 7=D12_pin7_A12_pin7, 9=D12_pin4_A12_pin9, 10=B12_pin12_A12_pin10, 11=B12_pin9_A12_pin11, 12=G12_pin6_A12_pin12, 13=D14_pin6_5TLC9, 14=B12_pin7_A12_pin14, 15=B12_pin4_A12_pin15
+- Sheet 5, F13.12, 7427: 12=F13_pin12_C13_pin11, 1=G15_pin6_1THVA, 2=C9_pin6_5PDVD, 13=C9_pin11_5PNVD
+- Sheet 5, F13.8, 7427: 8=F13_pin8_J13_pin12, 9=A15_pin13_TEC2, 10=A15_pin12_TEC3, 11=A15_pin11_TEC4
+- Sheet 5, J13.8, 5420: 8=J13_pin8_5LCEN, 9=A12_pin6_J13_pin9, 10=A15_pin14_TEC1, 12=F13_pin8_J13_pin12, 13=A13_pin11_J13_pin13
+- Sheet 5, M14.12, 7410: 12=M14_pin12_5LAAA, 1=C16_pin7_5TEC9, 2=B16_pin12_M14_pin2, 13=D14_pin6_5TLC9
+- Sheet 5, F12, 74153: 1=0, 2=H13_pin3_F12_pin2, 3=M14_pin12_5LAAA, 4=M14_pin12_5LAAA, 5=M15_pin11_5LWTD, 6=B13_pin6_5LWTB, 7=F12_pin7_5LAAB, 9=F12_pin9_B13_pin9, 10=Q3_pin6_F12_pin10, 11=Q3_pin8_F12_pin11, 12=0, 13=0, 14=D14_pin9_TLC0, 15=0
+- Sheet 5, H13.3, 7432: 3=H13_pin3_F12_pin2, 1=L16_pin11_ECDG, 2=J16_pin12_H13_pin2
+- Sheet 5, H12.2, 7404: 2=H12_pin2_G12_pin3, 1=F12_pin7_5LAAB
+- Sheet 5, G12.a, JK112A: 1=J14_pin11_2LQ07, 2=F12_pin7_5LAAB, 3=H12_pin2_G12_pin3, 4=L999, 5=-, 6=G12_pin6_A12_pin12, 15=L999
+- Sheet 5, B13.3, 7400: 3=B13_pin3_B13_pin5, 1=D13_pin7_B13_pin1, 2=D13_pin6_B13_pin2
+- Sheet 5, B13.6, 7400: 6=B13_pin6_5LWTB, 4=G14_pin8_TLGY, 5=B13_pin3_B13_pin5
+- Sheet 5, B13.8, 7400: 8=B13_pin8_6LQBB, 9=F12_pin9_B13_pin9, 10=J14_pin8_1LQ07
+- Sheet 5, B13.11, 7400: 11=B13_pin11_M15_pin12, 12=C13_pin6_B13_pin12, 13=C13_pin7_B13_pin13
+- Sheet 5, J14.8, 7437: 8=J14_pin8_1LQ07, 9=E14_pin6_5TQ07, 10=E14_pin6_5TQ07
+- Sheet 5, J14.11, 7437: 11=J14_pin11_2LQ07, 12=D16_pin6_6TQ07, 13=D16_pin6_6TQ07
+- Sheet 5, E13.12, 7427: 12=E13_pin12_C13_pin3, 1=G15_pin6_1THVA, 2=C9_pin6_5PDVD, 13=C9_pin8_5PMVD
+- Sheet 5, E13.6, 7427: 6=E13_pin6_D13_pin3, 3=G15_pin6_1THVA, 4=C9_pin3_5PBVD, 5=C9_pin8_5PMVD
+- Sheet 5, E13.8, 7427: 8=E13_pin8_D13_pin11, 9=C9_pin11_5PNVD, 10=C9_pin3_5PBVD, 11=G15_pin6_1THVA
+- Sheet 5, D13.a, JK112A: 1=J14_pin11_2LQ07, 2=G14_pin8_TLGY, 3=E13_pin6_D13_pin3, 4=L999, 5=D13_pin5_G13_pin9, 6=D13_pin6_B13_pin2, 15=D14_pin7_5TLC0
+- Sheet 5, D13.b, JK112B: 7=D13_pin7_B13_pin1, 9=D13_pin9_G13_pin11, 10=L999, 11=E13_pin8_D13_pin11, 12=G14_pin8_TLGY, 13=J14_pin11_2LQ07, 14=D14_pin7_5TLC0
+- Sheet 5, C13.a, JK112A: 1=J14_pin11_2LQ07, 2=G14_pin8_TLGY, 3=E13_pin12_C13_pin3, 4=L999, 5=C13_pin5_G13_pin8, 6=C13_pin6_B13_pin12, 15=D14_pin9_TLC0
+- Sheet 5, C13.b, JK112B: 7=C13_pin7_B13_pin13, 9=C13_pin9_G13_pin12, 10=L999, 11=F13_pin12_C13_pin11, 12=G14_pin8_TLGY, 13=J14_pin11_2LQ07, 14=D14_pin9_TLC0
+- Sheet 5, M15.11, 7400: 11=M15_pin11_5LWTD, 12=B13_pin11_M15_pin12, 13=G14_pin8_TLGY
+- Sheet 5, G13.10, 7402: 10=G13_pin10_5LMCK, 8=C13_pin5_G13_pin8, 9=D13_pin5_G13_pin9
+- Sheet 5, G13.13, 7402: 13=G13_pin13_5LNCK, 11=D13_pin9_G13_pin11, 12=C13_pin9_G13_pin12
+- Sheet 6, A10, 74166: 1=A11_pin13_A10_pin1, 2=C8_pin12_KD08, 3=C8_pin11_KD09, 4=C8_pin10_KD10, 5=C8_pin9_KD11, 6=0, 7=A9_pin6_6PQ07, 9=P999, 10=B8_pin12_KD12, 11=B8_pin11_KD13, 12=B8_pin10_KD14, 13=A10_pin13_PLVD, 14=B8_pin9_KD15, 15=J13_pin8_5LCEN
+- Sheet 6, A11, 74166: 1=0, 2=E8_pin12_KD00, 3=E8_pin11_KD01, 4=E8_pin10_KD02, 5=E8_pin9_KD03, 6=0, 7=A9_pin6_6PQ07, 9=P999, 10=D8_pin12_KD04, 11=D8_pin11_KD05, 12=D8_pin10_KD06, 13=A11_pin13_A10_pin1, 14=D8_pin9_KD07, 15=J13_pin8_5LCEN
+- Sheet 6, B10, 74166: 1=B11_pin13_B10_pin1, 2=C8_pin12_KD08, 3=C8_pin11_KD09, 4=C8_pin10_KD10, 5=C8_pin9_KD11, 6=B9_pin3_5PBVE, 7=A9_pin6_6PQ07, 9=P999, 10=B8_pin12_KD12, 11=B8_pin11_KD13, 12=B8_pin10_KD14, 13=B10_pin13_C9_pin2, 14=B8_pin9_KD15, 15=F11_pin9_5KVLB
+- Sheet 6, B11, 74166: 1=0, 2=E8_pin12_KD00, 3=E8_pin11_KD01, 4=E8_pin10_KD02, 5=E8_pin9_KD03, 6=B9_pin3_5PBVE, 7=A9_pin6_6PQ07, 9=P999, 10=D8_pin12_KD04, 11=D8_pin11_KD05, 12=D8_pin10_KD06, 13=B11_pin13_B10_pin1, 14=D8_pin9_KD07, 15=F11_pin9_5KVLB
+- Sheet 6, C10, 74166: 1=C11_pin13_C10_pin1, 2=C8_pin12_KD08, 3=C8_pin11_KD09, 4=C8_pin10_KD10, 5=C8_pin9_KD11, 6=B9_pin6_5PMVE, 7=A9_pin6_6PQ07, 9=P999, 10=B8_pin12_KD12, 11=B8_pin11_KD13, 12=B8_pin10_KD14, 13=C10_pin13_PMVC, 14=B8_pin9_KD15, 15=F11_pin4_5KVLM
+- Sheet 6, C11, 74166: 1=0, 2=E8_pin12_KD00, 3=E8_pin11_KD01, 4=E8_pin10_KD02, 5=E8_pin9_KD03, 6=B9_pin6_5PMVE, 7=A9_pin6_6PQ07, 9=P999, 10=D8_pin12_KD04, 11=D8_pin11_KD05, 12=D8_pin10_KD06, 13=C11_pin13_C10_pin1, 14=D8_pin9_KD07, 15=F11_pin4_5KVLM
+- Sheet 6, D10, 74166: 1=D11_pin13_D10_pin1, 2=C8_pin12_KD08, 3=C8_pin11_KD09, 4=C8_pin10_KD10, 5=C8_pin9_KD11, 6=B9_pin8_5PDVE, 7=A9_pin6_6PQ07, 9=P999, 10=B8_pin12_KD12, 11=B8_pin11_KD13, 12=B8_pin10_KD14, 13=D10_pin13_C9_pin5, 14=B8_pin9_KD15, 15=F11_pin6_5KVLD
+- Sheet 6, D11, 74166: 1=0, 2=E8_pin12_KD00, 3=E8_pin11_KD01, 4=E8_pin10_KD02, 5=E8_pin9_KD03, 6=B9_pin8_5PDVE, 7=A9_pin6_6PQ07, 9=P999, 10=D8_pin12_KD04, 11=D8_pin11_KD05, 12=D8_pin10_KD06, 13=D11_pin13_D10_pin1, 14=D8_pin9_KD07, 15=F11_pin6_5KVLD
+- Sheet 6, E10, 74166: 1=E11_pin13_E10_pin1, 2=C8_pin12_KD08, 3=C8_pin11_KD09, 4=C8_pin10_KD10, 5=C8_pin9_KD11, 6=B9_pin11_5PNVE, 7=A9_pin6_6PQ07, 9=H13_pin11_P2PL, 10=B8_pin12_KD12, 11=B8_pin11_KD13, 12=B8_pin10_KD14, 13=E10_pin13_PNVC, 14=B8_pin9_KD15, 15=F11_pin2_5KVLN
+- Sheet 6, E11, 74166: 1=0, 2=E8_pin12_KD00, 3=E8_pin11_KD01, 4=E8_pin10_KD02, 5=E8_pin9_KD03, 6=B9_pin11_5PNVE, 7=A9_pin6_6PQ07, 9=H13_pin11_P2PL, 10=D8_pin12_KD04, 11=D8_pin11_KD05, 12=D8_pin10_KD06, 13=E11_pin13_E10_pin1, 14=D8_pin9_KD07, 15=F11_pin2_5KVLN
+- Sheet 6, A8.2, 7404: 2=A8_pin2_5PLVD, 1=A10_pin13_PLVD
+- Sheet 6, A9.3, 7437: 3=A9_pin3_1PQ07, 1=E14_pin6_5TQ07, 2=E14_pin6_5TQ07
+- Sheet 6, A9.6, 7437: 6=A9_pin6_6PQ07, 4=D16_pin3_1TQ07, 5=D16_pin3_1TQ07
+- Sheet 6, A9.8, 7437: 8=A9_pin8_2PQ07, 9=D16_pin6_6TQ07, 10=D16_pin6_6TQ07
+- Sheet 6, B9.3, 7408: 3=B9_pin3_5PBVE, 1=H6_pin9_5BDGC, 2=F11_pin9_5KVLB
+- Sheet 6, B9.6, 7408: 6=B9_pin6_5PMVE, 4=M3_pin6_5MECG, 5=F11_pin4_5KVLM
+- Sheet 6, B9.8, 7408: 8=B9_pin8_5PDVE, 9=F11_pin6_5KVLD, 10=B2_pin9_5DDGC
+- Sheet 6, B9.11, 7408: 11=B9_pin11_5PNVE, 12=F11_pin2_5KVLN, 13=M3_pin8_5NECG
+- Sheet 6, C9.3, 7400: 3=C9_pin3_5PBVD, 1=H8_pin2_1BDGC, 2=B10_pin13_C9_pin2
+- Sheet 6, C9.6, 7400: 6=C9_pin6_5PDVD, 4=B4_pin2_1DDGC, 5=D10_pin13_C9_pin5
+- Sheet 6, C9.8, 7400: 8=C9_pin8_5PMVD, 9=C10_pin13_PMVC, 10=N8_pin6_1MECG
+- Sheet 6, C9.11, 7400: 11=C9_pin11_5PNVD, 12=E10_pin13_PNVC, 13=N9_pin12_1NECG
+- Sheet 6, E9.3, 7408: 3=E9_pin3_1PNVD, 1=E10_pin13_PNVC, 2=N9_pin12_1NECG
+- Sheet 6, E9.11, 7408: 11=E9_pin11_J2_pin9, 12=N8_pin6_1MECG, 13=C10_pin13_PMVC
+- Sheet 6, H13.11, 7432: 11=H13_pin11_P2PL, 12=L15_pin5_E2PL, 13=K15_pin7_5EGME
+- Sheet 6, D9.8, 7430: 8=D9_pin8_F5_pin12, 1=L13_pin7_5SSSV, 2=L13_pin7_5SSSV, 3=D15_pin13_5TLHB, 4=C9_pin11_5PNVD, 5=C9_pin8_5PMVD, 6=C9_pin6_5PDVD, 11=A8_pin2_5PLVD, 12=C9_pin3_5PBVD
+- Sheet 6, F5.11, 7400: 11=F5_pin11_F16_pin14, 12=D9_pin8_F5_pin12, 13=F15_pin3_5TCBL
+- Sheet 7, L10.3, 7408: 3=L10_pin3_ARTG, 1=D14_pin9_TLC0, 2=H14_pin6_TLGZ
+- Sheet 7, L10.6, 7408: 6=L10_pin6_L9_pin5, 4=K11_pin2_5ART3, 5=G8_pin9_1BGUT
+- Sheet 7, L10.8, 7408: 8=L10_pin8_5APRS, 9=J16_pin10_5ECDG, 10=B13_pin6_5LWTB
+- Sheet 7, L9.6, 7432: 6=L9_pin6_ATWE, 4=N10_pin5_L9_pin4, 5=L10_pin6_L9_pin5
+- Sheet 7, K9.6, 7420: 6=K9_pin6_J9_pin4, 1=G8_pin5_K9_pin1, 2=L10_pin3_ARTG, 4=L9_pin6_ATWE, 5=J14_pin8_1LQ07
+- Sheet 7, K9.8, 7420: 8=K9_pin8_J9_pin5, 9=J14_pin8_1LQ07, 10=L9_pin6_ATWE, 12=L10_pin3_ARTG, 13=G8_pin6_K9_pin13
+- Sheet 7, J9, 74193: 1=0, 2=J9_pin2_ACT1, 3=J9_pin3_ACT0, 4=K9_pin6_J9_pin4, 5=K9_pin8_J9_pin5, 6=J9_pin6_ACT2, 7=J9_pin7_ACT3, 9=A999, 10=0, 11=L10_pin8_5APRS, 12=-, 13=-, 14=0, 15=0
+- Sheet 7, K11.2, 7404: 2=K11_pin2_5ART3, 1=M10_pin11_ART3
+- Sheet 7, K11.6, 7404: 6=K11_pin6_5ALCC, 5=K12_pin15_K11_pin5
+- Sheet 7, K11.8, 7404: 8=K11_pin8_5ACT2, 9=J9_pin6_ACT2
+- Sheet 7, K11.10, 7404: 10=K11_pin10_5AECC, 11=J12_pin15_K11_pin11
+- Sheet 7, N10, 74151: 1=0, 2=A999, 3=0, 4=0, 5=N10_pin5_L9_pin4, 6=-, 7=M10_pin11_ART3, 9=M10_pin12_N10_pin9, 10=M10_pin13_N10_pin10, 11=M10_pin14_N10_pin11, 12=OPEN, 13=J9_pin3_ACT0, 14=J9_pin2_ACT1, 15=J9_pin3_ACT0
+- Sheet 7, M10, 74161: 1=A999, 2=D16_pin11_6TQLC, 3=0, 4=0, 5=0, 6=0, 7=K11_pin2_5ART3, 9=K10_pin3_M10_pin9, 10=L10_pin3_ARTG, 11=M10_pin11_ART3, 12=M10_pin12_N10_pin9, 13=M10_pin13_N10_pin10, 14=M10_pin14_N10_pin11, 15=-
+- Sheet 7, K10.3, 7400: 3=K10_pin3_M10_pin9, 1=G9_pin5_BGGT, 2=G14_pin6_TLGX
+- Sheet 7, K10.6, 7400: 6=K10_pin6_K10_pin9, 4=K11_pin2_5ART3, 5=G8_pin9_1BGUT
+- Sheet 7, K10.8, 7400: 8=K10_pin8_J11_pin9, 9=K10_pin6_K10_pin9, 10=J14_pin8_1LQ07
+- Sheet 7, K10.11, 7400: 11=K10_pin11_H12_pin11, 12=J14_pin3_2TQGX, 13=K11_pin2_5ART3
+- Sheet 7, G16.1, 7402: 1=G16_pin1_2AQTN, 2=K11_pin2_5ART3, 3=F14_pin6_6TQGX
+- Sheet 7, H12.10, 7404: 10=H12_pin10_NC, 11=K10_pin11_H12_pin11
+- Sheet 7, J10, 82S123: 1=J10_pin1_D7_pin13, 2=J10_pin2_D7_pin3, 3=J10_pin3_C7_pin13, 4=J10_pin4_C7_pin3, 5=J10_pin5_J11_pin14, 6=J10_pin6_J11_pin13, 7=J10_pin7_J11_pin11, 9=J10_pin9_J11_pin6, 10=J9_pin3_ACT0, 11=J9_pin2_ACT1, 12=J9_pin6_ACT2, 13=J9_pin7_ACT3, 14=0, 15=0
+- Sheet 7, J11, 74174: 1=A999, 2=J11_pin2_1ACT3, 3=J9_pin7_ACT3, 4=K11_pin8_5ACT2, 5=J11_pin5_K8_pin1, 6=J10_pin9_J11_pin6, 7=J11_pin7_J12_pin4, 9=K10_pin8_J11_pin9, 10=J11_pin10_J12_pin3, 11=J10_pin7_J11_pin11, 12=J11_pin12_K12_pin4, 13=J10_pin6_J11_pin13, 14=J10_pin5_J11_pin14, 15=J11_pin15_K12_pin3
+- Sheet 7, K8.3, 7486: 3=K8_pin3_L6_pin9, 1=J11_pin5_K8_pin1, 2=J11_pin2_1ACT3
+- Sheet 7, K12, 74161: 1=A999, 2=D16_pin11_6TQLC, 3=J11_pin15_K12_pin3, 4=J11_pin12_K12_pin4, 5=A999, 6=A999, 7=K11_pin6_5ALCC, 9=E14_pin3_5TFGY, 10=A999, 11=-, 12=-, 13=-, 14=-, 15=K12_pin15_K11_pin5
+- Sheet 7, J12, 74161: 1=A999, 2=D16_pin6_6TQ07, 3=J11_pin10_J12_pin3, 4=J11_pin7_J12_pin4, 5=A999, 6=A999, 7=K11_pin10_5AECC, 9=E14_pin3_5TFGY, 10=A999, 11=-, 12=-, 13=-, 14=-, 15=J12_pin15_K11_pin11
+- Sheet 8, L6.3, 7432: 3=L6_pin3_BEGA, 1=D15_pin1_5TCBG, 2=J11_pin2_1ACT3
+- Sheet 8, L6.6, 7432: 6=L6_pin6_BEGB, 4=K11_pin10_5AECC, 5=D15_pin1_5TCBG
+- Sheet 8, L6.8, 7432: 8=L6_pin8_BLGA, 9=K8_pin3_L6_pin9, 10=D14_pin6_5TLC9
+- Sheet 8, L6.11, 7432: 11=L6_pin11_BLGB, 12=D14_pin6_5TLC9, 13=K11_pin6_5ALCC
+- Sheet 8, L8.2, 7404: 2=L8_pin2_L7_pin5, 1=L6_pin8_BLGA
+- Sheet 8, L8.4, 7404: 4=L8_pin4_J7_pin5, 3=L6_pin3_BEGA
+- Sheet 8, J8.a, JK112A: 1=J14_pin11_2LQ07, 2=L6_pin6_BEGB, 3=L6_pin6_BEGB, 4=B999, 5=J8_pin5_J7_pin9, 6=J8_pin6_J7_pin1, 15=B999
+- Sheet 8, J8.b, JK112B: 7=J8_pin7_H10_pin1, 9=J8_pin9_H7_pin13, 10=R5_pin12_5ECKS, 11=R4_pin6_J8_pin11, 12=H14_pin6_TLGZ, 13=J14_pin11_2LQ07, 14=M10_pin11_ART3
+- Sheet 8, J7.6, 7420: 6=J7_pin6_J5_pin4, 1=J8_pin6_J7_pin1, 2=J14_pin8_1LQ07, 4=L6_pin6_BEGB, 5=L8_pin4_J7_pin5
+- Sheet 8, J7.8, 7420: 8=J7_pin8_J5_pin5, 9=J8_pin5_J7_pin9, 10=J14_pin8_1LQ07, 12=L6_pin6_BEGB, 13=L6_pin3_BEGA
+- Sheet 8, J5, 74193: 1=0, 2=J5_pin2_K8_pin5, 3=-, 4=J7_pin6_J5_pin4, 5=J7_pin8_J5_pin5, 6=J5_pin6_BEC4, 7=J5_pin7_H6_pin4, 9=B999, 10=B999, 11=L10_pin8_5APRS, 12=J5_pin12_H5_pin5, 13=J5_pin13_H5_pin4, 14=0, 15=0
+- Sheet 8, H5, 74192: 1=B999, 2=H5_pin2_H6_pin2, 3=H5_pin3_H6_pin3, 4=J5_pin13_H5_pin4, 5=J5_pin12_H5_pin5, 6=H5_pin6_K7_pin1, 7=H5_pin7_K7_pin2, 9=0, 10=0, 11=L10_pin8_5APRS, 12=-, 13=-, 14=0, 15=0
+- Sheet 8, K7.3, 7432: 3=K7_pin3_H6_pin13, 1=H5_pin6_K7_pin1, 2=H5_pin7_K7_pin2
+- Sheet 8, K7.6, 7432: 6=K7_pin6_BVDN, 4=A10_pin13_PLVD, 5=F15_pin8_TLNA
+- Sheet 8, K7.8, 7432: 8=K7_pin8_C10_pin12, 9=K8_pin6_K7_pin9, 10=J9_pin6_ACT2
+- Sheet 8, K7.11, 7432: 11=K7_pin11_C10_pin13, 12=K8_pin8_K7_pin12, 13=K11_pin8_5ACT2
+- Sheet 8, L7.6, 7420: 6=L7_pin6_K6_pin4, 1=E16_pin6_TGLC, 2=J14_pin8_1LQ07, 4=L6_pin11_BLGB, 5=L8_pin2_L7_pin5
+- Sheet 8, L7.8, 7420: 8=L7_pin8_K6_pin5, 9=E16_pin6_TGLC, 10=L6_pin8_BLGA, 12=J14_pin8_1LQ07, 13=L6_pin11_BLGB
+- Sheet 8, K6, 74193: 1=0, 2=K6_pin2_F7_pin3, 3=K6_pin3_F7_pin13, 4=L7_pin6_K6_pin4, 5=L7_pin8_K6_pin5, 6=K6_pin6_BLC3, 7=K6_pin7_BLC4, 9=0, 10=0, 11=L10_pin8_5APRS, 12=K6_pin12_J6_pin5, 13=K6_pin13_J6_pin4, 14=0, 15=0
+- Sheet 8, J6, 74193: 1=0, 2=J6_pin2_H6_pin5, 3=J6_pin3_H6_pin14, 4=K6_pin13_J6_pin4, 5=K6_pin12_J6_pin5, 6=J6_pin6_H6_pin6, 7=J6_pin7_H6_pin7, 9=0, 10=0, 11=L10_pin8_5APRS, 12=-, 13=-, 14=0, 15=B999
+- Sheet 8, H6, 82S129: 1=J9_pin6_ACT2, 2=H5_pin2_H6_pin2, 3=H5_pin3_H6_pin3, 4=J5_pin7_H6_pin4, 5=J6_pin2_H6_pin5, 6=J6_pin6_H6_pin6, 7=J6_pin7_H6_pin7, 9=H6_pin9_5BDGC, 10=H6_pin10_5BDGL, 11=H6_pin11_5BDGR, 12=H6_pin12_5BDGF, 13=K7_pin3_H6_pin13, 14=J6_pin3_H6_pin14, 15=J9_pin7_ACT3
+- Sheet 8, H8.2, 7404: 2=H8_pin2_1BDGC, 1=H6_pin9_5BDGC
+- Sheet 8, H8.4, 7404: 4=H8_pin4_1BDGL, 3=H6_pin10_5BDGL
+- Sheet 8, H8.6, 7404: 6=H8_pin6_1BDGR, 5=H6_pin11_5BDGR
+- Sheet 8, H8.8, 7404: 8=H8_pin8_H10_pin2, 9=H6_pin12_5BDGF
+- Sheet 8, H8.10, 7404: 10=H8_pin10_5BGLR, 11=F4_pin3_BGLR
+- Sheet 8, H8.12, 7404: 12=H8_pin12_G8_pin12, 13=H11_pin8_BGUT
+- Sheet 8, Q3.6, 7427: 6=Q3_pin6_F12_pin10, 3=H6_pin9_5BDGC, 4=J5_pin6_BEC4, 5=K6_pin7_BLC4
+- Sheet 8, R4.6, 7411: 6=R4_pin6_J8_pin11, 3=K11_pin8_5ACT2, 4=C15_pin2_TCRG, 5=H8_pin2_1BDGC
+- Sheet 8, H7.12, 7410: 12=H7_pin12_G9_pin4, 1=A13_pin8_TDAM, 2=H8_pin10_5BGLR, 13=J8_pin9_H7_pin13
+- Sheet 8, H7.6, 7410: 6=H7_pin6_BVDC, 3=C9_pin6_5PDVD, 4=C9_pin11_5PNVD, 5=C9_pin8_5PMVD
+- Sheet 8, H7.8, 7410: 8=H7_pin8_H11_pin9, 9=C15_pin2_TCRG, 10=C15_pin2_TCRG, 11=J9_pin6_ACT2
+- Sheet 8, H9.6, 7421: 6=H9_pin6_G11_pin2, 1=H6_pin12_5BDGF, 2=H6_pin11_5BDGR, 4=H8_pin4_1BDGL, 5=K7_pin6_BVDN
+- Sheet 8, H9.8, 7421: 8=H9_pin8_G11_pin5, 9=K7_pin6_BVDN, 10=H8_pin6_1BDGR, 12=H6_pin10_5BDGL, 13=H6_pin12_5BDGF
+- Sheet 8, H10.12, 7411: 12=H10_pin12_G11_pin10, 1=J8_pin7_H10_pin1, 2=H8_pin8_H10_pin2, 13=H7_pin6_BVDC
+- Sheet 8, H10.6, 7411: 6=H10_pin6_G11_pin1, 3=H6_pin11_5BDGR, 4=H8_pin4_1BDGL, 5=H7_pin6_BVDC
+- Sheet 8, H10.8, 7411: 8=H10_pin8_G11_pin4, 9=H7_pin6_BVDC, 10=H8_pin6_1BDGR, 11=H6_pin10_5BDGL
+- Sheet 8, G11.3, 7432: 3=G11_pin3_G10_pin3, 1=H10_pin6_G11_pin1, 2=H9_pin6_G11_pin2
+- Sheet 8, G11.6, 7432: 6=G11_pin6_G10_pin11, 4=H10_pin8_G11_pin4, 5=H9_pin8_G11_pin5
+- Sheet 8, G11.8, 7432: 8=G11_pin8_G9_pin3, 9=H11_pin6_G11_pin9, 10=H10_pin12_G11_pin10
+- Sheet 8, H11.6, 7421: 6=H11_pin6_G11_pin9, 1=H8_pin6_1BDGR, 2=H8_pin4_1BDGL, 4=C10_pin11_H11_pin4, 5=K7_pin6_BVDN
+- Sheet 8, H11.8, 7421: 8=H11_pin8_BGUT, 9=H7_pin8_H11_pin9, 10=F4_pin3_BGLR, 12=G9_pin5_BGGT, 13=G9_pin9_H11_pin13
+- Sheet 8, G10.a, JK112A: 1=J14_pin11_2LQ07, 2=H14_pin6_TLGZ, 3=G11_pin3_G10_pin3, 4=B999, 5=G10_pin5_F4_pin2, 6=G10_pin6_G8_pin3, 15=B999
+- Sheet 8, G10.b, JK112B: 7=G10_pin7_G8_pin2, 9=G10_pin9_F4_pin1, 10=B999, 11=G11_pin6_G10_pin11, 12=H14_pin6_TLGZ, 13=J14_pin11_2LQ07, 14=B999
+- Sheet 8, G9.a, JK112A: 1=J14_pin11_2LQ07, 2=H14_pin6_TLGZ, 3=G11_pin8_G9_pin3, 4=H7_pin12_G9_pin4, 5=G9_pin5_BGGT, 6=-, 15=M10_pin11_ART3
+- Sheet 8, G9.b, JK112B: 7=-, 9=G9_pin9_H11_pin13, 10=B999, 11=F4_pin3_BGLR, 12=H8_pin10_5BGLR, 13=J14_pin6_2TQGZ, 14=M10_pin11_ART3
+- Sheet 8, F4.3, 7408: 3=F4_pin3_BGLR, 1=G10_pin9_F4_pin1, 2=G10_pin5_F4_pin2
+- Sheet 8, G8.a, JK112A: 1=G16_pin1_2AQTN, 2=G10_pin7_G8_pin2, 3=G10_pin6_G8_pin3, 4=B999, 5=G8_pin5_K9_pin1, 6=G8_pin6_K9_pin13, 15=B999
+- Sheet 8, G8.b, JK112B: 7=-, 9=G8_pin9_1BGUT, 10=B999, 11=H11_pin8_BGUT, 12=H8_pin12_G8_pin12, 13=G16_pin1_2AQTN, 14=B999
+- Sheet 8, K8.6, 7486: 6=K8_pin6_K7_pin9, 4=J5_pin6_BEC4, 5=J5_pin2_K8_pin5
+- Sheet 8, K8.8, 7486: 8=K8_pin8_K7_pin12, 9=K6_pin6_BLC3, 10=K6_pin7_BLC4
+- Sheet 8, C10.11, 7408: 11=C10_pin11_H11_pin4, 12=K7_pin8_C10_pin12, 13=K7_pin11_C10_pin13
+- Sheet 9, F4.6, 7408: 6=F4_pin6_CRTG, 4=D14_pin9_TLC0, 5=H14_pin6_TLGZ
+- Sheet 9, F4.8, 7408: 8=F4_pin8_5CPRS, 9=J16_pin10_5ECDG, 10=M15_pin11_5LWTD
+- Sheet 9, F4.11, 7408: 11=F4_pin11_G4_pin12, 12=L8_pin10_5CRT3, 13=A4_pin9_1DGUT
+- Sheet 9, G4.11, 7432: 11=G4_pin11_CTWE, 12=F4_pin11_G4_pin12, 13=E6_pin5_G4_pin13
+- Sheet 9, G5.6, 7420: 6=G5_pin6_E5_pin4, 1=A4_pin5_G5_pin1, 2=F4_pin6_CRTG, 4=F10_pin3_1KQ07, 5=G4_pin11_CTWE
+- Sheet 9, G5.8, 7420: 8=G5_pin8_E5_pin5, 9=G4_pin11_CTWE, 10=F10_pin3_1KQ07, 12=F4_pin6_CRTG, 13=A4_pin6_G5_pin13
+- Sheet 9, E5, 74193: 1=0, 2=E5_pin2_CCT1, 3=E5_pin3_CCT0, 4=G5_pin6_E5_pin4, 5=G5_pin8_E5_pin5, 6=E5_pin6_CCT2, 7=E5_pin7_CCT3, 9=C999, 10=0, 11=F4_pin8_5CPRS, 12=-, 13=-, 14=0, 15=0
+- Sheet 9, L8.10, 7404: 10=L8_pin10_5CRT3, 11=F6_pin11_CRT3
+- Sheet 9, L8.12, 7404: 12=L8_pin12_5CCT2, 13=E5_pin6_CCT2
+- Sheet 9, E6, 74151: 1=0, 2=C999, 3=0, 4=0, 5=E6_pin5_G4_pin13, 6=-, 7=F6_pin11_CRT3, 9=F6_pin12_E6_pin9, 10=F6_pin13_E6_pin10, 11=F6_pin14_E6_pin11, 12=OPEN, 13=E5_pin3_CCT0, 14=E5_pin2_CCT1, 15=E5_pin3_CCT0
+- Sheet 9, F6, 74161: 1=C999, 2=D16_pin11_6TQLC, 3=0, 4=0, 5=0, 6=0, 7=L8_pin10_5CRT3, 9=F5_pin3_F6_pin9, 10=F4_pin6_CRTG, 11=F6_pin11_CRT3, 12=F6_pin12_E6_pin9, 13=F6_pin13_E6_pin10, 14=F6_pin14_E6_pin11, 15=-
+- Sheet 9, F5.3, 7400: 3=F5_pin3_F6_pin9, 1=A5_pin5_DGGT, 2=G14_pin6_TLGX
+- Sheet 9, F5.6, 7400: 6=F5_pin6_F5_pin9, 4=L8_pin10_5CRT3, 5=A4_pin9_1DGUT
+- Sheet 9, F5.8, 7400: 8=F5_pin8_C5_pin9, 9=F5_pin6_F5_pin9, 10=F10_pin3_1KQ07
+- Sheet 9, G16.4, 7402: 4=G16_pin4_2CQTN, 5=L8_pin10_5CRT3, 6=F14_pin6_6TQGX
+- Sheet 9, D5, 82S123: 1=D5_pin1_D7_pin12, 2=D5_pin2_D7_pin4, 3=D5_pin3_C7_pin12, 4=D5_pin4_C7_pin4, 5=D5_pin5_C5_pin14, 6=D5_pin6_C5_pin13, 7=D5_pin7_C5_pin11, 9=D5_pin9_C5_pin6, 10=E5_pin3_CCT0, 11=E5_pin2_CCT1, 12=E5_pin6_CCT2, 13=E5_pin7_CCT3, 14=0, 15=0
+- Sheet 9, C5, 74174: 1=C999, 2=C5_pin2_1CCT3, 3=E5_pin7_CCT3, 4=L8_pin12_5CCT2, 5=C5_pin5_K8_pin13, 6=D5_pin9_C5_pin6, 7=C5_pin7_C6_pin4, 9=F5_pin8_C5_pin9, 10=C5_pin10_C6_pin3, 11=D5_pin7_C5_pin11, 12=C5_pin12_D6_pin4, 13=D5_pin6_C5_pin13, 14=D5_pin5_C5_pin14, 15=C5_pin15_D6_pin3
+- Sheet 9, K8.11, 7486: 11=K8_pin11_E2_pin9, 12=C5_pin2_1CCT3, 13=C5_pin5_K8_pin13
+- Sheet 9, D6, 74161: 1=C999, 2=D16_pin11_6TQLC, 3=C5_pin15_D6_pin3, 4=C5_pin12_D6_pin4, 5=C999, 6=C999, 7=E4_pin2_5CLCC, 9=E14_pin3_5TFGY, 10=C999, 11=-, 12=-, 13=-, 14=-, 15=D6_pin15_E4_pin1
+- Sheet 9, C6, 74161: 1=C999, 2=D16_pin6_6TQ07, 3=C5_pin10_C6_pin3, 4=C5_pin7_C6_pin4, 5=C999, 6=C999, 7=E4_pin4_5CECC, 9=E14_pin3_5TFGY, 10=C999, 11=-, 12=-, 13=-, 14=-, 15=C6_pin15_E4_pin3
+- Sheet 9, E4.2, 7404: 2=E4_pin2_5CLCC, 1=D6_pin15_E4_pin1
+- Sheet 9, E4.4, 7404: 4=E4_pin4_5CECC, 3=C6_pin15_E4_pin3
+- Sheet 10, E2.3, 7432: 3=E2_pin3_DEGA, 1=D15_pin1_5TCBG, 2=C5_pin2_1CCT3
+- Sheet 10, E2.6, 7432: 6=E2_pin6_DEGB, 4=E4_pin4_5CECC, 5=D15_pin1_5TCBG
+- Sheet 10, E2.8, 7432: 8=E2_pin8_DLGA, 9=K8_pin11_E2_pin9, 10=D14_pin6_5TLC9
+- Sheet 10, E2.11, 7432: 11=E2_pin11_DLGB, 12=D14_pin6_5TLC9, 13=E4_pin2_5CLCC
+- Sheet 10, E4.8, 7404: 8=E4_pin8_C3_pin5, 9=E2_pin3_DEGA
+- Sheet 10, E4.10, 7404: 10=E4_pin10_E3_pin5, 11=E2_pin8_DLGA
+- Sheet 10, C4.a, JK112A: 1=F10_pin6_2KQ07, 2=E2_pin6_DEGB, 3=E2_pin6_DEGB, 4=D999, 5=C4_pin5_C3_pin9, 6=C4_pin6_C3_pin1, 15=D999
+- Sheet 10, C4.b, JK112B: 7=C4_pin7_B6_pin1, 9=C4_pin9_B3_pin13, 10=R5_pin12_5ECKS, 11=R4_pin8_C4_pin11, 12=H14_pin6_TLGZ, 13=F10_pin6_2KQ07, 14=F6_pin11_CRT3
+- Sheet 10, C3.6, 7420: 6=C3_pin6_C1_pin4, 1=C4_pin6_C3_pin1, 2=F10_pin3_1KQ07, 4=E2_pin6_DEGB, 5=E4_pin8_C3_pin5
+- Sheet 10, C3.8, 7420: 8=C3_pin8_C1_pin5, 9=C4_pin5_C3_pin9, 10=F10_pin3_1KQ07, 12=E2_pin6_DEGB, 13=E2_pin3_DEGA
+- Sheet 10, C1, 74193: 1=0, 2=C1_pin2_D4_pin2, 3=-, 4=C3_pin6_C1_pin4, 5=C3_pin8_C1_pin5, 6=C1_pin6_DEC4, 7=C1_pin7_B2_pin4, 9=D999, 10=D999, 11=F4_pin8_5CPRS, 12=C1_pin12_B1_pin5, 13=C1_pin13_B1_pin4, 14=0, 15=0
+- Sheet 10, B1, 74192: 1=0, 2=B1_pin2_B2_pin2, 3=B1_pin3_B2_pin3, 4=C1_pin13_B1_pin4, 5=C1_pin12_B1_pin5, 6=B1_pin6_D3_pin13, 7=B1_pin7_D3_pin12, 9=0, 10=0, 11=F4_pin8_5CPRS, 12=-, 13=-, 14=0, 15=D999
+- Sheet 10, D3.3, 7432: 3=D3_pin3_E9_pin5, 1=E5_pin6_CCT2, 2=D4_pin3_D3_pin2
+- Sheet 10, D3.6, 7432: 6=D3_pin6_E9_pin4, 4=L8_pin12_5CCT2, 5=D4_pin6_D3_pin5
+- Sheet 10, D3.8, 7432: 8=D3_pin8_DVDN, 9=F15_pin8_TLNA, 10=A10_pin13_PLVD
+- Sheet 10, D3.11, 7432: 11=D3_pin11_B2_pin13, 12=B1_pin7_D3_pin12, 13=B1_pin6_D3_pin13
+- Sheet 10, E3.6, 7420: 6=E3_pin6_D2_pin4, 1=E16_pin6_TGLC, 2=F10_pin3_1KQ07, 4=E2_pin11_DLGB, 5=E4_pin10_E3_pin5
+- Sheet 10, E3.8, 7420: 8=E3_pin8_D2_pin5, 9=E2_pin11_DLGB, 10=E16_pin6_TGLC, 12=F10_pin3_1KQ07, 13=E2_pin8_DLGA
+- Sheet 10, D2, 74193: 1=0, 2=D2_pin2_F7_pin4, 3=D2_pin3_F7_pin12, 4=E3_pin6_D2_pin4, 5=E3_pin8_D2_pin5, 6=D2_pin6_DLC3, 7=D2_pin7_DLC4, 9=0, 10=0, 11=F4_pin8_5CPRS, 12=D2_pin12_C2_pin5, 13=D2_pin13_C2_pin4, 14=0, 15=0
+- Sheet 10, C2, 74193: 1=0, 2=C2_pin2_B2_pin5, 3=C2_pin3_B2_pin14, 4=D2_pin13_C2_pin4, 5=D2_pin12_C2_pin5, 6=C2_pin6_B2_pin6, 7=C2_pin7_B2_pin7, 9=0, 10=0, 11=F4_pin8_5CPRS, 12=-, 13=-, 14=0, 15=D999
+- Sheet 10, B2, 82S129: 1=E5_pin6_CCT2, 2=B1_pin2_B2_pin2, 3=B1_pin3_B2_pin3, 4=C1_pin7_B2_pin4, 5=C2_pin2_B2_pin5, 6=C2_pin6_B2_pin6, 7=C2_pin7_B2_pin7, 9=B2_pin9_5DDGC, 10=B2_pin10_5DDGL, 11=B2_pin11_5DDGR, 12=B2_pin12_5DDGF, 13=D3_pin11_B2_pin13, 14=C2_pin3_B2_pin14, 15=E5_pin7_CCT3
+- Sheet 10, B4.2, 7404: 2=B4_pin2_1DDGC, 1=B2_pin9_5DDGC
+- Sheet 10, B4.4, 7404: 4=B4_pin4_1DDGL, 3=B2_pin10_5DDGL
+- Sheet 10, B4.6, 7404: 6=B4_pin6_1DDGR, 5=B2_pin11_5DDGR
+- Sheet 10, B4.8, 7404: 8=B4_pin8_B6_pin2, 9=B2_pin12_5DDGF
+- Sheet 10, B4.10, 7404: 10=B4_pin10_5DGLR, 11=E9_pin8_DGLR
+- Sheet 10, B4.12, 7404: 12=B4_pin12_A4_pin12, 13=B7_pin8_DGUT
+- Sheet 10, Q3.8, 7427: 8=Q3_pin8_F12_pin11, 9=D2_pin7_DLC4, 10=C1_pin6_DEC4, 11=B2_pin9_5DDGC
+- Sheet 10, R4.8, 7411: 8=R4_pin8_C4_pin11, 9=B4_pin2_1DDGC, 10=C15_pin2_TCRG, 11=L8_pin12_5CCT2
+- Sheet 10, B3.12, 7410: 12=B3_pin12_A5_pin4, 1=A13_pin8_TDAM, 2=B4_pin10_5DGLR, 13=C4_pin9_B3_pin13
+- Sheet 10, B3.6, 7410: 6=B3_pin6_DVDC, 3=C9_pin3_5PBVD, 4=C9_pin11_5PNVD, 5=C9_pin8_5PMVD
+- Sheet 10, B3.8, 7410: 8=B3_pin8_B7_pin9, 9=C15_pin2_TCRG, 10=C15_pin2_TCRG, 11=E5_pin6_CCT2
+- Sheet 10, B5.6, 7421: 6=B5_pin6_A7_pin2, 1=B2_pin12_5DDGF, 2=B2_pin11_5DDGR, 4=B4_pin4_1DDGL, 5=D3_pin8_DVDN
+- Sheet 10, B5.8, 7421: 8=B5_pin8_A7_pin5, 9=D3_pin8_DVDN, 10=B4_pin6_1DDGR, 12=B2_pin10_5DDGL, 13=B2_pin12_5DDGF
+- Sheet 10, B6.12, 7411: 12=B6_pin12_A7_pin10, 1=C4_pin7_B6_pin1, 2=B4_pin8_B6_pin2, 13=B3_pin6_DVDC
+- Sheet 10, B6.6, 7411: 6=B6_pin6_A7_pin1, 3=B2_pin11_5DDGR, 4=B4_pin4_1DDGL, 5=B3_pin6_DVDC
+- Sheet 10, B6.8, 7411: 8=B6_pin8_A7_pin4, 9=B3_pin6_DVDC, 10=B4_pin6_1DDGR, 11=B2_pin10_5DDGL
+- Sheet 10, A7.3, 7432: 3=A7_pin3_A6_pin3, 1=B6_pin6_A7_pin1, 2=B5_pin6_A7_pin2
+- Sheet 10, A7.6, 7432: 6=A7_pin6_A6_pin11, 4=B6_pin8_A7_pin4, 5=B5_pin8_A7_pin5
+- Sheet 10, A7.8, 7432: 8=A7_pin8_A5_pin3, 9=B7_pin6_A7_pin9, 10=B6_pin12_A7_pin10
+- Sheet 10, B7.6, 7421: 6=B7_pin6_A7_pin9, 1=B4_pin6_1DDGR, 2=B4_pin4_1DDGL, 4=E9_pin6_B7_pin4, 5=D3_pin8_DVDN
+- Sheet 10, B7.8, 7421: 8=B7_pin8_DGUT, 9=B3_pin8_B7_pin9, 10=E9_pin8_DGLR, 12=A5_pin5_DGGT, 13=A5_pin9_B7_pin13
+- Sheet 10, A6.a, JK112A: 1=F10_pin6_2KQ07, 2=H14_pin6_TLGZ, 3=A7_pin3_A6_pin3, 4=D999, 5=A6_pin5_E9_pin9, 6=A6_pin6_A4_pin3, 15=D999
+- Sheet 10, A6.b, JK112B: 7=A6_pin7_A4_pin2, 9=A6_pin9_E9_pin10, 10=D999, 11=A7_pin6_A6_pin11, 12=H14_pin6_TLGZ, 13=F10_pin6_2KQ07, 14=D999
+- Sheet 10, A5.a, JK112A: 1=F10_pin6_2KQ07, 2=H14_pin6_TLGZ, 3=A7_pin8_A5_pin3, 4=B3_pin12_A5_pin4, 5=A5_pin5_DGGT, 6=-, 15=F6_pin11_CRT3
+- Sheet 10, A5.b, JK112B: 7=-, 9=A5_pin9_B7_pin13, 10=D999, 11=E9_pin8_DGLR, 12=B4_pin10_5DGLR, 13=J14_pin6_2TQGZ, 14=F6_pin11_CRT3
+- Sheet 10, E9.6, 7408: 6=E9_pin6_B7_pin4, 4=D3_pin6_E9_pin4, 5=D3_pin3_E9_pin5
+- Sheet 10, E9.8, 7408: 8=E9_pin8_DGLR, 9=A6_pin5_E9_pin9, 10=A6_pin9_E9_pin10
+- Sheet 10, A4.a, JK112A: 1=G16_pin4_2CQTN, 2=A6_pin7_A4_pin2, 3=A6_pin6_A4_pin3, 4=D999, 5=A4_pin5_G5_pin1, 6=A4_pin6_G5_pin13, 15=D999
+- Sheet 10, A4.b, JK112B: 7=-, 9=A4_pin9_1DGUT, 10=D999, 11=B7_pin8_DGUT, 12=B4_pin12_A4_pin12, 13=G16_pin4_2CQTN, 14=D999
+- Sheet 10, D4.3, 7486: 3=D4_pin3_D3_pin2, 1=C1_pin6_DEC4, 2=C1_pin2_D4_pin2
+- Sheet 10, D4.6, 7486: 6=D4_pin6_D3_pin5, 4=D2_pin7_DLC4, 5=D2_pin6_DLC3
+- Sheet 11, J2.3, 7408: 3=J2_pin3_H1_pin3, 1=MTTB, 2=MTTA
+- Sheet 11, J2.6, 7408: 6=J2_pin6_H1_pin2, 4=P9_pin4_5MTTB, 5=P9_pin2_5MTTA
+- Sheet 11, J2.8, 7408: 8=J2_pin8_J1_pin3, 9=E9_pin11_J2_pin9, 10=K1_pin6_J2_pin10
+- Sheet 11, J2.11, 7408: 11=J2_pin11_J4_pin14, 12=J1_pin5_GTHA, 13=J1_pin7_5GTHB
+- Sheet 11, H1.a, JK112A: 1=A9_pin8_2PQ07, 2=J2_pin6_H1_pin2, 3=J2_pin3_H1_pin3, 4=G999, 5=H1_pin5_GTWA, 6=H1_pin6_H1_pin12, 15=J16_pin8_1ESGC
+- Sheet 11, H1.b, JK112B: 7=H1_pin7_5GTWB, 9=-, 10=G999, 11=H1_pin5_GTWA, 12=H1_pin6_H1_pin12, 13=A9_pin8_2PQ07, 14=G999
+- Sheet 11, F1.6, 7410: 6=F1_pin6_E1_pin4, 3=P7_pin6_MTNL, 4=H1_pin7_5GTWB, 5=H1_pin5_GTWA
+- Sheet 11, F1.8, 7410: 8=F1_pin8_E1_pin5, 9=H1_pin5_GTWA, 10=H1_pin7_5GTWB, 11=P7_pin3_MTNR
+- Sheet 11, E1, 74193: 1=0, 2=E1_pin2_G2_pin11, 3=E1_pin3_G2_pin10, 4=F1_pin6_E1_pin4, 5=F1_pin8_E1_pin5, 6=E1_pin6_GCT2, 7=E1_pin7_GCT3, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=0
+- Sheet 11, D1.3, 7486: 3=D1_pin3_GGT3, 1=H3_pin12_D1_pin1, 2=E1_pin7_GCT3
+- Sheet 11, D1.6, 7486: 6=D1_pin6_M6_pin9, 4=F3_pin10_D1_pin4, 5=D1_pin3_GGT3
+- Sheet 11, F3.4, 7404: 4=F3_pin4_5GRCC, 3=H4_pin15_F3_pin3
+- Sheet 11, F3.6, 7404: 6=F3_pin6_5GLCC, 5=G3_pin15_F3_pin5
+- Sheet 11, F3.8, 7404: 8=F3_pin8_5GECC, 9=F2_pin15_F3_pin9
+- Sheet 11, F3.10, 7404: 10=F3_pin10_D1_pin4, 11=E1_pin6_GCT2
+- Sheet 11, K1.6, 7420: 6=K1_pin6_J2_pin10, 1=A8_pin2_5PLVD, 2=C9_pin11_5PNVD, 4=D15_pin10_5THVA, 5=D15_pin13_5TLHB
+- Sheet 11, J1.a, JK112A: 1=A9_pin8_2PQ07, 2=G14_pin6_TLGX, 3=J2_pin8_J1_pin3, 4=G13_pin10_5LMCK, 5=J1_pin5_GTHA, 6=J1_pin6_H2_pin12, 15=G999
+- Sheet 11, J1.b, JK112B: 7=J1_pin7_5GTHB, 9=J1_pin9_GTHB, 10=G999, 11=J1_pin5_GTHA, 12=H2_pin11_J1_pin12, 13=J14_pin3_2TQGX, 14=G999
+- Sheet 11, H2.3, 7408: 3=H2_pin3_GTHD, 1=K2_pin6_H2_pin1, 2=J1_pin9_GTHB
+- Sheet 11, H2.11, 7408: 11=H2_pin11_J1_pin12, 12=J1_pin6_H2_pin12, 13=H3_pin9_GRPM
+- Sheet 11, K2.a, JK112A: 1=J14_pin3_2TQGX, 2=J1_pin7_5GTHB, 3=J1_pin9_GTHB, 4=G999, 5=-, 6=K2_pin6_H2_pin1, 15=G999
+- Sheet 11, G1.2, 7407: 2=G1_pin2_GTHE, 1=H2_pin3_GTHD
+- Sheet 11, G1.4, 7407: 4=G1_pin4_GMC2, 3=H3_pin9_GRPM
+- Sheet 11, G1.6, 7407: 6=G1_pin6_GMC1, 5=J4_pin2_GRS1
+- Sheet 11, G1.8, 7407: 8=G1_pin8_GMC0, 9=J4_pin3_GRS0
+- Sheet 11, J3.3, 7400: 3=J3_pin3_J4_pin4, 1=H3_pin11_J3_pin1, 2=H15_pin11_1ECK2
+- Sheet 11, J3.6, 7400: 6=J3_pin6_J4_pin5, 4=H3_pin10_J3_pin4, 5=H15_pin11_1ECK2
+- Sheet 11, J3.8, 7400: 8=J3_pin8_J4_pin11, 9=J1_pin9_GTHB, 10=M8_pin9_1MTSR
+- Sheet 11, J4, 74193: 1=0, 2=J4_pin2_GRS1, 3=J4_pin3_GRS0, 4=J3_pin3_J4_pin4, 5=J3_pin6_J4_pin5, 6=J4_pin6_GRS2, 7=J4_pin7_GRS3, 9=G999, 10=G999, 11=J3_pin8_J4_pin11, 12=-, 13=-, 14=J2_pin11_J4_pin14, 15=0
+- Sheet 11, H3, 82S129: 1=M8_pin9_1MTSR, 2=M9_pin9_H3_pin2, 3=M8_pin5_H3_pin3, 4=J4_pin7_GRS3, 5=J4_pin3_GRS0, 6=J4_pin2_GRS1, 7=J4_pin6_GRS2, 9=H3_pin9_GRPM, 10=H3_pin10_J3_pin4, 11=H3_pin11_J3_pin1, 12=H3_pin12_D1_pin1, 13=0, 14=0, 15=J1_pin9_GTHB
+- Sheet 11, G2, 82S123: 1=G2_pin1_D7_pin11, 2=G2_pin2_D7_pin5, 3=G2_pin3_C7_pin11, 4=G2_pin4_C7_pin5, 5=G2_pin5_G3_pin3, 6=G2_pin6_G3_pin4, 7=G2_pin7_F2_pin3, 9=G2_pin9_F2_pin4, 10=E1_pin3_G2_pin10, 11=E1_pin2_G2_pin11, 12=E1_pin6_GCT2, 13=E1_pin7_GCT3, 14=0, 15=0
+- Sheet 11, H4, 74161: 1=J16_pin8_1ESGC, 2=D16_pin11_6TQLC, 3=J4_pin3_GRS0, 4=J4_pin2_GRS1, 5=J4_pin6_GRS2, 6=J4_pin7_GRS3, 7=H3_pin9_GRPM, 9=F3_pin4_5GRCC, 10=G14_pin8_TLGY, 11=-, 12=-, 13=-, 14=-, 15=H4_pin15_F3_pin3
+- Sheet 11, G3, 74161: 1=G999, 2=D16_pin11_6TQLC, 3=G2_pin5_G3_pin3, 4=G2_pin6_G3_pin4, 5=G999, 6=G999, 7=F3_pin6_5GLCC, 9=F3_pin4_5GRCC, 10=G999, 11=-, 12=-, 13=-, 14=-, 15=G3_pin15_F3_pin5
+- Sheet 11, F2, 74161: 1=G999, 2=A9_pin6_6PQ07, 3=G2_pin7_F2_pin3, 4=G2_pin9_F2_pin4, 5=G999, 6=G999, 7=F3_pin8_5GECC, 9=F3_pin4_5GRCC, 10=G999, 11=-, 12=-, 13=-, 14=-, 15=F2_pin15_F3_pin9
+- Sheet 12, M6.3, 7432: 3=M6_pin3_MEGA, 1=D15_pin1_5TCBG, 2=D1_pin3_GGT3
+- Sheet 12, M6.6, 7432: 6=M6_pin6_MEGB, 4=F3_pin8_5GECC, 5=D15_pin1_5TCBG
+- Sheet 12, M6.8, 7432: 8=M6_pin8_MLGA, 9=D1_pin6_M6_pin9, 10=D14_pin6_5TLC9
+- Sheet 12, M6.11, 7432: 11=M6_pin11_MLGB, 12=D14_pin6_5TLC9, 13=F3_pin6_5GLCC
+- Sheet 12, N7.10, 7404: 10=N7_pin10_M5_pin5, 11=M6_pin3_MEGA
+- Sheet 12, N7.12, 7404: 12=N7_pin12_L4_pin5, 13=M6_pin8_MLGA
+- Sheet 12, N6.b, JK112B: 7=N6_pin7_M5_pin1, 9=N6_pin9_M5_pin9, 10=M999, 11=M6_pin6_MEGB, 12=M6_pin6_MEGB, 13=A9_pin8_2PQ07, 14=M999
+- Sheet 12, M5.6, 7420: 6=M5_pin6_N5_pin4, 1=N6_pin7_M5_pin1, 2=A9_pin3_1PQ07, 4=M6_pin6_MEGB, 5=N7_pin10_M5_pin5
+- Sheet 12, M5.8, 7420: 8=M5_pin8_N5_pin5, 9=N6_pin9_M5_pin9, 10=A9_pin3_1PQ07, 12=M6_pin6_MEGB, 13=M6_pin3_MEGA
+- Sheet 12, N5, 74193: 1=0, 2=-, 3=-, 4=M5_pin6_N5_pin4, 5=M5_pin8_N5_pin5, 6=-, 7=N5_pin7_M3_pin1, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=N5_pin12_N4_pin5, 13=N5_pin13_N4_pin4, 14=0, 15=0
+- Sheet 12, N4, 74192: 1=M999, 2=N4_pin2_N3_pin3, 3=N4_pin3_M3_pin2, 4=N5_pin13_N4_pin4, 5=N5_pin12_N4_pin5, 6=N4_pin6_N3_pin2, 7=N4_pin7_M3_pin4, 9=0, 10=M999, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=M999
+- Sheet 12, N3.1, 7402: 1=N3_pin1_M3_pin5, 2=N4_pin6_N3_pin2, 3=N4_pin2_N3_pin3
+- Sheet 12, M3.6, 7420: 6=M3_pin6_5MECG, 1=N5_pin7_M3_pin1, 2=N4_pin3_M3_pin2, 4=N4_pin7_M3_pin4, 5=N3_pin1_M3_pin5
+- Sheet 12, N8.6, 7404: 6=N8_pin6_1MECG, 5=M3_pin6_5MECG
+- Sheet 12, N8.8, 7404: 8=N8_pin8_M9_pin12, 9=MTA1
+- Sheet 12, N8.10, 7404: 10=N8_pin10_M8_pin2, 11=MTA0
+- Sheet 12, N8.12, 7404: 12=N8_pin12_M8_pin12, 13=MTSR
+- Sheet 12, L4.6, 7420: 6=L4_pin6_K4_pin4, 1=E16_pin6_TGLC, 2=A9_pin3_1PQ07, 4=M6_pin11_MLGB, 5=N7_pin12_L4_pin5
+- Sheet 12, L4.8, 7420: 8=L4_pin8_K4_pin5, 9=E16_pin6_TGLC, 10=A9_pin3_1PQ07, 12=M6_pin11_MLGB, 13=M6_pin8_MLGA
+- Sheet 12, K4, 74193: 1=0, 2=K4_pin2_F7_pin5, 3=K4_pin3_F7_pin11, 4=L4_pin6_K4_pin4, 5=L4_pin8_K4_pin5, 6=K4_pin6_E7_pin11, 7=K4_pin7_E7_pin5, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=K4_pin12_L5_pin5, 13=K4_pin13_L5_pin4, 14=0, 15=0
+- Sheet 12, L5, 74193: 1=0, 2=L5_pin2_K5_pin2, 3=L5_pin3_K5_pin1, 4=K4_pin13_L5_pin4, 5=K4_pin12_L5_pin5, 6=L5_pin6_K5_pin4, 7=L5_pin7_K5_pin5, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=M999
+- Sheet 12, K5.6, 7421: 6=K5_pin6_G7_pin11, 1=L5_pin3_K5_pin1, 2=L5_pin2_K5_pin2, 4=L5_pin6_K5_pin4, 5=L5_pin7_K5_pin5
+- Sheet 12, P9.2, 7404: 2=P9_pin2_5MTTA, 1=MTTA
+- Sheet 12, P9.4, 7404: 4=P9_pin4_5MTTB, 3=MTTB
+- Sheet 12, P8.3, 7432: 3=P8_pin3_P7_pin2, 1=P9_pin4_5MTTB, 2=P7_pin3_MTNR
+- Sheet 12, P8.6, 7432: 6=P8_pin6_P7_pin4, 4=P7_pin6_MTNL, 5=P9_pin2_5MTTA
+- Sheet 12, P7.3, 7408: 3=P7_pin3_MTNR, 1=MTTA, 2=P8_pin3_P7_pin2
+- Sheet 12, P7.6, 7408: 6=P7_pin6_MTNL, 4=P8_pin6_P7_pin4, 5=MTTB
+- Sheet 12, M9.b, JK112B: 7=-, 9=M9_pin9_H3_pin2, 10=M999, 11=MTA1, 12=N8_pin8_M9_pin12, 13=H15_pin3_2ECK2, 14=J16_pin8_1ESGC
+- Sheet 12, M8.a, JK112A: 1=H15_pin3_2ECK2, 2=N8_pin10_M8_pin2, 3=MTA0, 4=M999, 5=M8_pin5_H3_pin3, 6=-, 15=J16_pin8_1ESGC
+- Sheet 12, M8.b, JK112B: 7=-, 9=M8_pin9_1MTSR, 10=M999, 11=MTSR, 12=N8_pin12_M8_pin12, 13=H15_pin8_1ECK0, 14=J16_pin8_1ESGC
+- Sheet 13, L1.3, 7408: 3=L1_pin3_L2_pin3, 1=NTTB, 2=NTTA
+- Sheet 13, L1.6, 7408: 6=L1_pin6_L2_pin2, 4=P9_pin12_5NTTB, 5=P9_pin10_5NTTA
+- Sheet 13, L1.8, 7408: 8=L1_pin8_M2_pin3, 9=E9_pin3_1PNVD, 10=K1_pin8_L1_pin10
+- Sheet 13, L1.11, 7408: 11=L1_pin11_P1_pin14, 12=M2_pin5_HTHA, 13=M2_pin7_5HTHB
+- Sheet 13, L2.a, JK112A: 1=A9_pin8_2PQ07, 2=L1_pin6_L2_pin2, 3=L1_pin3_L2_pin3, 4=H999, 5=L2_pin5_HTWA, 6=L2_pin6_L2_pin12, 15=J16_pin8_1ESGC
+- Sheet 13, L2.b, JK112B: 7=L2_pin7_5HTWB, 9=-, 10=H999, 11=L2_pin5_HTWA, 12=L2_pin6_L2_pin12, 13=A9_pin8_2PQ07, 14=H999
+- Sheet 13, Q1.6, 7410: 6=Q1_pin6_Q2_pin4, 3=P7_pin11_NTNL, 4=L2_pin7_5HTWB, 5=L2_pin5_HTWA
+- Sheet 13, Q1.8, 7410: 8=Q1_pin8_Q2_pin5, 9=L2_pin5_HTWA, 10=L2_pin7_5HTWB, 11=P7_pin8_NTNR
+- Sheet 13, Q2, 74193: 1=0, 2=Q2_pin2_R1_pin11, 3=Q2_pin3_R1_pin10, 4=Q1_pin6_Q2_pin4, 5=Q1_pin8_Q2_pin5, 6=Q2_pin6_HCT2, 7=Q2_pin7_HCT3, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=0
+- Sheet 13, D1.8, 7486: 8=D1_pin8_HGT3, 9=Q2_pin7_HCT3, 10=N1_pin12_D1_pin10
+- Sheet 13, D1.11, 7486: 11=D1_pin11_P6_pin9, 12=D1_pin8_HGT3, 13=A1_pin2_D1_pin13
+- Sheet 13, A1.2, 7404: 2=A1_pin2_D1_pin13, 1=Q2_pin6_HCT2
+- Sheet 13, A1.4, 7404: 4=A1_pin4_5HRCC, 3=P2_pin15_A1_pin3
+- Sheet 13, A1.6, 7404: 6=A1_pin6_5HLCC, 5=A2_pin15_A1_pin5
+- Sheet 13, A1.8, 7404: 8=A1_pin8_5HECC, 9=A3_pin15_A1_pin9
+- Sheet 13, K1.8, 7420: 8=K1_pin8_L1_pin10, 9=D15_pin13_5TLHB, 10=D15_pin10_5THVA, 12=C9_pin8_5PMVD, 13=A8_pin2_5PLVD
+- Sheet 13, M2.a, JK112A: 1=A9_pin8_2PQ07, 2=G14_pin6_TLGX, 3=L1_pin8_M2_pin3, 4=G13_pin13_5LNCK, 5=M2_pin5_HTHA, 6=M2_pin6_H2_pin9, 15=H999
+- Sheet 13, M2.b, JK112B: 7=M2_pin7_5HTHB, 9=M2_pin9_HTHB, 10=H999, 11=M2_pin5_HTHA, 12=H2_pin8_M2_pin12, 13=J14_pin3_2TQGX, 14=H999
+- Sheet 13, H2.6, 7408: 6=H2_pin6_HTHD, 4=K2_pin7_H2_pin4, 5=M2_pin9_HTHB
+- Sheet 13, H2.8, 7408: 8=H2_pin8_M2_pin12, 9=M2_pin6_H2_pin9, 10=N1_pin9_HRPM
+- Sheet 13, K2.b, JK112B: 7=K2_pin7_H2_pin4, 9=-, 10=H999, 11=M2_pin9_HTHB, 12=M2_pin7_5HTHB, 13=J14_pin3_2TQGX, 14=H999
+- Sheet 13, G1.10, 7407: 10=G1_pin10_HTHE, 11=H2_pin6_HTHD
+- Sheet 13, G1.12, 7407: 12=G1_pin12_HMC2, 13=N1_pin9_HRPM
+- Sheet 13, M1.3, 7400: 3=M1_pin3_P1_pin4, 1=N1_pin11_M1_pin1, 2=H15_pin11_1ECK2
+- Sheet 13, M1.6, 7400: 6=M1_pin6_P1_pin5, 4=N1_pin10_M1_pin4, 5=H15_pin11_1ECK2
+- Sheet 13, M1.8, 7400: 8=M1_pin8_P1_pin11, 9=M2_pin9_HTHB, 10=M7_pin9_1NTSR
+- Sheet 13, P1, 74193: 1=0, 2=P1_pin2_HRS1, 3=P1_pin3_HRS0, 4=M1_pin3_P1_pin4, 5=M1_pin6_P1_pin5, 6=P1_pin6_HRS2, 7=P1_pin7_HRS3, 9=H999, 10=H999, 11=M1_pin8_P1_pin11, 12=-, 13=-, 14=L1_pin11_P1_pin14, 15=0
+- Sheet 13, N1, 82S129: 1=M7_pin9_1NTSR, 2=M9_pin5_N1_pin2, 3=M7_pin5_N1_pin3, 4=P1_pin7_HRS3, 5=P1_pin3_HRS0, 6=P1_pin2_HRS1, 7=P1_pin6_HRS2, 9=N1_pin9_HRPM, 10=N1_pin10_M1_pin4, 11=N1_pin11_M1_pin1, 12=N1_pin12_D1_pin10, 13=0, 14=0, 15=M2_pin9_HTHB
+- Sheet 13, N2.2, 7407: 2=N2_pin2_HMC1, 1=P1_pin2_HRS1
+- Sheet 13, N2.4, 7407: 4=N2_pin4_HMC0, 3=P1_pin3_HRS0
+- Sheet 13, R1, 82S123: 1=R1_pin1_D7_pin10, 2=R1_pin2_D7_pin6, 3=R1_pin3_C7_pin10, 4=R1_pin4_C7_pin6, 5=R1_pin5_A2_pin3, 6=R1_pin6_A2_pin4, 7=R1_pin7_A3_pin3, 9=R1_pin9_A3_pin4, 10=Q2_pin3_R1_pin10, 11=Q2_pin2_R1_pin11, 12=Q2_pin6_HCT2, 13=Q2_pin7_HCT3, 14=0, 15=0
+- Sheet 13, P2, 74161: 1=J16_pin8_1ESGC, 2=D16_pin11_6TQLC, 3=P1_pin3_HRS0, 4=P1_pin2_HRS1, 5=P1_pin6_HRS2, 6=P1_pin7_HRS3, 7=N1_pin9_HRPM, 9=A1_pin4_5HRCC, 10=G14_pin8_TLGY, 11=-, 12=-, 13=-, 14=-, 15=P2_pin15_A1_pin3
+- Sheet 13, A2, 74161: 1=H999, 2=D16_pin11_6TQLC, 3=R1_pin5_A2_pin3, 4=R1_pin6_A2_pin4, 5=H999, 6=H999, 7=A1_pin6_5HLCC, 9=A1_pin4_5HRCC, 10=H999, 11=-, 12=-, 13=-, 14=-, 15=A2_pin15_A1_pin5
+- Sheet 13, A3, 74161: 1=H999, 2=A9_pin6_6PQ07, 3=R1_pin7_A3_pin3, 4=R1_pin9_A3_pin4, 5=H999, 6=H999, 7=A1_pin8_5HECC, 9=A1_pin4_5HRCC, 10=H999, 11=-, 12=-, 13=-, 14=-, 15=A3_pin15_A1_pin9
+- Sheet 14, P6.3, 7432: 3=P6_pin3_NEGA, 1=D15_pin1_5TCBG, 2=D1_pin8_HGT3
+- Sheet 14, P6.6, 7432: 6=P6_pin6_NEGB, 4=A1_pin8_5HECC, 5=D15_pin1_5TCBG
+- Sheet 14, P6.8, 7432: 8=P6_pin8_NLGA, 9=D1_pin11_P6_pin9, 10=D14_pin6_5TLC9
+- Sheet 14, P6.11, 7432: 11=P6_pin11_NLGB, 12=D14_pin6_5TLC9, 13=A1_pin6_5HLCC
+- Sheet 14, N7.2, 7404: 2=N7_pin2_M7_pin2, 1=NTA0
+- Sheet 14, N7.4, 7404: 4=N7_pin4_M7_pin12, 3=NTSR
+- Sheet 14, N7.6, 7404: 6=N7_pin6_M4_pin5, 5=P6_pin8_NLGA
+- Sheet 14, N7.8, 7404: 8=N7_pin8_P5_pin5, 9=P6_pin3_NEGA
+- Sheet 14, N6.a, JK112A: 1=A9_pin8_2PQ07, 2=P6_pin6_NEGB, 3=P6_pin6_NEGB, 4=N999, 5=N6_pin5_P5_pin9, 6=N6_pin6_P5_pin1, 15=N999
+- Sheet 14, P5.6, 7420: 6=P5_pin6_P4_pin4, 1=N6_pin6_P5_pin1, 2=A9_pin3_1PQ07, 4=P6_pin6_NEGB, 5=N7_pin8_P5_pin5
+- Sheet 14, P5.8, 7420: 8=P5_pin8_P4_pin5, 9=N6_pin5_P5_pin9, 10=A9_pin3_1PQ07, 12=P6_pin6_NEGB, 13=P6_pin3_NEGA
+- Sheet 14, P4, 74193: 1=0, 2=-, 3=-, 4=P5_pin6_P4_pin4, 5=P5_pin8_P4_pin5, 6=-, 7=P4_pin7_M3_pin13, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=P4_pin12_P3_pin5, 13=P4_pin13_P3_pin4, 14=0, 15=0
+- Sheet 14, P3, 74192: 1=N999, 2=P3_pin2_N3_pin6, 3=P3_pin3_M3_pin12, 4=P4_pin13_P3_pin4, 5=P4_pin12_P3_pin5, 6=P3_pin6_N3_pin5, 7=P3_pin7_M3_pin10, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=0
+- Sheet 14, N3.4, 7402: 4=N3_pin4_M3_pin9, 5=P3_pin6_N3_pin5, 6=P3_pin2_N3_pin6
+- Sheet 14, M3.8, 7420: 8=M3_pin8_5NECG, 9=N3_pin4_M3_pin9, 10=P3_pin7_M3_pin10, 12=P3_pin3_M3_pin12, 13=P4_pin7_M3_pin13
+- Sheet 14, N9.12, 7404: 12=N9_pin12_1NECG, 13=M3_pin8_5NECG
+- Sheet 14, M4.6, 7420: 6=M4_pin6_L3_pin4, 1=E16_pin6_TGLC, 2=A9_pin3_1PQ07, 4=P6_pin11_NLGB, 5=N7_pin6_M4_pin5
+- Sheet 14, M4.8, 7420: 8=M4_pin8_L3_pin5, 9=P6_pin11_NLGB, 10=E16_pin6_TGLC, 12=A9_pin3_1PQ07, 13=P6_pin8_NLGA
+- Sheet 14, L3, 74193: 1=0, 2=L3_pin2_F7_pin6, 3=L3_pin3_F7_pin10, 4=M4_pin6_L3_pin4, 5=M4_pin8_L3_pin5, 6=L3_pin6_E7_pin10, 7=L3_pin7_E7_pin6, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=L3_pin12_K3_pin5, 13=L3_pin13_K3_pin4, 14=0, 15=0
+- Sheet 14, K3, 74193: 1=0, 2=K3_pin2_K5_pin12, 3=K3_pin3_K5_pin13, 4=L3_pin13_K3_pin4, 5=L3_pin12_K3_pin5, 6=K3_pin6_K5_pin10, 7=K3_pin7_K5_pin9, 9=0, 10=0, 11=J16_pin10_5ECDG, 12=-, 13=-, 14=0, 15=N999
+- Sheet 14, K5.8, 7421: 8=K5_pin8_G7_pin10, 9=K3_pin7_K5_pin9, 10=K3_pin6_K5_pin10, 12=K3_pin2_K5_pin12, 13=K3_pin3_K5_pin13
+- Sheet 14, P9.10, 7404: 10=P9_pin10_5NTTA, 11=NTTA
+- Sheet 14, P9.12, 7404: 12=P9_pin12_5NTTB, 13=NTTB
+- Sheet 14, P8.8, 7432: 8=P8_pin8_P7_pin9, 9=P7_pin8_NTNR, 10=P9_pin12_5NTTB
+- Sheet 14, P8.11, 7432: 11=P8_pin11_P7_pin13, 12=P9_pin10_5NTTA, 13=P7_pin11_NTNL
+- Sheet 14, P7.8, 7408: 8=P7_pin8_NTNR, 9=P8_pin8_P7_pin9, 10=NTTA
+- Sheet 14, P7.11, 7408: 11=P7_pin11_NTNL, 12=NTTB, 13=P8_pin11_P7_pin13
+- Sheet 14, P10.12, 7404: 12=P10_pin12_M9_pin2, 13=NTA1
+- Sheet 14, M9.a, JK112A: 1=H15_pin3_2ECK2, 2=P10_pin12_M9_pin2, 3=NTA1, 4=N999, 5=M9_pin5_N1_pin2, 6=-, 15=J16_pin8_1ESGC
+- Sheet 14, M7.a, JK112A: 1=H15_pin3_2ECK2, 2=N7_pin2_M7_pin2, 3=NTA0, 4=N999, 5=M7_pin5_N1_pin3, 6=-, 15=J16_pin8_1ESGC
+- Sheet 14, M7.b, JK112B: 7=-, 9=M7_pin9_1NTSR, 10=N999, 11=NTSR, 12=N7_pin4_M7_pin12, 13=H15_pin8_1ECK0, 14=J16_pin8_1ESGC
+- Sheet 15, U5.a, JK112A: 1=F14_pin3_2TQLC, 2=XCR1, 3=X999, 4=X999, 5=U5_pin5_U6_pin3, 6=U5_pin6_XC11, 15=X999
+- Sheet 15, U5.b, JK112B: 7=U5_pin7_U6_pin1, 9=U5_pin9_U6_pin13, 10=X999, 11=U5_pin6_XC11, 12=U5_pin6_XC11, 13=F14_pin3_2TQLC, 14=X999
+- Sheet 15, U6.2, 7407: 2=U6_pin2_XC1B, 1=U5_pin7_U6_pin1
+- Sheet 15, U6.4, 7407: 4=U6_pin4_6XC11, 3=U5_pin5_U6_pin3
+- Sheet 15, U6.6, 7407: 6=U6_pin6_XC2B, 5=U7_pin7_U6_pin5
+- Sheet 15, U6.8, 7407: 8=U6_pin8_XC2A, 9=U7_pin9_U6_pin9
+- Sheet 15, U6.10, 7407: 10=U6_pin10_6XC21, 11=U7_pin5_U6_pin11
+- Sheet 15, U6.12, 7407: 12=U6_pin12_XC1A, 13=U5_pin9_U6_pin13
+- Sheet 15, U7.a, JK112A: 1=F14_pin3_2TQLC, 2=XCR2, 3=X999, 4=X999, 5=U7_pin5_U6_pin11, 6=U7_pin6_XC21, 15=X999
+- Sheet 15, U7.b, JK112B: 7=U7_pin7_U6_pin5, 9=U7_pin9_U6_pin9, 10=X999, 11=U7_pin6_XC21, 12=U7_pin6_XC21, 13=F14_pin3_2TQLC, 14=X999
+- Sheet 16, 13R.11, 7408: 11=13R_pin11_F16_pin11, 12=E9_pin3_1PNVD, 13=F15_pin3_5TCBL
+- Sheet 16, 4P.6, 7432: 6=4P_pin6_G1_pin1, 4=H2_pin6_HTHD, 5=H2_pin3_GTHD
+- Sheet 16, 4S.6, 7400: 6=4S_pin6_LADO, 4=G13_pin13_5LNCK, 5=G13_pin10_5LMCK

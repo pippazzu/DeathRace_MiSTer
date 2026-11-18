@@ -1,0 +1,11 @@
+deathrac:
+  - get:
+      - deathrac_game.v
+      - deathrac_controls.v
+      - ttl_cells.v
+      - deathrac_netlist.v
+      - deathrac_board.v
+      - deathrac_fpga.v
+      - deathrac_interlace.v
+      - deathrac_audio.v
+      - deathrac_scream.v

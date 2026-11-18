@@ -1,0 +1,82 @@
+# Game car 1, first sheet. PDF page 11, block C.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip F4 7408
+chip G4 7432
+chip G5 7420
+chip E5 74193
+chip L8 7404
+chip E6 74151
+# Fixed 2026-11-05: F6.7 (ENP) follows the 5ART3/5CRT3 wire; pin 10 alone is ARTG/CRTG. Death Race 7C/7N agree.
+chip F6 74161
+chip F5 7400
+chip G16 7402
+prom D5 82S123 34
+# Pin 4 follows L8.12 (5CCT2), not the pre-inverter CCT2 wire.
+chip C5 74174
+chip K8 7486
+chip D6 74161
+chip C6 74161
+chip E4 7404
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net CTWD F4.11 G4.12
+net 5CRT3 F4.12 F6.7 L8.10 G16.5 F5.4
+net 1DGUT F4.13 F5.5
+net CTWE G4.11 G5.5 G5.9
+net CTWF G4.13 E6.5
+net 5CPRS F4.8 E5.11
+net 5ECDG F4.9
+net 5LWTD F4.10
+net 6CQLT G5.6 E5.4
+net DLFT G5.1
+net CRTG G5.2 G5.12 F6.10 F4.6
+net 1KQ07 G5.4 G5.10 F5.10
+net 6CQRT G5.8 E5.5
+net 5DLFT G5.13
+net GND E5.14 E5.15 E5.1 E5.10 E6.1 E6.3 E6.4 F6.3 F6.4 F6.5 F6.6 D5.14 D5.15
+net C999 E5.9 E6.2 F6.1 C5.1 D6.1 D6.5 D6.6 D6.10 C6.1 C6.5 C6.6 C6.10 BOARD
+net CCT0 E5.3 E6.13 E6.15 D5.10
+net CCT1 E5.2 E6.14 D5.11
+net CCT2 E5.6 L8.13 D5.12
+net CCT3 E5.7 D5.13 C5.3
+net NC E5.13 E5.12 E6.6 F6.15 D6.11 D6.12 D6.13 D6.14 C6.11 C6.12 C6.13 C6.14
+net 5CCT2 L8.12 C5.4
+net CRT3 E6.7 F6.11 L8.11
+net CRT2 E6.9 F6.12
+net CRT1 E6.10 F6.13
+net CRT0 E6.11 F6.14
+net OPEN E6.12
+net 6TQLC F6.2 D6.2
+net 5CRTL F6.9 F5.3
+net DGGT F5.1
+net TLGX F5.2
+net TLC0 F4.4
+net TLGZ F4.5
+net 2CQTN G16.4
+net 6TQGX G16.6
+net CKC0 D5.1
+net CKC1 D5.2
+net CKC2 D5.3
+net CKC3 D5.4
+net CLL0 D5.5 C5.14
+net CLL1 D5.6 C5.13
+net CEL0 D5.7 C5.11
+net CEL1 D5.9 C5.6
+net 6CQUT C5.9 F5.8
+net 1CCT3 C5.2 K8.12
+net 6CCT2 C5.5 K8.13
+net 1CEL1 C5.7 C6.4
+net 1CEL0 C5.10 C6.3
+net 1CLL1 C5.12 D6.4
+net 1CLL0 C5.15 D6.3
+net CGT2 K8.11
+net CEUT F5.6 F5.9
+net 5CLCC D6.7 E4.2
+net 5TFGY D6.9 C6.9
+net CLCC D6.15 E4.1
+net 6TQ07 C6.2
+net 5CECC C6.7 E4.4
+net CECC C6.15 E4.3

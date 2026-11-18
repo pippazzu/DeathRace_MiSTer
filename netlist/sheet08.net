@@ -1,0 +1,137 @@
+# Game car 2, second sheet. PDF page 10, block B.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip L6 7432
+chip L8 7404
+chip J8 74112
+chip J7 7420
+chip J5 74193
+chip H5 74192   # preset 2: pin 1 alone on B999, which crosses the ground bus of 15/10/9 without a dot (fixed 2026-11-15, DR-1A 10K agrees)
+chip K7 7432
+chip L7 7420   # pin 9 was traced as 11, which a 7420 does not have; the twin E3.8 on sheet 10 uses 9
+# Drawing labels the lower inputs 10/11 rather than standard 9/10; preserve it.
+chip K6 74193
+chip J6 74193   # preset 1: pin 15 alone on B999; 1/10/9 on the ground bus (fixed 2026-11-15, DR-1A 10H agrees)
+prom H6 82S129 91
+chip H8 7404
+chip Q3 7427
+chip R4 7411
+# Fixed 2026-11-05: pin 2 meets the inverter output at G9.12, not its input. Death Race B/D agree.
+chip H7 7410
+chip H9 7421
+chip H10 7411
+chip G11 7432
+chip H11 7421
+chip G10 74112
+chip G9 74112
+chip F4 7408
+chip G8 74112
+chip K8 7486
+chip C10 7408
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net BEGA L6.3 L8.3 J7.13
+net 5TCBG L6.1 L6.5
+net 1ACT3 L6.2
+net BEGB L6.6 J8.2 J8.3 J7.4 J7.12
+net 5AECC L6.4
+net 5BEGA L8.4 J7.5
+net 2LQ07 J8.1 J8.13 G10.1 G10.13 G9.1
+net B999 J8.4 J8.15 J5.10 J5.9 H5.1 J6.15 G10.4 G10.15 G10.10 G10.14 G9.10 G8.4 G8.15 G8.10 G8.14 BOARD
+net BEC1 J8.5 J7.9
+net 5BEC1 J8.6 J7.1
+net 6BQED J7.6 J5.4
+net 1LQ07 J7.2 J7.10 L7.2 L7.12
+net 6BQEU J7.8 J5.5
+net 5APRS J5.11 H5.11 K6.11 J6.11
+net GND J5.14 J5.15 J5.1 H5.14 H5.15 H5.10 H5.9 K6.14 K6.15 K6.1 K6.10 K6.9 J6.14 J6.1 J6.10 J6.9
+net NC J5.3 H5.13 H5.12 J6.13 J6.12 G9.6 G9.7 G8.7
+net BEC3 J5.2 K8.5
+net BEC4 J5.6 Q3.4 K8.4
+net BEC5 J5.7 H6.4
+net 6BECD J5.13 H5.4
+net 6BECU J5.12 H5.5
+net BEC6 H5.3 H6.3
+net BEC7 H5.2 H6.2
+net BEC8 H5.6 K7.1
+net BEC9 H5.7 K7.2
+net 5BECE K7.3 H6.13
+net BLGA L6.8 L8.1 L7.10
+net AGT2 L6.9
+net 5TLC9 L6.10 L6.12
+net BLGB L6.11 L7.4 L7.13
+net 5ALCC L6.13
+net 5BLGA L8.2 L7.5
+net 6BQLD L7.6 K6.4
+net TGLC L7.1 L7.9
+net 6BQLU L7.8 K6.5
+net BLC1 K6.3
+net BLC2 K6.2
+net BLC3 K6.6 K8.9
+net BLC4 K6.7 Q3.5 K8.10
+net 6BLCD K6.13 J6.4
+net 6BLCU K6.12 J6.5
+net BLC5 J6.3 H6.14
+net BLC6 J6.2 H6.5
+net BLC7 J6.6 H6.6
+net BLC8 J6.7 H6.7
+net ACT3 H6.15
+net ACT2 H6.1 H7.11 K7.10
+net 5BDGC H6.9 H8.1 Q3.3
+net 5BDGL H6.10 H8.3 H9.12 H10.11
+net 5BDGR H6.11 H8.5 H9.2 H10.3
+net 5BDGF H6.12 H8.9 H9.1 H9.13
+net 1BDGC H8.2 R4.5
+net 1BDGL H8.4 H9.4 H10.4 H11.2
+net 1BDGR H8.6 H9.10 H10.10 H11.1
+net 1BDGF H8.8 H10.2
+net BPGT Q3.6
+net BGGD R4.6 J8.11
+net 5ACT2 R4.3 K7.13
+net TDRG R4.4 H7.9 H7.10
+net TLGZ J8.12 G10.2 G10.12 G9.2
+net 5ECKS J8.10
+net BGGE J8.9 H7.13
+net 5BGGE J8.7 H10.1
+net ART3 J8.14 G9.15 G9.14
+net 5BGTN H7.12 G9.4
+net TDAM H7.1
+net 5BGLR H7.2 H8.10 G9.12
+net BVDN K7.6 H9.5 H9.9 H11.5
+net PLVD K7.4
+net TLNA K7.5
+net BVDC H7.6 H10.5 H10.9 H10.13
+net 5PDVD H7.3
+net 5PNVD H7.4
+net 5PMVD H7.5
+net BFNL H9.6 G11.2
+net BFAL H10.6 G11.1
+net BFGL G11.3 G10.3
+net BFNR H9.8 G11.5
+net BFAR H10.8 G11.4
+net BFGR G11.6 G10.11
+net BFNC H11.6 G11.9
+net BCNG H11.4 C10.11
+net BFAC H10.12 G11.10
+net BFGC G11.8 G9.3
+net BGGL G10.5 F4.2
+net 5BGGL G10.6 G8.3
+net BGGR G10.9 F4.1
+net 5BGGR G10.7 G8.2
+net BGGT G9.5 H11.12
+net BGLR F4.3 H8.11 G9.11 H11.10
+net 2TQGZ G9.13
+net 1BGLR G9.9 H11.13
+net 2AQTN G8.1 G8.13
+net BLFT G8.5
+net 5BLFT G8.6
+net 5BGIM H7.8 H11.9
+net BGUT H11.8 H8.13 G8.11
+net 5BGUT H8.12 G8.12
+net 1BGUT G8.9
+net BE34 K8.6 K7.9
+net BL34 K8.8 K7.12
+net BECN K7.8 C10.12
+net BLCN K7.11 C10.13

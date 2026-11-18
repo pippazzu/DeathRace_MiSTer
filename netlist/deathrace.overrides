@@ -1,0 +1,39 @@
+# Death Race (Exidy DR-1A, 6-29-76) differences from the Chicago model 466 board.
+# Pins are CHIP.PIN, labels as on the drawing.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# Format: CHIP.PIN LABEL-WHEN-GAME_DR (GND/VCC for tied pins). The Derby value stays in sheetNN.net.
+# Each line was checked on a full-resolution crop of both drawings on 2026-11-05.
+# New gates that exist only on Death Race are in sheet16.net.
+
+# Sheets A/C, 7E/7R 82S123-36: A0 is 5ECK1 (walking animation), A1-A3 heading bits
+# 1-3, A4 grounded. Gremlins have 8 headings and two frames each. Derby has 16.
+J10.10 5ECK1
+J10.11 ACT1
+J10.12 ACT2
+J10.13 ACT3
+D5.10 5ECK1
+D5.11 CCT1
+D5.12 CCT2
+D5.13 CCT3
+
+# Sheet K. 13F pins 3 and 4 grounded: gremlins are never mirrored vertically.
+# KKGE and KLGE are marked "Not in use": 11E.5 and 14H.2 are grounded.
+G7.3 GND
+G7.4 GND
+F15.13 GND
+P14.12 GND
+
+# Sheet P. The gremlin serializers 12J/13J/12K/13K shift on 1TQ14, twice the car
+# rate, so a gremlin is half as wide as its 16 PROM columns would otherwise draw.
+B10.7 1TQ14
+B11.7 1TQ14
+D10.7 1TQ14
+D11.7 1TQ14
+
+# Sheet T. Video latch 14A is clocked by 1TQ14 so those half pixels reach the
+# output, and its pin 11 comes from 13R TNVD = 5TCBL & 1PNVD.
+F16.9 1TQ14
+F16.11 TNVD14
+
+# Sheet G. 4P GTHX = GTHD | HTHD: both cars share one crash generator.
+G1.1 GTHX

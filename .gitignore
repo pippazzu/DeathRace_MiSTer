@@ -1,0 +1,11 @@
+# ROM data is never committed: bring your own MAME romsets
+/roms/
+*.zip
+
+# Regenerable outputs: simulation runs, Quartus scratch, Python caches
+/build/
+__pycache__/
+*.pyc
+
+# JTFRAME command-line tool, built from jtcores/modules/jtframe/src (Go)
+/tools/jtframe.exe

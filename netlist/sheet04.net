@@ -1,0 +1,133 @@
+# Car shape. PDF page 6, printed page 4, block K.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip C7 74153
+chip D7 74153
+chip E7 74153
+chip F7 74153
+chip F9 74157
+chip G6 7486
+chip K13 7408
+chip F15 7432
+chip G7 74153
+chip P14 7432
+chip F8 7486
+prom B8 82S129 93
+prom C8 82S129 94
+prom D8 82S129 95
+prom E8 82S129 96
+chip E14 7400
+chip F11 7442
+chip F10 7437
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net 5TEC9 C7.1 C7.15 D7.1 D7.15 F9.1 K13.9 K13.12
+net TEC4 C7.2 D7.2 E7.2 F7.2 G7.2 F11.13
+net AKC3 C7.3
+net CKC3 C7.4
+net GKC3 C7.5
+net HKC3 C7.6
+net KKC3 C7.7 B8.15 C8.15 D8.15 E8.15
+net KKC2 C7.9 B8.1 C8.1 D8.1 E8.1
+net HKC2 C7.10
+net GKC2 C7.11
+net CKC2 C7.12
+net AKC2 C7.13
+net TEC3 C7.14 D7.14 E7.14 F7.14 G7.14 F11.14
+net AKC1 D7.3
+net CKC1 D7.4
+net GKC1 D7.5
+net HKC1 D7.6
+net KKC1 D7.7 B8.2 C8.2 D8.2 E8.2
+net KKC0 D7.9 F15.12
+net HKC0 D7.10
+net GKC0 D7.11
+net CKC0 D7.12
+net AKC0 D7.13
+net GND E7.1 E7.15 F7.1 F7.15 F9.15 B8.13 B8.14 C8.13 C8.14 D8.13 D8.14 E8.13 E8.14
+net BLC4 E7.3
+net DLC4 E7.4
+net MLC4 E7.5
+net NLC4 E7.6
+net KLC4 E7.7 F9.2
+net KLC3 E7.9 F9.5
+net NLC3 E7.10
+net MLC3 E7.11
+net DLC3 E7.12
+net BLC3 E7.13
+net BLC2 F7.3
+net DLC2 F7.4
+net MLC2 F7.5
+net NLC2 F7.6
+net KLC2 F7.7 F9.11
+net KLC1 F7.9 F9.14
+net NLC1 F7.10
+net MLC1 F7.11
+net DLC1 F7.12
+net BLC1 F7.13
+net TLC4 F9.3
+net KLS4 F9.4 F8.2
+net TLC3 F9.6
+net KLS3 F9.7 F8.5
+net KLS2 F9.9 F8.9
+net TLC2 F9.10
+net KLS1 F9.12 F8.12
+net TLC1 F9.13
+net KACT G6.3 G7.3
+net ACT2 G6.1
+net ACT3 G6.2
+net KCCT G6.6 G7.4
+net CCT2 G6.4
+net CCT3 G6.5
+net KGCT G6.8 G7.5
+net GCT3 G6.9
+net GCT2 G6.10
+net KHCT G6.11 G7.6
+net HCT3 G6.12
+net HCT2 G6.13
+net KKGE K13.8 F15.13
+net TLC5 K13.10
+net KKG0 F15.11 B8.3 C8.3 D8.3 E8.3
+net KLGE K13.11 P14.12
+net TEC5 K13.13
+net 5TVRL G7.1 G7.15
+net KLGS G7.7 P14.13
+net KVLE G7.9 F11.15
+net NLCG G7.10
+net MLCG G7.11
+net P999 G7.12 G7.13 BOARD
+net KLGG P14.11 F8.1 F8.4 F8.10 F8.13
+net KLG4 F8.3 B8.4 C8.4 D8.4 E8.4
+net KLG3 F8.6 B8.7 C8.7 D8.7 E8.7
+net KLG2 F8.8 B8.6 C8.6 D8.6 E8.6
+net KLG1 F8.11 B8.5 C8.5 D8.5 E8.5
+net KD15 B8.9
+net KD14 B8.10
+net KD13 B8.11
+net KD12 B8.12
+net KD11 C8.9
+net KD10 C8.10
+net KD09 C8.11
+net KD08 C8.12
+net KD07 D8.9
+net KD06 D8.10
+net KD05 D8.11
+net KD04 D8.12
+net KD03 E8.9
+net KD02 E8.10
+net KD01 E8.11
+net KD00 E8.12
+net 5KVLG E14.8 F11.12
+net TEC2 E14.9
+net TEC1 E14.10
+net NC F11.1 F11.3 F11.5 F11.7 F11.10 F11.11
+net 5KVLN F11.2
+net 5KVLM F11.4
+net 5KVLD F11.6
+net 5KVLB F11.9
+net 1KQ07 F10.3
+net 5TQ07 F10.1 F10.2
+net 2KQ07 F10.6
+net 6TQ07 F10.4 F10.5

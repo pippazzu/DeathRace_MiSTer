@@ -1,0 +1,108 @@
+# Player car 2, first sheet. PDF page 15, block H.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip L1 7408
+chip L2 74112
+chip Q1 7410
+chip Q2 74193
+chip D1 7486
+chip A1 7404
+chip K1 7420
+chip M2 74112
+chip H2 7408
+# K2.7 label partly unclear; physical continuity is unambiguous.
+# Fixed 2026-11-05: K2.12 meets the 5GTHB/5HTHB line feeding GRSC/HRSC. Death Race 5U/5H agree. J and K are then complementary.
+chip K2 74112
+chip G1 7407
+chip M1 7400
+chip P1 74193
+prom N1 82S129 92
+chip N2 7407
+prom R1 82S123 35
+chip P2 74161
+chip A2 74161
+chip A3 74161
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net HTWS L1.3 L2.3
+net NTTB L1.1 BOARD
+net NTTA L1.2 BOARD
+net HTWR L1.6 L2.2
+net 5NTTB L1.4
+net 5NTTA L1.5
+net 2PQ07 L2.1 L2.13 M2.1
+net H999 L2.4 L2.10 L2.14 M2.15 M2.10 M2.14 K2.10 K2.14 P1.10 P1.9 A2.1 A2.5 A2.6 A2.10 A3.1 A3.5 A3.6 A3.10 BOARD
+net HTWA L2.5 L2.11 Q1.5 Q1.9
+net 5HTWA L2.6 L2.12
+net 1ESGC L2.15 P2.1
+net NC L2.9 Q2.13 Q2.12 K2.9 P1.13 P1.12 P2.11 P2.12 P2.13 P2.14 A2.11 A2.12 A2.13 A2.14 A3.11 A3.12 A3.13 A3.14
+net 5HTWB L2.7 Q1.4 Q1.10
+net 6HQLT Q1.6 Q2.4
+net NTNL Q1.3
+net 6HQRT Q1.8 Q2.5
+net NTNR Q1.11
+net 5ECDG Q2.11
+net GND Q2.14 Q2.15 Q2.1 Q2.10 Q2.9 P1.15 P1.1 N1.13 N1.14 R1.14 R1.15
+net HCT0 Q2.3 R1.10
+net HCT1 Q2.2 R1.11
+net HCT2 Q2.6 A1.1 R1.12
+net HCT3 Q2.7 D1.9 R1.13
+net HGT3 D1.8 D1.12
+net HRPR D1.10 N1.12
+net 5HCT2 A1.2 D1.13
+net HGT2 D1.11
+net HTHG K1.8 L1.10
+net 5TLHB K1.9
+net 5THVA K1.10
+net 5PMVD K1.12
+net 5PLVD K1.13
+net HTHS L1.8 M2.3
+net 1PNVD L1.9
+net TLGX M2.2
+net 5LNCK M2.4
+net HTHA M2.5 M2.11 L1.12
+net 5HTHA M2.6 H2.9
+net 2TQGX M2.13 K2.13
+net HTHR M2.12 H2.8
+net HTHB M2.9 K2.11 H2.5 M1.9 N1.15
+net 5HTHB M2.7 K2.12 L1.13
+net HRPM H2.10 N1.9 G1.13 P2.7
+net K2_7 K2.7 H2.4
+net HTHD H2.6 G1.11
+net HTHE G1.10 BOARD
+net HRSC L1.11 P1.14
+net 5HRSL M1.8 P1.11
+net 1NTSR M1.10 N1.1
+net 5HRSD M1.3 P1.4
+net HRPD M1.1 N1.11
+net 1ECK2 M1.2 M1.5
+net 5HRSU M1.6 P1.5
+net HRPU M1.4 N1.10
+net HRS0 P1.3 N1.5 N2.3 P2.3
+net HRS1 P1.2 N1.6 N2.1 P2.4
+net HRS2 P1.6 N1.7 P2.5
+net HRS3 P1.7 N1.4 P2.6
+net 1NTA1 N1.2
+net 1NTA0 N1.3
+net HMC2 G1.12 BOARD
+net HMC1 N2.2 BOARD
+net HMC0 N2.4 BOARD
+net HKC0 R1.1
+net HKC1 R1.2
+net HKC2 R1.3
+net HKC3 R1.4
+net HLL0 R1.5 A2.3
+net HLL1 R1.6 A2.4
+net HEL0 R1.7 A3.3
+net HEL1 R1.9 A3.4
+net 6TQLC P2.2 A2.2
+net 5HRCC P2.9 A1.4 A2.9 A3.9
+net TLGY P2.10
+net HRCC P2.15 A1.3
+net 5HLCC A2.7 A1.6
+net HLCC A2.15 A1.5
+net 6PQ07 A3.2
+net 5HECC A3.7 A1.8
+net HECC A3.15 A1.9

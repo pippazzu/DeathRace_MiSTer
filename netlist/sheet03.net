@@ -1,0 +1,130 @@
+# Timer and score. PDF page 5, printed page 3, block S.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# OPEN identifies a visibly unconnected input; it is not a missed wire.
+chip L12 74151
+chip M12 74151
+chip N12 74151
+chip P12 74151
+chip P14 7432
+chip N14 7420
+chip P13 74157
+# SPCA fans down to P14.10 and M15.9; 5SPCL crosses it without a dot
+# and continues to M14.11. These are separate vertical wires on sheet 3.
+chip M15 7400
+chip M14 7410
+prom N13 82S123 33
+chip M13 74151
+chip L13 74112
+chip M16 7404
+# Fixed 2026-11-05: pin 2 is the raw 2-minute line, ahead of inverter M16. Death Race 14V agrees.
+# Fixed 2026-11-05: 4=SG20, 5=5SG20, 6=S999 on this drawing; Death Race 14U agrees.
+chip N16 74161
+chip K13 7408
+chip P16 74192
+chip P15 74192
+chip N15 7402
+chip G13 7402
+chip M11 74192
+chip L11 74192
+chip P11 74192
+chip N11 74192
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net OPEN L12.1 L12.12 M12.1 M12.12 N12.1 N12.12 P12.1 P12.12
+net STC7 L12.2 P15.7 N15.8 BOARD
+net SLC3 L12.3 M11.7
+net SLC7 L12.4 L11.7
+net SCS3 L12.5 P13.1 P14.9
+net NC L12.6 M12.6 N12.6 P12.6 L13.9 N16.11 N16.12 N16.13 N16.14 P15.13 P15.12 L11.13 L11.12 N11.13 N11.12
+net GND L12.7 M12.7 N12.7 P12.7 P13.15 N13.15 P16.14 P16.1 P16.10 P15.14 P15.1 P15.10 M11.15 M11.1 M11.10 M11.9 L11.15 L11.1 L11.10 L11.9 P11.15 P11.1 P11.10 P11.9 N11.15 N11.1 N11.10 N11.9
+net TEC8 L12.9 M12.9 N12.9 P12.9 N14.4
+net TSS1 L12.10 M12.10 N12.10 P12.10 P14.2 M15.5
+net TSS0 L12.11 M12.11 N12.11 P12.11 P14.1 M15.4
+net SRC3 L12.13 P11.7
+net SRC7 L12.14 N11.7
+net STC3 L12.15 P16.7 N15.6 BOARD
+net STC6 M12.2 P15.6 N15.9 BOARD
+net SLC2 M12.3 M11.6
+net SLC6 M12.4 L11.6
+net SCS2 M12.5 P13.2
+net SRC2 M12.13 P11.6
+net SRC6 M12.14 N11.6
+net STC2 M12.15 P16.6 N15.5 BOARD
+net STC5 N12.2 P15.2 N15.12 BOARD
+net SLC1 N12.3 M11.2
+net SLC5 N12.4 L11.2
+net SCS1 N12.5 P13.5
+net SRC1 N12.13 P11.2
+net SRC5 N12.14 N11.2
+net STC1 N12.15 P16.2 N15.3 BOARD
+net STC4 P12.2 P15.3 N15.11 BOARD
+net SLC0 P12.3 M11.3
+net SLC4 P12.4 L11.3
+net SCS0 P12.5 P13.3 P13.11
+net SRC0 P12.13 P11.3
+net SRC4 P12.14 N11.3
+net STC0 P12.15 P16.3 N15.2 BOARD
+net SPCA P14.6 P13.10 P14.10 M15.9
+net TEC3 P14.4
+net TEC2 P14.5
+net SPCC P14.3 N14.5
+net 5SPCL N14.6 M14.11
+net 5E2PL N14.1
+net EGME N14.2 P16.15 P16.9 P15.15 P15.9
+net SPC4 P13.4 N13.14
+net TEC4 P13.6 P13.14 M15.10
+net SPC3 P13.7 N13.13
+net SPC2 P13.9 N13.12
+net SPC1 P13.12 N13.11
+net S999 P13.13 L13.10 N16.1 N16.6 N16.7 N16.10 P16.5 M11.4 P11.4 BOARD
+net SPC0 P14.8 N13.10
+net 5SPCB M15.8 M14.9
+net 5SPCE M15.6 M14.10
+net SPCF M14.8 M13.7
+net SP07 N13.1 M13.4
+net SP06 N13.2 M13.3
+net SP05 N13.3 M13.2
+net SP04 N13.4 M13.1
+net SP03 N13.5 M13.15
+net SP02 N13.6 M13.14
+net SP01 N13.7 M13.13
+net SP00 N13.9 M13.12
+net SPOS M13.5 L13.11
+net 5SPOS M13.6 L13.12
+net TLC4 M13.9
+net TLC3 M13.10
+net TLC2 M13.11
+net TEC1 L13.13
+net 5SSSV L13.7
+net TVGA L13.14
+net SG20 M16.2 M16.3 N16.4
+net DIP_2MIN_N M16.1 M15.2 BOARD
+net 5SG20 M16.4 N16.5
+net SG10 M15.3 N16.3
+net DIP_1MIN_N M15.1 BOARD
+net 6ECK2 N16.2
+net 5STCR N16.9 K13.3
+net STAA N16.15 M16.5 M14.4
+net 5STAA M16.6 K13.1 G13.5
+net 1ESGC K13.2 P16.11 P15.11
+net 5STCK M14.6 P16.4
+net 5STCE M14.3 N14.8 G13.6
+net 1ECK2 M14.5
+net STAB P16.13 P15.4
+net STAC P16.12 P15.5
+net STCA N15.1 N14.10
+net STCB N15.4 N14.9
+net STCC N15.13 N14.12
+net STCD N15.10 N14.13
+net STGO G13.4
+net 5LMCK M11.5
+net EPOR M11.11 L11.11 P11.11 N11.11
+net ECDG M11.14 L11.14 P11.14 N11.14
+net SLAB M11.13 L11.4
+net SLAC M11.12 L11.5
+net 5LNCK P11.5
+net SRAB P11.13 N11.4
+net SRAC P11.12 N11.5

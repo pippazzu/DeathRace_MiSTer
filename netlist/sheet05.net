@@ -1,0 +1,115 @@
+# Crash car and scoring. PDF page 7, printed page 5, block L.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip C12 74174
+chip E12 74174
+chip B12 74157
+chip D12 74157
+chip A13 7408
+chip A12 74S200
+chip F13 7427
+chip J13 5420
+chip M14 7410
+chip F12 74153
+chip H13 7432
+chip H12 7404
+chip G12 74112
+chip B13 7400
+chip J14 7437
+chip E13 7427
+chip D13 74112
+chip C13 74112
+chip M15 7400
+chip G13 7402
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net L999 C12.1 E12.1 G12.4 G12.15 D13.4 D13.10 C13.4 C13.10 BOARD
+net 6LQBB C12.9 E12.9 B13.8
+net TVGA C12.3
+net TLC8 C12.4 B12.2
+net TLC7 C12.6 B12.5
+net TLC6 C12.11 B12.11
+net TLC5 C12.13 B12.14
+net OPEN C12.14 E12.14
+net LVGA C12.2 A13.1
+net LLC8 C12.5 B12.3
+net LLC7 C12.7 B12.6
+net LLC6 C12.10 B12.10
+net LLC5 C12.12 B12.13
+net NC C12.15 E12.15 G12.5
+net TEC9 E12.3
+net TEC8 E12.4 D12.2
+net TEC7 E12.6 D12.5
+net TEC6 E12.11 D12.11
+net TEC5 E12.13 D12.14
+net LEC9 E12.2 A13.4
+net LEC8 E12.5 D12.3
+net LEC7 E12.7 D12.6
+net LEC6 E12.10 D12.10
+net LEC5 E12.12 D12.13
+net TLC9 B12.1 D12.1 A13.2 A13.5
+net LLS8 B12.4 A12.15
+net LLS7 B12.7 A12.14
+net LLS6 B12.9 A12.11
+net LLS5 B12.12 A12.10
+net GND B12.15 D12.15 A12.4 F12.1 F12.12 F12.13 F12.15
+net LES8 D12.4 A12.9
+net LES7 D12.7 A12.7
+net LES6 D12.9 A12.2
+net LES5 D12.12 A12.1
+net LLGG A13.3 A12.3
+net LEEG A13.6 A12.5
+net 5LAAC A12.12 G12.6
+net 5TLC9 A12.13 M14.13
+net LCRD A12.6 J13.9
+net LCEA A13.11 J13.13
+net 5TEC9 A13.12 M14.1
+net 5ECDG A13.13
+net LCEB F13.8 J13.12
+net TEC2 F13.9
+net TEC3 F13.10
+net TEC4 F13.11
+net 5LCEN J13.8
+net TEC1 J13.10
+net 5LAAA M14.12 F12.3 F12.4
+net 5TEC3 M14.2
+net LABC F12.2 H13.3
+net 5LWTD F12.5 M15.11
+net 5LWTB F12.6 B13.6
+net 5LAAB F12.7 H12.1 G12.2
+net LABB F12.9 B13.9
+net BPGT F12.10
+net DPGT F12.11
+net TLC0 F12.14 C13.15 C13.14
+net ECDG H13.1
+net 6EPOR H13.2
+net 1LAAB H12.2 G12.3
+net 2LQ07 G12.1 J14.11 D13.1 D13.13 C13.1 C13.13
+net 1LQ07 B13.10 J14.8
+net 5TQ07 J14.9 J14.10
+net 6TQ07 J14.12 J14.13
+net LMBS E13.6 D13.3
+net 1THVA E13.3 E13.11 E13.1 F13.1
+net 5PBVD E13.4 E13.10
+net 5PMVD E13.5 E13.13
+net LNBS E13.8 D13.11
+net 5PNVD E13.9 F13.13
+net LMDS E13.12 C13.3
+net 5PDVD E13.2 F13.2
+net LNDS F13.12 C13.11
+net TLGY D13.2 D13.12 C13.2 C13.12 B13.4 M15.13
+net LMBF D13.5 G13.9
+net 5LMBF D13.6 B13.2
+net 5TLC0 D13.15 D13.14
+net LNBF D13.9 G13.11
+net 5LNBF D13.7 B13.1
+net LMDF C13.5 G13.8
+net 5LMDF C13.6 B13.12
+net LNDF C13.9 G13.12
+net 5LNDF C13.7 B13.13
+net LMNB B13.3 B13.5
+net LMND B13.11 M15.12
+net 5LMCK G13.10
+net 5LNCK G13.13

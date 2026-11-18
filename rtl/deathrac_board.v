@@ -1,0 +1,343 @@
+// Digital board boundary for the model-466 schematic.
+// Controls below are logic levels AFTER the cabinet input inverters.
+// Startup RCs are represented by reset/release, not transistor simulation.
+// Chip list of the traced board, sorted by location (Chicago Coin grid, then the
+// three Death Race-only gates at Exidy locations). MSI types are as printed on the
+// drawing. Gate package types are inferred from the traced symbol and its pin numbers
+// in netlist/sheet*.net. Wire names: see docs/NET_NAMES.md.
+// ---- chip list: begin ----
+// A1     7404
+// A2     74161
+// A3     74161
+// A4     74112
+// A5     74112
+// A6     74112
+// A7     7432
+// A8     7404
+// A9     7437
+// A10    74166
+// A11    74166
+// A12    74S200
+// A13    7408
+// A14    74161
+// A15    74161
+// B1     74192
+// B2     82S129  PROM, roms/cdi.b2.hex
+// B3     7410
+// B4     7404
+// B5     7421
+// B6     7411
+// B7     7421
+// B8     82S129  PROM, roms/cdi.b8.hex
+// B9     7408
+// B10    74166
+// B11    74166
+// B12    74157
+// B13    7400
+// B14    74161
+// B15    74161
+// B16    7404
+// C1     74193
+// C2     74193
+// C3     7420
+// C4     74112
+// C5     74174
+// C6     74161
+// C7     74153
+// C8     82S129  PROM, roms/cdi.c8.hex
+// C9     7400
+// C10    7408    duplicate designator: sheet 8 also labels the BCNG 7408 "C10" (docs/ACCURACY.md)
+// C10    74166
+// C11    74166
+// C12    74174
+// C13    74112
+// C14    82S123  PROM, roms/cdi.c14.hex
+// C15    82S123  PROM, roms/cdi.c13.hex
+// C16    74112
+// D1     7486
+// D2     74193
+// D3     7432
+// D4     7486
+// D5     82S123  PROM, roms/cdi.d5.hex
+// D6     74161
+// D7     74153
+// D8     82S129  PROM, roms/cdi.d8.hex
+// D9     7430
+// D10    74166
+// D11    74166
+// D12    74157
+// D13    74112
+// D14    74112
+// D15    7402
+// D16    7437
+// E1     74193
+// E2     7432
+// E3     7420
+// E4     7404
+// E5     74193
+// E6     74151
+// E7     74153
+// E8     82S129  PROM, roms/cdi.e8.hex
+// E9     7408
+// E10    74166
+// E11    74166
+// E12    74174
+// E13    7427
+// E14    7400
+// E15    7411
+// E16    7408
+// F1     7410
+// F2     74161
+// F3     7404
+// F4     7408
+// F5     7400
+// F6     74161
+// F7     74153
+// F8     7486
+// F9     74157
+// F10    7437
+// F11    7442
+// F12    74153
+// F13    7427
+// F14    7437
+// F15    7432
+// F16    74174
+// G1     7407
+// G2     82S123  PROM, roms/cdi.g2.hex
+// G3     74161
+// G4     7432
+// G5     7420
+// G6     7486
+// G7     74153
+// G8     74112
+// G9     74112
+// G10    74112
+// G11    7432
+// G12    74112
+// G13    7402
+// G14    7421
+// G15    7404
+// G16    7402
+// H1     74112
+// H2     7408
+// H3     82S129  PROM, roms/cdi.h3.hex
+// H4     74161
+// H5     74192
+// H6     82S129  PROM, roms/cdi.h6.hex
+// H7     7410
+// H8     7404
+// H9     7421
+// H10    7411
+// H11    7421
+// H12    7404
+// H13    7432
+// H14    7421
+// H15    7437
+// H16    74161
+// J1     74112
+// J2     7408
+// J3     7400
+// J4     74193
+// J5     74193
+// J6     74193
+// J7     7420
+// J8     74112
+// J9     74193
+// J10    82S123  PROM, roms/cdi.j10.hex
+// J11    74174
+// J12    74161
+// J13    5420    drawn as 5420
+// J14    7437
+// J15    74112
+// J16    7404
+// K1     7420
+// K2     74112
+// K3     74193
+// K4     74193
+// K5     7421
+// K6     74193
+// K7     7432
+// K8     7486
+// K9     7420
+// K10    7400
+// K11    7404
+// K12    74161
+// K13    7408
+// K14    7407
+// K15    74112
+// K16    74112
+// L1     7408
+// L2     74112
+// L3     74193
+// L4     7420
+// L5     74193
+// L6     7432
+// L7     7420
+// L8     7404
+// L9     7432
+// L10    7408
+// L11    74192
+// L12    74151
+// L13    74112
+// L14    74112
+// L15    74112
+// L16    7408
+// M1     7400
+// M2     74112
+// M3     7420
+// M4     7420
+// M5     7420
+// M6     7432
+// M7     74112
+// M8     74112
+// M9     74112
+// M10    74161
+// M11    74192
+// M12    74151
+// M13    74151
+// M14    7410
+// M15    7400
+// M16    7404
+// N1     82S129  PROM, roms/cdi.n1.hex
+// N2     7407
+// N3     7402
+// N4     74192
+// N5     74193
+// N6     74112
+// N7     7404
+// N8     7404
+// N9     7404
+// N10    74151
+// N11    74192
+// N12    74151
+// N13    82S123  PROM, roms/cdi.n13.hex
+// N14    7420
+// N15    7402
+// N16    74161
+// P1     74193
+// P2     74161
+// P3     74192
+// P4     74193
+// P5     7420
+// P6     7432
+// P7     7408
+// P8     7432
+// P9     7404
+// P10    7404
+// P11    74192
+// P12    74151
+// P13    74157
+// P14    7432
+// P15    74192
+// P16    74192
+// Q1     7410
+// Q2     74193
+// Q3     7427
+// R1     82S123  PROM, roms/cdi.r1.hex
+// R4     7411
+// R5     74161
+// U5     74112
+// U6     7407
+// U7     74112
+// 4P     7432    Death Race DR-1A only, Exidy location (netlist/sheet16.net)
+// 13R    7408    Death Race DR-1A only, Exidy location (netlist/sheet16.net)
+// 4S     7400    Death Race DR-1A only, Exidy location (netlist/sheet16.net)
+// ---- chip list: end ----
+// ---- IC-type count (generated by tools/ic_count.py; do not edit): begin ----
+// 235 ICs, 28 types (C10 counted once per drawn type, see its note)
+// 74112   x30  A4 A5 A6 C4 C13 C16 D13 D14 G8 G9 G10 G12 H1 J1 J8 J15 K2 K15 K16 L2 L13 L14 L15 M2 M7 M8 M9 N6 U5 U7
+// 74161   x19  A2 A3 A14 A15 B14 B15 C6 D6 F2 F6 G3 H4 H16 J12 K12 M10 N16 P2 R5
+// 7404    x18  A1 A8 B4 B16 E4 F3 G15 H8 H12 J16 K11 L8 M16 N7 N8 N9 P9 P10
+// 74193   x18  C1 C2 D2 E1 E5 J4 J5 J6 J9 K3 K4 K6 L3 L5 N5 P1 P4 Q2
+// 7432    x15  A7 D3 E2 F15 G4 G11 H13 K7 L6 L9 M6 P6 P8 P14 4P
+// 7408    x14  A13 B9 C10 E9 E16 F4 H2 J2 K13 L1 L10 L16 P7 13R
+// 7420    x13  C3 E3 G5 J7 K1 K9 L4 L7 M3 M4 M5 N14 P5
+// 74166   x10  A10 A11 B10 B11 C10 C11 D10 D11 E10 E11
+// 74192   x10  B1 H5 L11 M11 N4 N11 P3 P11 P15 P16
+// 7400    x9   B13 C9 E14 F5 J3 K10 M1 M15 4S
+// 82S129  x8   B2 B8 C8 D8 E8 H3 H6 N1
+// 74151   x7   E6 L12 M12 M13 N10 N12 P12
+// 7421    x7   B5 B7 G14 H9 H11 H14 K5
+// 82S123  x7   C14 C15 D5 G2 J10 N13 R1
+// 74153   x6   C7 D7 E7 F7 F12 G7
+// 7437    x6   A9 D16 F10 F14 H15 J14
+// 7402    x5   D15 G13 G16 N3 N15
+// 7410    x5   B3 F1 H7 M14 Q1
+// 74174   x5   C5 C12 E12 F16 J11
+// 7486    x5   D1 D4 F8 G6 K8
+// 7407    x4   G1 K14 N2 U6
+// 7411    x4   B6 E15 H10 R4
+// 74157   x4   B12 D12 F9 P13
+// 7427    x3   E13 F13 Q3
+// 5420    x1   J13
+// 7430    x1   D9
+// 7442    x1   F11
+// 74S200  x1   A12
+// ---- IC-type count: end ----
+`default_nettype none
+module deathrac_board #(parameter FPGA=1)(
+ input wire clk_sys,reset,xtal,
+ input wire coin,start,input wire [1:0] time_select,
+ input wire [1:0] steer1,steer2,gas1,gas2,input wire gear1,gear2,
+ output wire hsync,vsync,hblank,vblank,pixel_clock,
+ output wire video_white,video_grey,game_active,player2_active,
+ output wire [2:0] motor1,motor2,output wire crash1,crash2,
+ output wire [8:0] hcount,vcount,output wire [7:0] timer_bcd,
+ // Sheet 15 analog boundary: timing caps in, 7407 outputs out.
+ input wire xcr1,xcr2,
+ output wire xc1a,xc1b,xc2a,xc2b,dis1_n,dis2_n,
+ // 0 = Demolition Derby, 1 = Death Race. PROMs come from the MRA byte stream.
+ input wire game_dr,prom_wr,input wire [11:0] prom_addr,input wire [7:0] prom_din,
+ output wire lado,
+ // ESGC, sheet 2: high from the accepted Start to the end of the game.
+ output wire started
+);
+ wire power_good=~reset;
+ // Power-on state of the enemy cars' counters and flip-flops (sheets A-D). On the board
+ // nothing clears their turn and speed timers, so they start wherever the chips power up,
+ // and the attract mode differs from one power-up to the next. A free-running LFSR fills
+ // the seed while reset is held, so its value when reset ends depends on how long the core
+ // ran before (ROM load, OSD reset) and differs each time. Benches get a fixed sequence.
+ // SEED_BITS must match the seed port of deathrac_netlist (checked by generate_netlist.py).
+ localparam SEED_BITS=92;
+ reg [30:0] lfsr=31'h1;
+ reg [SEED_BITS-1:0] seed={SEED_BITS{1'b0}};
+ always @(posedge clk_sys) begin
+  lfsr<={lfsr[29:0],lfsr[30]^lfsr[27]};
+  if(reset) seed<={seed[SEED_BITS-2:0],lfsr[30]};
+ end
+ wire [2:0] raw_motor1,raw_motor2;
+ assign motor1=raw_motor1; assign motor2=raw_motor2;
+ deathrac_netlist #(.FPGA(FPGA)) circuit (
+  .clk_sys(clk_sys),.reset(reset),.seed(seed),.n_1TQ14(xtal),.n_GAME_DR(game_dr),.n_4S_pin6_LADO(lado),
+  .prom_wr(prom_wr),.prom_addr(prom_addr),.prom_din(prom_din),
+  .n_T999(power_good),.n_T998(power_good),.n_E999(power_good),
+  .n_S999(power_good),.n_P999(power_good),.n_L999(power_good),
+  .n_X999(power_good),.n_XCR1(xcr1),.n_XCR2(xcr2),
+  .n_U6_pin12_XC1A(xc1a),.n_U6_pin2_XC1B(xc1b),.n_U6_pin8_XC2A(xc2a),.n_U6_pin6_XC2B(xc2b),
+  .n_U6_pin4_6XC11(dis1_n),.n_U6_pin10_6XC21(dis2_n),
+  .n_A999(power_good),.n_B999(power_good),.n_C999(power_good),
+  .n_D999(power_good),.n_G999(power_good),.n_H999(power_good),
+  .n_M999(power_good),.n_N999(power_good),.n_EPOG(power_good),
+  .n_ECDA(coin),.n_ESGA(start),
+  .n_DIP_1MIN_N(~time_select[0]),.n_DIP_2MIN_N(~time_select[1]),
+  .n_MTTA(steer1[0]),.n_MTTB(steer1[1]),
+  .n_NTTA(steer2[0]),.n_NTTB(steer2[1]),
+  .n_MTA0(gas1[0]),.n_MTA1(gas1[1]),.n_NTA0(gas2[0]),.n_NTA1(gas2[1]),
+  .n_MTSR(gear1),.n_NTSR(gear2),
+  .n_C15_pin6_THSC(hsync),.n_E16_pin3_TVSC(vsync),.n_C15_pin9_THBL(hblank),.n_D14_pin5_TLC9(vblank),
+  .n_D16_pin6_6TQ07(pixel_clock),.n_G15_pin12_1TBVD(video_white),.n_G15_pin8_5TNVD(video_grey),
+  .n_K15_pin9_EGME(game_active),.n_L15_pin5_E2PL(player2_active),.n_J15_pin9_ESGC(started),
+  .n_G1_pin8_GMC0(raw_motor1[0]),.n_G1_pin6_GMC1(raw_motor1[1]),.n_G1_pin4_GMC2(raw_motor1[2]),
+  .n_N2_pin4_HMC0(raw_motor2[0]),.n_N2_pin2_HMC1(raw_motor2[1]),.n_G1_pin12_HMC2(raw_motor2[2]),
+  .n_G1_pin2_GTHE(crash1),.n_G1_pin10_HTHE(crash2),
+  .n_A15_pin14_TEC1(hcount[0]),.n_A15_pin13_TEC2(hcount[1]),.n_A15_pin12_TEC3(hcount[2]),.n_A15_pin11_TEC4(hcount[3]),
+  .n_B15_pin14_TEC5(hcount[4]),.n_B15_pin13_TEC6(hcount[5]),.n_B15_pin12_TEC7(hcount[6]),.n_B15_pin11_TEC8(hcount[7]),.n_C16_pin9_TEC9(hcount[8]),
+  .n_A14_pin14_TLC1(vcount[0]),.n_A14_pin13_TLC2(vcount[1]),.n_A14_pin12_TLC3(vcount[2]),.n_A14_pin11_TLC4(vcount[3]),
+  .n_B14_pin14_TLC5(vcount[4]),.n_B14_pin13_TLC6(vcount[5]),.n_B14_pin12_TLC7(vcount[6]),.n_B14_pin11_TLC8(vcount[7]),
+  .n_P16_pin3_STC0(timer_bcd[0]),.n_P16_pin2_STC1(timer_bcd[1]),.n_P16_pin6_STC2(timer_bcd[2]),.n_P16_pin7_STC3(timer_bcd[3]),
+  .n_P15_pin3_STC4(timer_bcd[4]),.n_P15_pin2_STC5(timer_bcd[5]),.n_P15_pin6_STC6(timer_bcd[6]),.n_P15_pin7_STC7(timer_bcd[7])
+ );
+ assign vcount[8]=vblank;
+endmodule
+`default_nettype wire

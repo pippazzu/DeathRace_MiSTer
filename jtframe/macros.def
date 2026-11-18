@@ -1,0 +1,23 @@
+CORENAME=DeathRace
+GAMETOP=deathrac_game
+JTFRAME_SDRAM96
+JTFRAME_PLL=jtframe_pll7197
+JTFRAME_COLORW=8
+JTFRAME_WIDTH=768
+JTFRAME_HEIGHT=256
+JTFRAME_RATE=60.07
+JTFRAME_BUTTONS=3
+JTFRAME_STEREO
+JTFRAME_DIAL
+JTFRAME_DIALEMU_LEFT=0
+JTFRAME_OSD_NOCREDITS
+JTFRAME_ARX=4
+JTFRAME_ARY=3
+CORE_OSD=OKL,Game time,2 minutes,1 minute,2 minutes,1 1/2 minutes;OM,Shifter,Drive + Reverse buttons,Drive button toggles;ONO,Soundboard tone,Warm,Dark,Bright;OPQ,Accelerator axis,Right stick,Left stick,Right Y pedal,Left Y pedal;OR,Video output,As MRA,Other (15kHz/Native);OT,Speakers,Mixed (both channels),One per player;
+
+JTFRAME_INTERLACED
+JTFRAME_RELEASE
+JTFRAME_OSD_NOLOGO
+JTFRAME_NOMRA_DIP
+JTFRAME_NOHQ2X
+MISTER_EXTRA=J1,Accelerate,Drive,Reverse,Start,Coin,Pause;v,5;

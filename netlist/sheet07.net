@@ -1,0 +1,85 @@
+# Game car 2, first sheet. PDF page 9, block A.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+chip L10 7408
+chip L9 7432
+chip K9 7420
+chip J9 74193
+chip K11 7404
+chip N10 74151
+# Fixed 2026-11-05: M10.7 (ENP) follows the 5ART3/5CRT3 wire; pin 10 alone is ARTG/CRTG. Death Race 7C/7N agree.
+chip M10 74161
+chip K10 7400
+chip G16 7402
+chip H12 7404
+prom J10 82S123 34
+# Pin 4 follows K11.8 (5ACT2), not the pre-inverter ACT2 wire.
+chip J11 74174
+chip K8 7486
+chip K12 74161
+chip J12 74161
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net ATWD L10.6 L9.5
+net 5ART3 L10.4 M10.7 K11.2 G16.2 K10.13 K10.4
+net 1BGUT L10.5 K10.5
+net ATWE L9.6 K9.4 K9.10
+net ATWF L9.4 N10.5
+net 5APRS L10.8 J9.11
+net 5ECDG L10.9
+net 5LWTB L10.10
+net 6AQLT K9.6 J9.4
+net BLFT K9.1
+net ARTG K9.2 K9.12 M10.10 L10.3
+net 1LQ07 K9.5 K9.9 K10.10
+net 6AQRT K9.8 J9.5
+net 5BLFT K9.13
+net GND J9.14 J9.15 J9.1 J9.10 N10.1 N10.3 N10.4 M10.3 M10.4 M10.5 M10.6 J10.14 J10.15
+net A999 J9.9 N10.2 M10.1 J11.1 K12.1 K12.5 K12.6 K12.10 J12.1 J12.5 J12.6 J12.10 BOARD
+net ACT0 J9.3 N10.13 N10.15 J10.10
+net ACT1 J9.2 N10.14 J10.11
+net ACT2 J9.6 K11.9 J10.12
+net ACT3 J9.7 J10.13 J11.3
+net NC J9.13 J9.12 N10.6 M10.15 K12.11 K12.12 K12.13 K12.14 J12.11 J12.12 J12.13 J12.14
+net 5ACT2 K11.8 J11.4
+net ART3 N10.7 M10.11 K11.1
+net ART2 N10.9 M10.12
+net ART1 N10.10 M10.13
+net ART0 N10.11 M10.14
+net OPEN N10.12
+net 6TQLC M10.2 K12.2
+net 5ARTL M10.9 K10.3
+net BGGT K10.1
+net TLGX K10.2
+net TLC0 L10.1
+net TLGZ L10.2
+net 2AQTN G16.1
+net 6TQGX G16.3
+net K10_11 K10.11 H12.11
+net 2TQGX K10.12
+net 2AQT0 H12.10
+net AKC0 J10.1
+net AKC1 J10.2
+net AKC2 J10.3
+net AKC3 J10.4
+net ALL0 J10.5 J11.14
+net ALL1 J10.6 J11.13
+net AEL0 J10.7 J11.11
+net AEL1 J10.9 J11.6
+net 6AQUT J11.9 K10.8
+net 1ACT3 J11.2 K8.2
+net 6ACT2 J11.5 K8.1
+net 1AEL1 J11.7 J12.4
+net 1AEL0 J11.10 J12.3
+net 1ALL1 J11.12 K12.4
+net 1ALL0 J11.15 K12.3
+net AGT2 K8.3
+net AEUT K10.6 K10.9
+net 5ALCC K12.7 K11.6
+net 5TFGY K12.9 J12.9
+net ALCC K12.15 K11.5
+net 6TQ07 J12.2
+net 5AECC J12.7 K11.10
+net AECC J12.15 K11.11

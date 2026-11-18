@@ -1,0 +1,35 @@
+# Motor speed. PDF page 17, printed page 15, block X.
+# Written like a MAME netlist: chips by location, then each wire as the pins it joins.
+# tools/generate_netlist.py names the Verilog wires from the pins: docs/NET_NAMES.md.
+# XCR1/XCR2 are the 2.2uF timing capacitor nodes read as TTL levels at the
+# 74S112 K inputs (analog boundary, see rtl/deathrac_audio.v). X999 is the
+# 1.2k/.01 pull-up node shared by all U5/U7 preset and clear pins.
+# Pin labels sit above the leads on U5a/U7a and below them on U5b/U7b; the
+# output bubbles are drawn on pins 5 and 6 opposite to the 74S112 pinout.
+# Connectivity follows pin numbers; with the drawn bubbles the oscillator
+# would latch with the capacitor shorted.
+chip U5 74112
+chip U6 7407
+chip U7 74112
+
+# Wires: drawing label, then every pin it joins on this sheet. BOARD marks a
+# wire that rtl/deathrac_board.v drives or reads. GND/VCC are tied pins, OPEN a
+# visibly floating input, NC a drawn output stub that goes nowhere.
+net 2TQLC U5.1 U5.13 U7.1 U7.13
+net XCR1 U5.2 BOARD
+net X999 U5.3 U5.4 U5.15 U5.10 U5.14 U7.3 U7.4 U7.15 U7.10 U7.14 BOARD
+net 5XC11 U5.5 U6.3
+net XC11 U5.6 U5.12 U5.11
+net XC10 U5.9 U6.13
+net 5XC10 U5.7 U6.1
+net 6XC11 U6.4 BOARD
+net XC1A U6.12 BOARD
+net XC1B U6.2 BOARD
+net XCR2 U7.2 BOARD
+net 5XC21 U7.5 U6.11
+net XC21 U7.6 U7.12 U7.11
+net XC20 U7.9 U6.9
+net 5XC20 U7.7 U6.5
+net 6XC21 U6.10 BOARD
+net XC2A U6.8 BOARD
+net XC2B U6.6 BOARD
