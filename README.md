@@ -10,7 +10,7 @@ Analog steering and acceleration (with compatible MiSTer mains, four steps inclu
 
 **Speaker:** The original cabinet had two speakers, one for each player. Default options mixes the two into one dual mono output.
 
-**Shifter:** Default option is separate Drive and Reverse buttons, as on the original cabinet, which has a lever with two switches. The alternative is a Drive/Reverse toggle on the Drive button.
+**Shifter:** Default option is two switches for Drive/Reverse, like the original cabinet. It can be set to a toggle on the Drive button.
 
 ## ROMs
 
